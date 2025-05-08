@@ -2,6 +2,8 @@ from adapters.JsonAdapter import JsonAdapter
 from AdaptedSocket import AdaptedSocket
 import threading
 import time
+import os
+print (os.getpid())
 
 host = 'localhost'
 port = 65432

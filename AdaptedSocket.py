@@ -25,7 +25,7 @@ class AdaptedSocket(ASocket):
     def RunListener(self):
         self._socket.connect((self.ip, self.port))
         while True:
-            data = self._socket.recv(1024)
+            data = self._socket.recv(1024 * 1000 * 1000)
             if not data:
                 break
             self._handler(self.adapter.Decode(data.decode()))

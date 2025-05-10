@@ -1,10 +1,9 @@
 import socket
 import json
-import time
 from datetime import datetime
 
 # Server setup
-SERVER_IP = "192.168.0.199"
+SERVER_IP = "192.168.1.104"
 SERVER_PORT = 50051
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -22,7 +21,8 @@ try:
     while True:
         data = client_socket.recv(2048)
         if not data:
-            continue
+            print("Client disconnected.")
+            break  # Exit loop on client disconnect
 
         buffer += data.decode("utf-8")
 
@@ -37,14 +37,11 @@ try:
                     continue
 
                 # Add timestamp
-                timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]  # up to milliseconds
                 obj["timestamp"] = timestamp
                 print(f"[{timestamp}] Data logged: {obj}")
 
                 log_data.append(obj)
-
-                with open("lidar_log.json", "w") as f:
-                    json.dump(log_data, f, indent=4)
 
             except json.JSONDecodeError:
                 # Wait for more data
@@ -53,6 +50,12 @@ try:
 except KeyboardInterrupt:
     print("Server interrupted by user.")
 
-client_socket.close()
-server_socket.close()
-print("Server stopped.")
+finally:
+    # Final save of all collected data
+    with open("lidar_log.json", "w") as f:
+        json.dump(log_data, f, indent=4)
+    print("Log data saved to lidar_log.json.")
+
+    client_socket.close()
+    server_socket.close()
+    print("Server stopped.")

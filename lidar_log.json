@@ -1,0 +1,4679 @@
+[
+    {
+        "distance": 1946.0,
+        "quality": 47,
+        "theta": 0.010986328125,
+        "timeframe": 1746537802961,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 1945.0,
+        "quality": 47,
+        "theta": 0.59326171875,
+        "timeframe": 1746537802961,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 1939.0,
+        "quality": 47,
+        "theta": 1.1700439453125,
+        "timeframe": 1746537802961,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 1940.0,
+        "quality": 47,
+        "theta": 1.746826171875,
+        "timeframe": 1746537802961,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 1945.0,
+        "quality": 47,
+        "theta": 2.30712890625,
+        "timeframe": 1746537802961,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 1946.0,
+        "quality": 47,
+        "theta": 2.889404296875,
+        "timeframe": 1746537802961,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 1942.0,
+        "quality": 47,
+        "theta": 3.4661865234375,
+        "timeframe": 1746537802961,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2194.0,
+        "quality": 47,
+        "theta": 4.6197509765625,
+        "timeframe": 1746537802961,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2208.0,
+        "quality": 47,
+        "theta": 5.2020263671875,
+        "timeframe": 1746537802961,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2212.0,
+        "quality": 47,
+        "theta": 5.77880859375,
+        "timeframe": 1746537802962,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2216.0,
+        "quality": 47,
+        "theta": 6.339111328125,
+        "timeframe": 1746537802962,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2220.0,
+        "quality": 47,
+        "theta": 6.92138671875,
+        "timeframe": 1746537802962,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2225.0,
+        "quality": 47,
+        "theta": 7.4981689453125,
+        "timeframe": 1746537802962,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2229.0,
+        "quality": 47,
+        "theta": 8.074951171875,
+        "timeframe": 1746537802962,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2233.0,
+        "quality": 47,
+        "theta": 8.6517333984375,
+        "timeframe": 1746537802962,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2237.0,
+        "quality": 47,
+        "theta": 9.2340087890625,
+        "timeframe": 1746537802962,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2240.0,
+        "quality": 47,
+        "theta": 9.810791015625,
+        "timeframe": 1746537802962,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2246.0,
+        "quality": 47,
+        "theta": 10.3875732421875,
+        "timeframe": 1746537802962,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2252.0,
+        "quality": 47,
+        "theta": 10.96435546875,
+        "timeframe": 1746537802962,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2257.0,
+        "quality": 47,
+        "theta": 11.5576171875,
+        "timeframe": 1746537802962,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2263.0,
+        "quality": 47,
+        "theta": 12.139892578125,
+        "timeframe": 1746537802962,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2268.0,
+        "quality": 47,
+        "theta": 12.733154296875,
+        "timeframe": 1746537802962,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2060.0,
+        "quality": 47,
+        "theta": 13.9031982421875,
+        "timeframe": 1746537802962,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2022.0,
+        "quality": 47,
+        "theta": 14.47998046875,
+        "timeframe": 1746537802962,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2014.0,
+        "quality": 47,
+        "theta": 15.0732421875,
+        "timeframe": 1746537802962,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2021.0,
+        "quality": 47,
+        "theta": 15.655517578125,
+        "timeframe": 1746537802962,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2021.0,
+        "quality": 47,
+        "theta": 16.2322998046875,
+        "timeframe": 1746537802962,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2021.0,
+        "quality": 47,
+        "theta": 16.8255615234375,
+        "timeframe": 1746537802962,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2028.0,
+        "quality": 47,
+        "theta": 17.40234375,
+        "timeframe": 1746537802962,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2036.0,
+        "quality": 47,
+        "theta": 17.99560546875,
+        "timeframe": 1746537802962,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2045.0,
+        "quality": 47,
+        "theta": 18.577880859375,
+        "timeframe": 1746537802962,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2055.0,
+        "quality": 47,
+        "theta": 19.171142578125,
+        "timeframe": 1746537802962,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2063.0,
+        "quality": 47,
+        "theta": 19.7479248046875,
+        "timeframe": 1746537802962,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2070.0,
+        "quality": 47,
+        "theta": 20.3411865234375,
+        "timeframe": 1746537802962,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2080.0,
+        "quality": 47,
+        "theta": 20.91796875,
+        "timeframe": 1746537802962,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2090.0,
+        "quality": 47,
+        "theta": 21.4947509765625,
+        "timeframe": 1746537802963,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 2102.0,
+        "quality": 47,
+        "theta": 22.093505859375,
+        "timeframe": 1746537802963,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 1197.0,
+        "quality": 47,
+        "theta": 23.2635498046875,
+        "timeframe": 1746537802963,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 1174.0,
+        "quality": 47,
+        "theta": 23.84033203125,
+        "timeframe": 1746537802963,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 1155.0,
+        "quality": 47,
+        "theta": 24.43359375,
+        "timeframe": 1746537802963,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 1151.0,
+        "quality": 47,
+        "theta": 25.0103759765625,
+        "timeframe": 1746537802963,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 1166.0,
+        "quality": 47,
+        "theta": 25.609130859375,
+        "timeframe": 1746537802963,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 1175.0,
+        "quality": 47,
+        "theta": 26.1859130859375,
+        "timeframe": 1746537802963,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 1167.0,
+        "quality": 47,
+        "theta": 26.7791748046875,
+        "timeframe": 1746537802963,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 1156.0,
+        "quality": 47,
+        "theta": 27.35595703125,
+        "timeframe": 1746537802963,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 1153.0,
+        "quality": 47,
+        "theta": 27.9327392578125,
+        "timeframe": 1746537802963,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 1146.0,
+        "quality": 47,
+        "theta": 28.5260009765625,
+        "timeframe": 1746537802963,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 962.0,
+        "quality": 47,
+        "theta": 29.7015380859375,
+        "timeframe": 1746537802963,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 963.0,
+        "quality": 47,
+        "theta": 30.2783203125,
+        "timeframe": 1746537802963,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 975.0,
+        "quality": 47,
+        "theta": 30.87158203125,
+        "timeframe": 1746537802963,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 987.0,
+        "quality": 47,
+        "theta": 31.4483642578125,
+        "timeframe": 1746537802963,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 987.0,
+        "quality": 47,
+        "theta": 32.0416259765625,
+        "timeframe": 1746537802963,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 974.0,
+        "quality": 47,
+        "theta": 32.6239013671875,
+        "timeframe": 1746537802963,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 977.0,
+        "quality": 47,
+        "theta": 33.2171630859375,
+        "timeframe": 1746537802963,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 982.0,
+        "quality": 47,
+        "theta": 33.7939453125,
+        "timeframe": 1746537802963,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 942.0,
+        "quality": 47,
+        "theta": 34.9530029296875,
+        "timeframe": 1746537802963,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 884.0,
+        "quality": 47,
+        "theta": 36.123046875,
+        "timeframe": 1746537802963,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 792.0,
+        "quality": 47,
+        "theta": 37.869873046875,
+        "timeframe": 1746537802963,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 791.0,
+        "quality": 47,
+        "theta": 38.4521484375,
+        "timeframe": 1746537802963,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 798.0,
+        "quality": 47,
+        "theta": 39.0289306640625,
+        "timeframe": 1746537802964,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 810.0,
+        "quality": 47,
+        "theta": 39.605712890625,
+        "timeframe": 1746537802964,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 819.0,
+        "quality": 47,
+        "theta": 40.198974609375,
+        "timeframe": 1746537802964,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 827.0,
+        "quality": 47,
+        "theta": 40.78125,
+        "timeframe": 1746537802964,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 864.0,
+        "quality": 47,
+        "theta": 41.934814453125,
+        "timeframe": 1746537802964,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 858.0,
+        "quality": 47,
+        "theta": 42.528076171875,
+        "timeframe": 1746537802964,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 843.0,
+        "quality": 47,
+        "theta": 43.1048583984375,
+        "timeframe": 1746537802964,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 833.0,
+        "quality": 47,
+        "theta": 43.6871337890625,
+        "timeframe": 1746537802964,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 829.0,
+        "quality": 47,
+        "theta": 44.263916015625,
+        "timeframe": 1746537802964,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 822.0,
+        "quality": 47,
+        "theta": 44.857177734375,
+        "timeframe": 1746537802964,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 814.0,
+        "quality": 47,
+        "theta": 45.4339599609375,
+        "timeframe": 1746537802964,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 786.0,
+        "quality": 47,
+        "theta": 46.593017578125,
+        "timeframe": 1746537802964,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 788.0,
+        "quality": 47,
+        "theta": 47.186279296875,
+        "timeframe": 1746537802964,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 783.0,
+        "quality": 47,
+        "theta": 47.7630615234375,
+        "timeframe": 1746537802964,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 780.0,
+        "quality": 47,
+        "theta": 48.33984375,
+        "timeframe": 1746537802965,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 644.0,
+        "quality": 47,
+        "theta": 49.515380859375,
+        "timeframe": 1746537802965,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 640.0,
+        "quality": 47,
+        "theta": 50.0921630859375,
+        "timeframe": 1746537802965,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 636.0,
+        "quality": 47,
+        "theta": 50.6689453125,
+        "timeframe": 1746537802965,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 633.0,
+        "quality": 47,
+        "theta": 51.2457275390625,
+        "timeframe": 1746537802965,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 629.0,
+        "quality": 47,
+        "theta": 51.8389892578125,
+        "timeframe": 1746537802965,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 623.0,
+        "quality": 47,
+        "theta": 52.4212646484375,
+        "timeframe": 1746537802965,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 620.0,
+        "quality": 47,
+        "theta": 52.998046875,
+        "timeframe": 1746537802965,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 616.0,
+        "quality": 47,
+        "theta": 53.5748291015625,
+        "timeframe": 1746537802965,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 610.0,
+        "quality": 47,
+        "theta": 54.1680908203125,
+        "timeframe": 1746537802965,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 606.0,
+        "quality": 47,
+        "theta": 54.744873046875,
+        "timeframe": 1746537802965,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 471.0,
+        "quality": 47,
+        "theta": 56.4971923828125,
+        "timeframe": 1746537802965,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 602.0,
+        "quality": 47,
+        "theta": 57.667236328125,
+        "timeframe": 1746537802966,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 682.0,
+        "quality": 47,
+        "theta": 59.4195556640625,
+        "timeframe": 1746537802966,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 679.0,
+        "quality": 47,
+        "theta": 60.0128173828125,
+        "timeframe": 1746537802966,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 672.0,
+        "quality": 47,
+        "theta": 60.6060791015625,
+        "timeframe": 1746537802966,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 457.0,
+        "quality": 47,
+        "theta": 61.776123046875,
+        "timeframe": 1746537802966,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 452.0,
+        "quality": 47,
+        "theta": 62.3583984375,
+        "timeframe": 1746537802966,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 447.0,
+        "quality": 47,
+        "theta": 62.95166015625,
+        "timeframe": 1746537802966,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 444.0,
+        "quality": 47,
+        "theta": 63.5284423828125,
+        "timeframe": 1746537802966,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 442.0,
+        "quality": 47,
+        "theta": 64.1217041015625,
+        "timeframe": 1746537802966,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 440.0,
+        "quality": 47,
+        "theta": 64.7149658203125,
+        "timeframe": 1746537802966,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 439.0,
+        "quality": 47,
+        "theta": 65.291748046875,
+        "timeframe": 1746537802966,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 438.0,
+        "quality": 47,
+        "theta": 65.8905029296875,
+        "timeframe": 1746537802966,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 435.0,
+        "quality": 47,
+        "theta": 66.46728515625,
+        "timeframe": 1746537802966,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 436.0,
+        "quality": 47,
+        "theta": 67.060546875,
+        "timeframe": 1746537802966,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 439.0,
+        "quality": 47,
+        "theta": 67.6373291015625,
+        "timeframe": 1746537802966,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 440.0,
+        "quality": 47,
+        "theta": 68.2305908203125,
+        "timeframe": 1746537802966,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 440.0,
+        "quality": 47,
+        "theta": 68.8238525390625,
+        "timeframe": 1746537802966,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 444.0,
+        "quality": 47,
+        "theta": 69.4061279296875,
+        "timeframe": 1746537802966,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 447.0,
+        "quality": 47,
+        "theta": 69.9993896484375,
+        "timeframe": 1746537802966,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 451.0,
+        "quality": 47,
+        "theta": 70.576171875,
+        "timeframe": 1746537802966,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 457.0,
+        "quality": 47,
+        "theta": 71.16943359375,
+        "timeframe": 1746537802966,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 597.0,
+        "quality": 47,
+        "theta": 72.9327392578125,
+        "timeframe": 1746537802966,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 601.0,
+        "quality": 47,
+        "theta": 73.5150146484375,
+        "timeframe": 1746537802967,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 601.0,
+        "quality": 47,
+        "theta": 74.1082763671875,
+        "timeframe": 1746537802967,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 600.0,
+        "quality": 47,
+        "theta": 74.68505859375,
+        "timeframe": 1746537802967,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 598.0,
+        "quality": 47,
+        "theta": 75.2783203125,
+        "timeframe": 1746537802967,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 596.0,
+        "quality": 47,
+        "theta": 75.8551025390625,
+        "timeframe": 1746537802967,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 594.0,
+        "quality": 47,
+        "theta": 76.4483642578125,
+        "timeframe": 1746537802967,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 593.0,
+        "quality": 47,
+        "theta": 77.0416259765625,
+        "timeframe": 1746537802967,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 592.0,
+        "quality": 47,
+        "theta": 77.6239013671875,
+        "timeframe": 1746537802967,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 592.0,
+        "quality": 47,
+        "theta": 78.2171630859375,
+        "timeframe": 1746537802967,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 591.0,
+        "quality": 47,
+        "theta": 78.7939453125,
+        "timeframe": 1746537802967,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 590.0,
+        "quality": 47,
+        "theta": 79.38720703125,
+        "timeframe": 1746537802967,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 591.0,
+        "quality": 47,
+        "theta": 79.98046875,
+        "timeframe": 1746537802967,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 590.0,
+        "quality": 47,
+        "theta": 80.5572509765625,
+        "timeframe": 1746537802967,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 589.0,
+        "quality": 47,
+        "theta": 81.1395263671875,
+        "timeframe": 1746537802967,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 588.0,
+        "quality": 47,
+        "theta": 81.7327880859375,
+        "timeframe": 1746537802967,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 588.0,
+        "quality": 47,
+        "theta": 82.3095703125,
+        "timeframe": 1746537802967,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 587.0,
+        "quality": 47,
+        "theta": 82.8863525390625,
+        "timeframe": 1746537802967,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 588.0,
+        "quality": 47,
+        "theta": 83.4796142578125,
+        "timeframe": 1746537802967,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 588.0,
+        "quality": 47,
+        "theta": 84.0618896484375,
+        "timeframe": 1746537802968,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 588.0,
+        "quality": 47,
+        "theta": 84.6551513671875,
+        "timeframe": 1746537802968,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 588.0,
+        "quality": 47,
+        "theta": 85.23193359375,
+        "timeframe": 1746537802968,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 588.0,
+        "quality": 47,
+        "theta": 85.8087158203125,
+        "timeframe": 1746537802968,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 588.0,
+        "quality": 47,
+        "theta": 86.4019775390625,
+        "timeframe": 1746537802968,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 589.0,
+        "quality": 47,
+        "theta": 86.9842529296875,
+        "timeframe": 1746537802968,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 588.0,
+        "quality": 47,
+        "theta": 87.56103515625,
+        "timeframe": 1746537802968,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 587.0,
+        "quality": 47,
+        "theta": 88.154296875,
+        "timeframe": 1746537802968,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 589.0,
+        "quality": 47,
+        "theta": 88.7310791015625,
+        "timeframe": 1746537802968,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 590.0,
+        "quality": 47,
+        "theta": 89.3243408203125,
+        "timeframe": 1746537802968,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 589.0,
+        "quality": 47,
+        "theta": 89.901123046875,
+        "timeframe": 1746537802968,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 588.0,
+        "quality": 47,
+        "theta": 90.4833984375,
+        "timeframe": 1746537802968,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 589.0,
+        "quality": 47,
+        "theta": 91.07666015625,
+        "timeframe": 1746537802968,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 589.0,
+        "quality": 47,
+        "theta": 91.6534423828125,
+        "timeframe": 1746537802968,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 590.0,
+        "quality": 47,
+        "theta": 92.230224609375,
+        "timeframe": 1746537802968,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 590.0,
+        "quality": 47,
+        "theta": 92.823486328125,
+        "timeframe": 1746537802968,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 590.0,
+        "quality": 47,
+        "theta": 93.40576171875,
+        "timeframe": 1746537802968,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 589.0,
+        "quality": 47,
+        "theta": 93.9990234375,
+        "timeframe": 1746537802968,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 590.0,
+        "quality": 47,
+        "theta": 94.5758056640625,
+        "timeframe": 1746537802968,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 590.0,
+        "quality": 47,
+        "theta": 95.152587890625,
+        "timeframe": 1746537802968,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 592.0,
+        "quality": 47,
+        "theta": 95.745849609375,
+        "timeframe": 1746537802968,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 594.0,
+        "quality": 47,
+        "theta": 96.328125,
+        "timeframe": 1746537802968,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 595.0,
+        "quality": 47,
+        "theta": 96.9049072265625,
+        "timeframe": 1746537802968,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 596.0,
+        "quality": 47,
+        "theta": 97.4981689453125,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 598.0,
+        "quality": 47,
+        "theta": 98.074951171875,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 598.0,
+        "quality": 47,
+        "theta": 98.668212890625,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 598.0,
+        "quality": 47,
+        "theta": 99.2449951171875,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 601.0,
+        "quality": 47,
+        "theta": 99.8272705078125,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 601.0,
+        "quality": 47,
+        "theta": 100.4205322265625,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 599.0,
+        "quality": 47,
+        "theta": 100.997314453125,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 600.0,
+        "quality": 47,
+        "theta": 101.5740966796875,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 602.0,
+        "quality": 47,
+        "theta": 102.1673583984375,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 600.0,
+        "quality": 47,
+        "theta": 102.7496337890625,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 603.0,
+        "quality": 47,
+        "theta": 103.3428955078125,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 467.0,
+        "quality": 47,
+        "theta": 104.4964599609375,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 463.0,
+        "quality": 47,
+        "theta": 105.0897216796875,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 465.0,
+        "quality": 47,
+        "theta": 105.66650390625,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 466.0,
+        "quality": 47,
+        "theta": 106.2652587890625,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 471.0,
+        "quality": 47,
+        "theta": 106.842041015625,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 474.0,
+        "quality": 47,
+        "theta": 107.435302734375,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 477.0,
+        "quality": 47,
+        "theta": 108.0120849609375,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 480.0,
+        "quality": 47,
+        "theta": 108.6053466796875,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 484.0,
+        "quality": 47,
+        "theta": 109.18212890625,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 491.0,
+        "quality": 47,
+        "theta": 109.7808837890625,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 499.0,
+        "quality": 47,
+        "theta": 110.357666015625,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 632.0,
+        "quality": 47,
+        "theta": 111.5277099609375,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 639.0,
+        "quality": 47,
+        "theta": 112.1209716796875,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 642.0,
+        "quality": 47,
+        "theta": 112.69775390625,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 645.0,
+        "quality": 47,
+        "theta": 113.2965087890625,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 650.0,
+        "quality": 47,
+        "theta": 113.873291015625,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 654.0,
+        "quality": 47,
+        "theta": 114.466552734375,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 656.0,
+        "quality": 47,
+        "theta": 115.0433349609375,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 659.0,
+        "quality": 47,
+        "theta": 115.6201171875,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 663.0,
+        "quality": 47,
+        "theta": 116.21337890625,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 666.0,
+        "quality": 47,
+        "theta": 116.795654296875,
+        "timeframe": 1746537802969,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 667.0,
+        "quality": 47,
+        "theta": 117.388916015625,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 566.0,
+        "quality": 47,
+        "theta": 119.1357421875,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 553.0,
+        "quality": 47,
+        "theta": 119.72900390625,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 541.0,
+        "quality": 47,
+        "theta": 120.311279296875,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 528.0,
+        "quality": 47,
+        "theta": 120.904541015625,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 517.0,
+        "quality": 47,
+        "theta": 121.4813232421875,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 511.0,
+        "quality": 47,
+        "theta": 122.0745849609375,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 504.0,
+        "quality": 47,
+        "theta": 122.6513671875,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 496.0,
+        "quality": 47,
+        "theta": 123.24462890625,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 489.0,
+        "quality": 47,
+        "theta": 123.826904296875,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 482.0,
+        "quality": 47,
+        "theta": 124.420166015625,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 476.0,
+        "quality": 47,
+        "theta": 124.9969482421875,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 471.0,
+        "quality": 47,
+        "theta": 125.5902099609375,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 468.0,
+        "quality": 47,
+        "theta": 126.1669921875,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 464.0,
+        "quality": 47,
+        "theta": 126.76025390625,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 460.0,
+        "quality": 47,
+        "theta": 127.3590087890625,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 459.0,
+        "quality": 47,
+        "theta": 127.9522705078125,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 457.0,
+        "quality": 47,
+        "theta": 128.5455322265625,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 455.0,
+        "quality": 47,
+        "theta": 129.1552734375,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 455.0,
+        "quality": 47,
+        "theta": 129.74853515625,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 456.0,
+        "quality": 47,
+        "theta": 130.341796875,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 455.0,
+        "quality": 47,
+        "theta": 130.9515380859375,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 453.0,
+        "quality": 47,
+        "theta": 131.5447998046875,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 447.0,
+        "quality": 47,
+        "theta": 132.1380615234375,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 428.0,
+        "quality": 47,
+        "theta": 133.341064453125,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 435.0,
+        "quality": 47,
+        "theta": 133.934326171875,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 462.0,
+        "quality": 47,
+        "theta": 135.1373291015625,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 465.0,
+        "quality": 47,
+        "theta": 135.7305908203125,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 468.0,
+        "quality": 47,
+        "theta": 136.34033203125,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 474.0,
+        "quality": 47,
+        "theta": 136.93359375,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 482.0,
+        "quality": 47,
+        "theta": 137.52685546875,
+        "timeframe": 1746537802970,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 486.0,
+        "quality": 47,
+        "theta": 138.1365966796875,
+        "timeframe": 1746537802971,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 486.0,
+        "quality": 47,
+        "theta": 138.7298583984375,
+        "timeframe": 1746537802971,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 484.0,
+        "quality": 47,
+        "theta": 139.3231201171875,
+        "timeframe": 1746537802971,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 484.0,
+        "quality": 47,
+        "theta": 139.932861328125,
+        "timeframe": 1746537802971,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 489.0,
+        "quality": 47,
+        "theta": 140.526123046875,
+        "timeframe": 1746537802971,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 494.0,
+        "quality": 47,
+        "theta": 141.1248779296875,
+        "timeframe": 1746537802971,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 495.0,
+        "quality": 47,
+        "theta": 141.7291259765625,
+        "timeframe": 1746537802971,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 496.0,
+        "quality": 47,
+        "theta": 142.327880859375,
+        "timeframe": 1746537802971,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 499.0,
+        "quality": 47,
+        "theta": 142.921142578125,
+        "timeframe": 1746537802971,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 516.0,
+        "quality": 47,
+        "theta": 144.1241455078125,
+        "timeframe": 1746537802971,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 506.0,
+        "quality": 47,
+        "theta": 144.7174072265625,
+        "timeframe": 1746537802971,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 513.0,
+        "quality": 47,
+        "theta": 147.7166748046875,
+        "timeframe": 1746537802971,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 517.0,
+        "quality": 47,
+        "theta": 148.3099365234375,
+        "timeframe": 1746537802971,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 524.0,
+        "quality": 47,
+        "theta": 148.9031982421875,
+        "timeframe": 1746537802971,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 552.0,
+        "quality": 47,
+        "theta": 150.106201171875,
+        "timeframe": 1746537802971,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 580.0,
+        "quality": 47,
+        "theta": 151.3092041015625,
+        "timeframe": 1746537802971,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 579.0,
+        "quality": 47,
+        "theta": 151.9189453125,
+        "timeframe": 1746537802971,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 579.0,
+        "quality": 47,
+        "theta": 152.5286865234375,
+        "timeframe": 1746537802971,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 586.0,
+        "quality": 47,
+        "theta": 153.138427734375,
+        "timeframe": 1746537802971,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 593.0,
+        "quality": 47,
+        "theta": 153.7481689453125,
+        "timeframe": 1746537802971,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 625.0,
+        "quality": 47,
+        "theta": 154.9676513671875,
+        "timeframe": 1746537802971,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 1008.0,
+        "quality": 47,
+        "theta": 157.401123046875,
+        "timeframe": 1746537802971,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 1026.0,
+        "quality": 47,
+        "theta": 158.0108642578125,
+        "timeframe": 1746537802971,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 1025.0,
+        "quality": 47,
+        "theta": 158.62060546875,
+        "timeframe": 1746537802971,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 1015.0,
+        "quality": 47,
+        "theta": 159.2303466796875,
+        "timeframe": 1746537802971,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 1002.0,
+        "quality": 47,
+        "theta": 159.840087890625,
+        "timeframe": 1746537802971,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 991.0,
+        "quality": 47,
+        "theta": 160.4498291015625,
+        "timeframe": 1746537802972,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 981.0,
+        "quality": 47,
+        "theta": 161.0595703125,
+        "timeframe": 1746537802972,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 976.0,
+        "quality": 47,
+        "theta": 161.6693115234375,
+        "timeframe": 1746537802972,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 955.0,
+        "quality": 47,
+        "theta": 164.1082763671875,
+        "timeframe": 1746537802972,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 962.0,
+        "quality": 47,
+        "theta": 164.718017578125,
+        "timeframe": 1746537802972,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 801.0,
+        "quality": 47,
+        "theta": 167.76123046875,
+        "timeframe": 1746537802972,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 800.0,
+        "quality": 47,
+        "theta": 168.3709716796875,
+        "timeframe": 1746537802972,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 798.0,
+        "quality": 47,
+        "theta": 168.980712890625,
+        "timeframe": 1746537802972,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 794.0,
+        "quality": 47,
+        "theta": 169.5904541015625,
+        "timeframe": 1746537802972,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 792.0,
+        "quality": 47,
+        "theta": 170.2001953125,
+        "timeframe": 1746537802972,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 792.0,
+        "quality": 47,
+        "theta": 170.8099365234375,
+        "timeframe": 1746537802972,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 96.0,
+        "quality": 47,
+        "theta": 173.2489013671875,
+        "timeframe": 1746537802972,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 94.0,
+        "quality": 47,
+        "theta": 175.078125,
+        "timeframe": 1746537802972,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 1172.0,
+        "quality": 47,
+        "theta": 176.9183349609375,
+        "timeframe": 1746537802972,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 1183.0,
+        "quality": 47,
+        "theta": 177.528076171875,
+        "timeframe": 1746537802972,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 530.0,
+        "quality": 47,
+        "theta": 181.23046875,
+        "timeframe": 1746537802972,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 472.0,
+        "quality": 47,
+        "theta": 183.076171875,
+        "timeframe": 1746537802972,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 450.0,
+        "quality": 47,
+        "theta": 184.3121337890625,
+        "timeframe": 1746537802973,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 420.0,
+        "quality": 47,
+        "theta": 185.5426025390625,
+        "timeframe": 1746537802973,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 411.0,
+        "quality": 47,
+        "theta": 186.1688232421875,
+        "timeframe": 1746537802973,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 401.0,
+        "quality": 47,
+        "theta": 186.778564453125,
+        "timeframe": 1746537802973,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 393.0,
+        "quality": 47,
+        "theta": 187.3883056640625,
+        "timeframe": 1746537802973,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 383.0,
+        "quality": 47,
+        "theta": 188.0145263671875,
+        "timeframe": 1746537802973,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 363.0,
+        "quality": 47,
+        "theta": 189.2449951171875,
+        "timeframe": 1746537802973,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 359.0,
+        "quality": 47,
+        "theta": 189.854736328125,
+        "timeframe": 1746537802973,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 343.0,
+        "quality": 47,
+        "theta": 191.0906982421875,
+        "timeframe": 1746537802973,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 326.0,
+        "quality": 47,
+        "theta": 192.32666015625,
+        "timeframe": 1746537802973,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 319.0,
+        "quality": 47,
+        "theta": 192.952880859375,
+        "timeframe": 1746537802973,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 312.0,
+        "quality": 47,
+        "theta": 193.55712890625,
+        "timeframe": 1746537802973,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 306.0,
+        "quality": 47,
+        "theta": 194.1668701171875,
+        "timeframe": 1746537802973,
+        "timestamp": "2025-05-06 23:23:22"
+    },
+    {
+        "distance": 306.0,
+        "quality": 47,
+        "theta": 194.7930908203125,
+        "timeframe": 1746537802973,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 306.0,
+        "quality": 47,
+        "theta": 195.40283203125,
+        "timeframe": 1746537802973,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 289.0,
+        "quality": 47,
+        "theta": 196.6387939453125,
+        "timeframe": 1746537802973,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 282.0,
+        "quality": 47,
+        "theta": 197.2650146484375,
+        "timeframe": 1746537802973,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 277.0,
+        "quality": 47,
+        "theta": 197.874755859375,
+        "timeframe": 1746537802973,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 276.0,
+        "quality": 47,
+        "theta": 198.4954833984375,
+        "timeframe": 1746537802973,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 273.0,
+        "quality": 47,
+        "theta": 199.105224609375,
+        "timeframe": 1746537802973,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 269.0,
+        "quality": 47,
+        "theta": 199.7314453125,
+        "timeframe": 1746537802973,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 265.0,
+        "quality": 47,
+        "theta": 200.3411865234375,
+        "timeframe": 1746537802973,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 262.0,
+        "quality": 47,
+        "theta": 200.950927734375,
+        "timeframe": 1746537802974,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 259.0,
+        "quality": 47,
+        "theta": 201.5771484375,
+        "timeframe": 1746537802974,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 257.0,
+        "quality": 47,
+        "theta": 202.1868896484375,
+        "timeframe": 1746537802974,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 256.0,
+        "quality": 47,
+        "theta": 202.796630859375,
+        "timeframe": 1746537802974,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 253.0,
+        "quality": 47,
+        "theta": 203.4173583984375,
+        "timeframe": 1746537802974,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 249.0,
+        "quality": 47,
+        "theta": 204.027099609375,
+        "timeframe": 1746537802974,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 245.0,
+        "quality": 47,
+        "theta": 204.6368408203125,
+        "timeframe": 1746537802974,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 243.0,
+        "quality": 47,
+        "theta": 205.2630615234375,
+        "timeframe": 1746537802974,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 229.0,
+        "quality": 47,
+        "theta": 206.4825439453125,
+        "timeframe": 1746537802974,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 228.0,
+        "quality": 47,
+        "theta": 207.1087646484375,
+        "timeframe": 1746537802974,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 227.0,
+        "quality": 47,
+        "theta": 207.718505859375,
+        "timeframe": 1746537802974,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 225.0,
+        "quality": 47,
+        "theta": 208.32275390625,
+        "timeframe": 1746537802974,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 222.0,
+        "quality": 47,
+        "theta": 208.948974609375,
+        "timeframe": 1746537802974,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 220.0,
+        "quality": 47,
+        "theta": 209.5587158203125,
+        "timeframe": 1746537802974,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 218.0,
+        "quality": 47,
+        "theta": 210.16845703125,
+        "timeframe": 1746537802974,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 216.0,
+        "quality": 47,
+        "theta": 210.794677734375,
+        "timeframe": 1746537802974,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 214.0,
+        "quality": 47,
+        "theta": 211.4044189453125,
+        "timeframe": 1746537802974,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 214.0,
+        "quality": 47,
+        "theta": 212.01416015625,
+        "timeframe": 1746537802974,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 212.0,
+        "quality": 47,
+        "theta": 212.640380859375,
+        "timeframe": 1746537802974,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 209.0,
+        "quality": 47,
+        "theta": 214.4805908203125,
+        "timeframe": 1746537802974,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 212.0,
+        "quality": 47,
+        "theta": 215.09033203125,
+        "timeframe": 1746537802974,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 217.0,
+        "quality": 47,
+        "theta": 215.716552734375,
+        "timeframe": 1746537802974,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 219.0,
+        "quality": 47,
+        "theta": 216.3262939453125,
+        "timeframe": 1746537802974,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 229.0,
+        "quality": 47,
+        "theta": 218.16650390625,
+        "timeframe": 1746537802974,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 232.0,
+        "quality": 47,
+        "theta": 218.7762451171875,
+        "timeframe": 1746537802974,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 232.0,
+        "quality": 47,
+        "theta": 219.4024658203125,
+        "timeframe": 1746537802974,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 234.0,
+        "quality": 47,
+        "theta": 220.01220703125,
+        "timeframe": 1746537802974,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 254.0,
+        "quality": 47,
+        "theta": 221.2481689453125,
+        "timeframe": 1746537802974,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 254.0,
+        "quality": 47,
+        "theta": 221.85791015625,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 744.0,
+        "quality": 47,
+        "theta": 223.6981201171875,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 728.0,
+        "quality": 47,
+        "theta": 224.3243408203125,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 716.0,
+        "quality": 47,
+        "theta": 224.93408203125,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 708.0,
+        "quality": 47,
+        "theta": 225.560302734375,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 707.0,
+        "quality": 47,
+        "theta": 226.1700439453125,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 703.0,
+        "quality": 47,
+        "theta": 226.7962646484375,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 698.0,
+        "quality": 47,
+        "theta": 227.4169921875,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 695.0,
+        "quality": 47,
+        "theta": 228.0267333984375,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 693.0,
+        "quality": 47,
+        "theta": 228.6529541015625,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 689.0,
+        "quality": 47,
+        "theta": 229.2791748046875,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 686.0,
+        "quality": 47,
+        "theta": 229.888916015625,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 685.0,
+        "quality": 47,
+        "theta": 230.51513671875,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 687.0,
+        "quality": 47,
+        "theta": 231.1358642578125,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 689.0,
+        "quality": 47,
+        "theta": 231.74560546875,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 691.0,
+        "quality": 47,
+        "theta": 232.371826171875,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 692.0,
+        "quality": 47,
+        "theta": 232.998046875,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 697.0,
+        "quality": 47,
+        "theta": 233.6077880859375,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 697.0,
+        "quality": 47,
+        "theta": 234.2340087890625,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 688.0,
+        "quality": 47,
+        "theta": 234.854736328125,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 683.0,
+        "quality": 47,
+        "theta": 235.4644775390625,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 684.0,
+        "quality": 47,
+        "theta": 236.0906982421875,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 650.0,
+        "quality": 47,
+        "theta": 237.32666015625,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 642.0,
+        "quality": 47,
+        "theta": 237.952880859375,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 642.0,
+        "quality": 47,
+        "theta": 238.55712890625,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 635.0,
+        "quality": 47,
+        "theta": 239.183349609375,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 629.0,
+        "quality": 47,
+        "theta": 239.8095703125,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 625.0,
+        "quality": 47,
+        "theta": 240.4193115234375,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 620.0,
+        "quality": 47,
+        "theta": 241.0455322265625,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 618.0,
+        "quality": 47,
+        "theta": 241.6717529296875,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 617.0,
+        "quality": 47,
+        "theta": 242.2760009765625,
+        "timeframe": 1746537802975,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 615.0,
+        "quality": 47,
+        "theta": 242.9022216796875,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 614.0,
+        "quality": 47,
+        "theta": 243.5284423828125,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 614.0,
+        "quality": 47,
+        "theta": 244.13818359375,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 613.0,
+        "quality": 47,
+        "theta": 244.764404296875,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 613.0,
+        "quality": 47,
+        "theta": 245.390625,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 614.0,
+        "quality": 47,
+        "theta": 245.994873046875,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 615.0,
+        "quality": 47,
+        "theta": 246.62109375,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 617.0,
+        "quality": 47,
+        "theta": 247.247314453125,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 620.0,
+        "quality": 47,
+        "theta": 247.8570556640625,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 622.0,
+        "quality": 47,
+        "theta": 248.4832763671875,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 629.0,
+        "quality": 47,
+        "theta": 249.10400390625,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 643.0,
+        "quality": 47,
+        "theta": 249.7137451171875,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1089.0,
+        "quality": 47,
+        "theta": 251.5924072265625,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1149.0,
+        "quality": 47,
+        "theta": 252.83935546875,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1149.0,
+        "quality": 47,
+        "theta": 253.465576171875,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1135.0,
+        "quality": 47,
+        "theta": 254.091796875,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1114.0,
+        "quality": 47,
+        "theta": 254.7015380859375,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1094.0,
+        "quality": 47,
+        "theta": 255.3277587890625,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1070.0,
+        "quality": 47,
+        "theta": 255.948486328125,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1052.0,
+        "quality": 47,
+        "theta": 256.57470703125,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1047.0,
+        "quality": 47,
+        "theta": 257.200927734375,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1050.0,
+        "quality": 47,
+        "theta": 257.8271484375,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1059.0,
+        "quality": 47,
+        "theta": 258.4478759765625,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1075.0,
+        "quality": 47,
+        "theta": 259.0740966796875,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1197.0,
+        "quality": 47,
+        "theta": 260.936279296875,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1193.0,
+        "quality": 47,
+        "theta": 261.5625,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1184.0,
+        "quality": 47,
+        "theta": 262.1832275390625,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1171.0,
+        "quality": 47,
+        "theta": 262.8094482421875,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1158.0,
+        "quality": 47,
+        "theta": 263.4356689453125,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1146.0,
+        "quality": 47,
+        "theta": 264.0618896484375,
+        "timeframe": 1746537802976,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1131.0,
+        "quality": 47,
+        "theta": 264.671630859375,
+        "timeframe": 1746537802977,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1118.0,
+        "quality": 47,
+        "theta": 265.2923583984375,
+        "timeframe": 1746537802977,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1111.0,
+        "quality": 47,
+        "theta": 265.9185791015625,
+        "timeframe": 1746537802977,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1104.0,
+        "quality": 47,
+        "theta": 266.5447998046875,
+        "timeframe": 1746537802977,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1096.0,
+        "quality": 47,
+        "theta": 267.1710205078125,
+        "timeframe": 1746537802977,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1086.0,
+        "quality": 47,
+        "theta": 267.791748046875,
+        "timeframe": 1746537802977,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1077.0,
+        "quality": 47,
+        "theta": 268.41796875,
+        "timeframe": 1746537802977,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1070.0,
+        "quality": 47,
+        "theta": 269.044189453125,
+        "timeframe": 1746537802977,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1061.0,
+        "quality": 47,
+        "theta": 269.6539306640625,
+        "timeframe": 1746537802977,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1051.0,
+        "quality": 47,
+        "theta": 270.2801513671875,
+        "timeframe": 1746537802977,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1044.0,
+        "quality": 47,
+        "theta": 270.90087890625,
+        "timeframe": 1746537802977,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1036.0,
+        "quality": 47,
+        "theta": 271.527099609375,
+        "timeframe": 1746537802977,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1030.0,
+        "quality": 47,
+        "theta": 272.1533203125,
+        "timeframe": 1746537802977,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1027.0,
+        "quality": 47,
+        "theta": 272.779541015625,
+        "timeframe": 1746537802977,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1025.0,
+        "quality": 47,
+        "theta": 273.40576171875,
+        "timeframe": 1746537802977,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1026.0,
+        "quality": 47,
+        "theta": 274.0264892578125,
+        "timeframe": 1746537802977,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1025.0,
+        "quality": 47,
+        "theta": 274.63623046875,
+        "timeframe": 1746537802977,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1026.0,
+        "quality": 47,
+        "theta": 275.262451171875,
+        "timeframe": 1746537802977,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1030.0,
+        "quality": 47,
+        "theta": 275.888671875,
+        "timeframe": 1746537802977,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1036.0,
+        "quality": 47,
+        "theta": 276.514892578125,
+        "timeframe": 1746537802977,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1043.0,
+        "quality": 47,
+        "theta": 277.1356201171875,
+        "timeframe": 1746537802977,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1051.0,
+        "quality": 47,
+        "theta": 277.7618408203125,
+        "timeframe": 1746537802977,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1060.0,
+        "quality": 47,
+        "theta": 278.37158203125,
+        "timeframe": 1746537802977,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1071.0,
+        "quality": 47,
+        "theta": 278.997802734375,
+        "timeframe": 1746537802977,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1092.0,
+        "quality": 47,
+        "theta": 279.6240234375,
+        "timeframe": 1746537802977,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 1122.0,
+        "quality": 47,
+        "theta": 280.2447509765625,
+        "timeframe": 1746537802977,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 3108.0,
+        "quality": 47,
+        "theta": 284.6063232421875,
+        "timeframe": 1746537802977,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 3118.0,
+        "quality": 47,
+        "theta": 285.2325439453125,
+        "timeframe": 1746537802977,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 3137.0,
+        "quality": 47,
+        "theta": 285.8587646484375,
+        "timeframe": 1746537802977,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 5681.0,
+        "quality": 47,
+        "theta": 287.0892333984375,
+        "timeframe": 1746537802978,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 5719.0,
+        "quality": 47,
+        "theta": 287.7154541015625,
+        "timeframe": 1746537802978,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 5804.0,
+        "quality": 47,
+        "theta": 288.3416748046875,
+        "timeframe": 1746537802978,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 5842.0,
+        "quality": 47,
+        "theta": 290.21484375,
+        "timeframe": 1746537802978,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 5246.0,
+        "quality": 47,
+        "theta": 291.4508056640625,
+        "timeframe": 1746537802978,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 5251.0,
+        "quality": 47,
+        "theta": 292.0770263671875,
+        "timeframe": 1746537802978,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 5279.0,
+        "quality": 47,
+        "theta": 292.69775390625,
+        "timeframe": 1746537802978,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 5311.0,
+        "quality": 47,
+        "theta": 293.323974609375,
+        "timeframe": 1746537802978,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 5335.0,
+        "quality": 47,
+        "theta": 293.9501953125,
+        "timeframe": 1746537802979,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 5366.0,
+        "quality": 47,
+        "theta": 294.576416015625,
+        "timeframe": 1746537802979,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 7780.0,
+        "quality": 47,
+        "theta": 295.8123779296875,
+        "timeframe": 1746537802979,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 7778.0,
+        "quality": 47,
+        "theta": 296.43310546875,
+        "timeframe": 1746537802979,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 7634.0,
+        "quality": 47,
+        "theta": 300.1849365234375,
+        "timeframe": 1746537802979,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 3757.0,
+        "quality": 47,
+        "theta": 302.05810546875,
+        "timeframe": 1746537802980,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 3763.0,
+        "quality": 47,
+        "theta": 302.684326171875,
+        "timeframe": 1746537802980,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 3764.0,
+        "quality": 47,
+        "theta": 303.3270263671875,
+        "timeframe": 1746537802980,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 3733.0,
+        "quality": 47,
+        "theta": 303.94775390625,
+        "timeframe": 1746537802980,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 3677.0,
+        "quality": 47,
+        "theta": 304.573974609375,
+        "timeframe": 1746537802980,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 3105.0,
+        "quality": 47,
+        "theta": 305.826416015625,
+        "timeframe": 1746537802981,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 3462.0,
+        "quality": 47,
+        "theta": 307.0733642578125,
+        "timeframe": 1746537802981,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 3420.0,
+        "quality": 47,
+        "theta": 307.716064453125,
+        "timeframe": 1746537802981,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 3374.0,
+        "quality": 47,
+        "theta": 308.34228515625,
+        "timeframe": 1746537802981,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 3331.0,
+        "quality": 47,
+        "theta": 308.968505859375,
+        "timeframe": 1746537802981,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 3290.0,
+        "quality": 47,
+        "theta": 309.5892333984375,
+        "timeframe": 1746537802981,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 3249.0,
+        "quality": 47,
+        "theta": 310.2154541015625,
+        "timeframe": 1746537802981,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 3208.0,
+        "quality": 47,
+        "theta": 310.8416748046875,
+        "timeframe": 1746537802981,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 3172.0,
+        "quality": 47,
+        "theta": 311.4678955078125,
+        "timeframe": 1746537802982,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 3136.0,
+        "quality": 47,
+        "theta": 312.1051025390625,
+        "timeframe": 1746537802982,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 3098.0,
+        "quality": 47,
+        "theta": 312.7313232421875,
+        "timeframe": 1746537802982,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 3064.0,
+        "quality": 47,
+        "theta": 313.3575439453125,
+        "timeframe": 1746537802982,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 3032.0,
+        "quality": 47,
+        "theta": 313.9837646484375,
+        "timeframe": 1746537802982,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 2998.0,
+        "quality": 47,
+        "theta": 314.6044921875,
+        "timeframe": 1746537802982,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 2966.0,
+        "quality": 47,
+        "theta": 315.230712890625,
+        "timeframe": 1746537802982,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 2934.0,
+        "quality": 47,
+        "theta": 315.8734130859375,
+        "timeframe": 1746537802982,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 2905.0,
+        "quality": 47,
+        "theta": 316.4996337890625,
+        "timeframe": 1746537802982,
+        "timestamp": "2025-05-06 23:23:23"
+    },
+    {
+        "distance": 2878.0,
+        "quality": 47,
+        "theta": 317.120361328125,
+        "timeframe": 1746537802982,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2851.0,
+        "quality": 47,
+        "theta": 317.74658203125,
+        "timeframe": 1746537802982,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2827.0,
+        "quality": 47,
+        "theta": 318.372802734375,
+        "timeframe": 1746537802982,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2803.0,
+        "quality": 47,
+        "theta": 318.9990234375,
+        "timeframe": 1746537802982,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2580.0,
+        "quality": 47,
+        "theta": 320.262451171875,
+        "timeframe": 1746537802982,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2545.0,
+        "quality": 47,
+        "theta": 320.888671875,
+        "timeframe": 1746537802982,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2513.0,
+        "quality": 47,
+        "theta": 321.514892578125,
+        "timeframe": 1746537802982,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2500.0,
+        "quality": 47,
+        "theta": 322.1356201171875,
+        "timeframe": 1746537802982,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2623.0,
+        "quality": 47,
+        "theta": 323.3880615234375,
+        "timeframe": 1746537802982,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2622.0,
+        "quality": 47,
+        "theta": 324.03076171875,
+        "timeframe": 1746537802982,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2606.0,
+        "quality": 47,
+        "theta": 324.6514892578125,
+        "timeframe": 1746537802982,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2589.0,
+        "quality": 47,
+        "theta": 325.2777099609375,
+        "timeframe": 1746537802982,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2569.0,
+        "quality": 47,
+        "theta": 325.92041015625,
+        "timeframe": 1746537802982,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2550.0,
+        "quality": 47,
+        "theta": 326.546630859375,
+        "timeframe": 1746537802982,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2532.0,
+        "quality": 47,
+        "theta": 327.1673583984375,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2519.0,
+        "quality": 47,
+        "theta": 327.81005859375,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2241.0,
+        "quality": 47,
+        "theta": 329.0625,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2222.0,
+        "quality": 47,
+        "theta": 329.69970703125,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2205.0,
+        "quality": 47,
+        "theta": 330.325927734375,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2176.0,
+        "quality": 47,
+        "theta": 330.9521484375,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2113.0,
+        "quality": 47,
+        "theta": 332.841796875,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2363.0,
+        "quality": 47,
+        "theta": 334.105224609375,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2366.0,
+        "quality": 47,
+        "theta": 334.7314453125,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2357.0,
+        "quality": 47,
+        "theta": 335.3741455078125,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2347.0,
+        "quality": 47,
+        "theta": 335.994873046875,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2335.0,
+        "quality": 47,
+        "theta": 336.62109375,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2324.0,
+        "quality": 47,
+        "theta": 337.2637939453125,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2312.0,
+        "quality": 47,
+        "theta": 337.8900146484375,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2293.0,
+        "quality": 47,
+        "theta": 338.5272216796875,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2285.0,
+        "quality": 47,
+        "theta": 339.1534423828125,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2287.0,
+        "quality": 47,
+        "theta": 339.7796630859375,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2278.0,
+        "quality": 47,
+        "theta": 340.4168701171875,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2270.0,
+        "quality": 47,
+        "theta": 341.0430908203125,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2264.0,
+        "quality": 47,
+        "theta": 341.6693115234375,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2256.0,
+        "quality": 47,
+        "theta": 342.31201171875,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2248.0,
+        "quality": 47,
+        "theta": 342.9327392578125,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2242.0,
+        "quality": 47,
+        "theta": 343.5589599609375,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2235.0,
+        "quality": 47,
+        "theta": 344.20166015625,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2229.0,
+        "quality": 47,
+        "theta": 344.827880859375,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2224.0,
+        "quality": 47,
+        "theta": 345.4486083984375,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2218.0,
+        "quality": 47,
+        "theta": 346.09130859375,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2216.0,
+        "quality": 47,
+        "theta": 346.717529296875,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2212.0,
+        "quality": 47,
+        "theta": 347.34375,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2206.0,
+        "quality": 47,
+        "theta": 347.98095703125,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2200.0,
+        "quality": 47,
+        "theta": 348.607177734375,
+        "timeframe": 1746537802983,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2195.0,
+        "quality": 47,
+        "theta": 349.2498779296875,
+        "timeframe": 1746537802984,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2191.0,
+        "quality": 47,
+        "theta": 349.87060546875,
+        "timeframe": 1746537802984,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2189.0,
+        "quality": 47,
+        "theta": 350.5133056640625,
+        "timeframe": 1746537802984,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2188.0,
+        "quality": 47,
+        "theta": 351.156005859375,
+        "timeframe": 1746537802984,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2181.0,
+        "quality": 47,
+        "theta": 351.793212890625,
+        "timeframe": 1746537802984,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2170.0,
+        "quality": 47,
+        "theta": 352.4359130859375,
+        "timeframe": 1746537802984,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1943.0,
+        "quality": 47,
+        "theta": 353.7158203125,
+        "timeframe": 1746537802984,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1931.0,
+        "quality": 47,
+        "theta": 354.3585205078125,
+        "timeframe": 1746537802984,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1917.0,
+        "quality": 47,
+        "theta": 354.9957275390625,
+        "timeframe": 1746537802984,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1910.0,
+        "quality": 47,
+        "theta": 355.638427734375,
+        "timeframe": 1746537802984,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1913.0,
+        "quality": 47,
+        "theta": 356.2811279296875,
+        "timeframe": 1746537802984,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1911.0,
+        "quality": 47,
+        "theta": 356.9183349609375,
+        "timeframe": 1746537802984,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1910.0,
+        "quality": 47,
+        "theta": 357.56103515625,
+        "timeframe": 1746537802984,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1912.0,
+        "quality": 47,
+        "theta": 358.1982421875,
+        "timeframe": 1746537802984,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1916.0,
+        "quality": 47,
+        "theta": 358.8409423828125,
+        "timeframe": 1746537802984,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1934.0,
+        "quality": 47,
+        "theta": 359.4342041015625,
+        "timeframe": 1746537802984,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1917.0,
+        "quality": 47,
+        "theta": 0.120849609375,
+        "timeframe": 1746537803071,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1918.0,
+        "quality": 47,
+        "theta": 0.7635498046875,
+        "timeframe": 1746537803071,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1914.0,
+        "quality": 47,
+        "theta": 1.40625,
+        "timeframe": 1746537803071,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1916.0,
+        "quality": 47,
+        "theta": 2.0269775390625,
+        "timeframe": 1746537803071,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1912.0,
+        "quality": 47,
+        "theta": 2.669677734375,
+        "timeframe": 1746537803071,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1913.0,
+        "quality": 47,
+        "theta": 3.3123779296875,
+        "timeframe": 1746537803071,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1917.0,
+        "quality": 47,
+        "theta": 3.9495849609375,
+        "timeframe": 1746537803071,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2182.0,
+        "quality": 47,
+        "theta": 5.2294921875,
+        "timeframe": 1746537803071,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2189.0,
+        "quality": 47,
+        "theta": 5.8721923828125,
+        "timeframe": 1746537803071,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2192.0,
+        "quality": 47,
+        "theta": 6.514892578125,
+        "timeframe": 1746537803071,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2194.0,
+        "quality": 47,
+        "theta": 7.152099609375,
+        "timeframe": 1746537803071,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2200.0,
+        "quality": 47,
+        "theta": 7.7947998046875,
+        "timeframe": 1746537803071,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2205.0,
+        "quality": 47,
+        "theta": 8.4375,
+        "timeframe": 1746537803071,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2209.0,
+        "quality": 47,
+        "theta": 9.07470703125,
+        "timeframe": 1746537803071,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2215.0,
+        "quality": 47,
+        "theta": 9.7174072265625,
+        "timeframe": 1746537803071,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2220.0,
+        "quality": 47,
+        "theta": 10.3546142578125,
+        "timeframe": 1746537803071,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2224.0,
+        "quality": 47,
+        "theta": 10.997314453125,
+        "timeframe": 1746537803071,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2231.0,
+        "quality": 47,
+        "theta": 11.6400146484375,
+        "timeframe": 1746537803071,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2238.0,
+        "quality": 47,
+        "theta": 12.2772216796875,
+        "timeframe": 1746537803071,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2243.0,
+        "quality": 47,
+        "theta": 12.919921875,
+        "timeframe": 1746537803071,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2019.0,
+        "quality": 47,
+        "theta": 14.1998291015625,
+        "timeframe": 1746537803071,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1991.0,
+        "quality": 47,
+        "theta": 14.842529296875,
+        "timeframe": 1746537803071,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1991.0,
+        "quality": 47,
+        "theta": 15.479736328125,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1993.0,
+        "quality": 47,
+        "theta": 16.1224365234375,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1995.0,
+        "quality": 47,
+        "theta": 16.76513671875,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2001.0,
+        "quality": 47,
+        "theta": 17.4188232421875,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2009.0,
+        "quality": 47,
+        "theta": 18.0615234375,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2019.0,
+        "quality": 47,
+        "theta": 18.69873046875,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2027.0,
+        "quality": 47,
+        "theta": 19.3414306640625,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2035.0,
+        "quality": 47,
+        "theta": 19.9951171875,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2044.0,
+        "quality": 47,
+        "theta": 20.6378173828125,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2054.0,
+        "quality": 47,
+        "theta": 21.280517578125,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 2070.0,
+        "quality": 47,
+        "theta": 21.917724609375,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1172.0,
+        "quality": 47,
+        "theta": 23.214111328125,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1149.0,
+        "quality": 47,
+        "theta": 23.8568115234375,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1128.0,
+        "quality": 47,
+        "theta": 24.49951171875,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1126.0,
+        "quality": 47,
+        "theta": 25.1531982421875,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1142.0,
+        "quality": 47,
+        "theta": 25.7958984375,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1149.0,
+        "quality": 47,
+        "theta": 26.43310546875,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1138.0,
+        "quality": 47,
+        "theta": 27.0758056640625,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1132.0,
+        "quality": 47,
+        "theta": 27.7294921875,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1128.0,
+        "quality": 47,
+        "theta": 28.3721923828125,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 1107.0,
+        "quality": 47,
+        "theta": 29.014892578125,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 937.0,
+        "quality": 47,
+        "theta": 30.311279296875,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 949.0,
+        "quality": 47,
+        "theta": 30.948486328125,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 963.0,
+        "quality": 47,
+        "theta": 31.5911865234375,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 965.0,
+        "quality": 47,
+        "theta": 32.23388671875,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 947.0,
+        "quality": 47,
+        "theta": 32.8875732421875,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 941.0,
+        "quality": 47,
+        "theta": 33.5302734375,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 910.0,
+        "quality": 47,
+        "theta": 34.8101806640625,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 862.0,
+        "quality": 47,
+        "theta": 36.1065673828125,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 769.0,
+        "quality": 47,
+        "theta": 38.045654296875,
+        "timeframe": 1746537803072,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 770.0,
+        "quality": 47,
+        "theta": 38.682861328125,
+        "timeframe": 1746537803073,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 780.0,
+        "quality": 47,
+        "theta": 39.3255615234375,
+        "timeframe": 1746537803073,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 790.0,
+        "quality": 47,
+        "theta": 39.96826171875,
+        "timeframe": 1746537803073,
+        "timestamp": "2025-05-06 23:23:24"
+    },
+    {
+        "distance": 798.0,
+        "quality": 47,
+        "theta": 40.6219482421875,
+        "timeframe": 1746537803073,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 837.0,
+        "quality": 47,
+        "theta": 41.9183349609375,
+        "timeframe": 1746537803073,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 832.0,
+        "quality": 47,
+        "theta": 42.5775146484375,
+        "timeframe": 1746537803073,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 820.0,
+        "quality": 47,
+        "theta": 43.231201171875,
+        "timeframe": 1746537803073,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 815.0,
+        "quality": 47,
+        "theta": 43.890380859375,
+        "timeframe": 1746537803073,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 811.0,
+        "quality": 47,
+        "theta": 44.5440673828125,
+        "timeframe": 1746537803073,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 798.0,
+        "quality": 47,
+        "theta": 45.19775390625,
+        "timeframe": 1746537803073,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 784.0,
+        "quality": 47,
+        "theta": 45.85693359375,
+        "timeframe": 1746537803073,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 772.0,
+        "quality": 47,
+        "theta": 46.4996337890625,
+        "timeframe": 1746537803073,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 765.0,
+        "quality": 47,
+        "theta": 47.1533203125,
+        "timeframe": 1746537803073,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 760.0,
+        "quality": 47,
+        "theta": 47.8125,
+        "timeframe": 1746537803073,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 759.0,
+        "quality": 47,
+        "theta": 48.4661865234375,
+        "timeframe": 1746537803073,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 623.0,
+        "quality": 47,
+        "theta": 49.779052734375,
+        "timeframe": 1746537803073,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 619.0,
+        "quality": 47,
+        "theta": 50.4327392578125,
+        "timeframe": 1746537803073,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 612.0,
+        "quality": 47,
+        "theta": 51.0919189453125,
+        "timeframe": 1746537803073,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 608.0,
+        "quality": 47,
+        "theta": 51.7291259765625,
+        "timeframe": 1746537803073,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 605.0,
+        "quality": 47,
+        "theta": 52.3883056640625,
+        "timeframe": 1746537803073,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 598.0,
+        "quality": 47,
+        "theta": 53.0419921875,
+        "timeframe": 1746537803073,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 593.0,
+        "quality": 47,
+        "theta": 53.701171875,
+        "timeframe": 1746537803073,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 588.0,
+        "quality": 47,
+        "theta": 54.3548583984375,
+        "timeframe": 1746537803073,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 583.0,
+        "quality": 47,
+        "theta": 55.0140380859375,
+        "timeframe": 1746537803073,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 657.0,
+        "quality": 47,
+        "theta": 59.58984375,
+        "timeframe": 1746537803073,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 654.0,
+        "quality": 47,
+        "theta": 60.2490234375,
+        "timeframe": 1746537803074,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 430.0,
+        "quality": 47,
+        "theta": 62.1990966796875,
+        "timeframe": 1746537803074,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 424.0,
+        "quality": 47,
+        "theta": 62.8582763671875,
+        "timeframe": 1746537803074,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 421.0,
+        "quality": 47,
+        "theta": 63.511962890625,
+        "timeframe": 1746537803074,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 418.0,
+        "quality": 47,
+        "theta": 64.171142578125,
+        "timeframe": 1746537803074,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 414.0,
+        "quality": 47,
+        "theta": 64.8248291015625,
+        "timeframe": 1746537803074,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 412.0,
+        "quality": 47,
+        "theta": 65.4840087890625,
+        "timeframe": 1746537803074,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 410.0,
+        "quality": 47,
+        "theta": 66.1376953125,
+        "timeframe": 1746537803074,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 409.0,
+        "quality": 47,
+        "theta": 66.796875,
+        "timeframe": 1746537803074,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 411.0,
+        "quality": 47,
+        "theta": 67.43408203125,
+        "timeframe": 1746537803075,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 414.0,
+        "quality": 47,
+        "theta": 68.09326171875,
+        "timeframe": 1746537803075,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 414.0,
+        "quality": 47,
+        "theta": 68.7469482421875,
+        "timeframe": 1746537803075,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 417.0,
+        "quality": 47,
+        "theta": 69.4061279296875,
+        "timeframe": 1746537803075,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 422.0,
+        "quality": 47,
+        "theta": 70.0433349609375,
+        "timeframe": 1746537803075,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 428.0,
+        "quality": 47,
+        "theta": 70.7025146484375,
+        "timeframe": 1746537803075,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 434.0,
+        "quality": 47,
+        "theta": 71.356201171875,
+        "timeframe": 1746537803075,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 562.0,
+        "quality": 47,
+        "theta": 72.652587890625,
+        "timeframe": 1746537803076,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 572.0,
+        "quality": 47,
+        "theta": 73.311767578125,
+        "timeframe": 1746537803076,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 573.0,
+        "quality": 47,
+        "theta": 73.9654541015625,
+        "timeframe": 1746537803076,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 573.0,
+        "quality": 47,
+        "theta": 74.6246337890625,
+        "timeframe": 1746537803076,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 572.0,
+        "quality": 47,
+        "theta": 75.2618408203125,
+        "timeframe": 1746537803076,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 571.0,
+        "quality": 47,
+        "theta": 75.9210205078125,
+        "timeframe": 1746537803076,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 569.0,
+        "quality": 47,
+        "theta": 76.57470703125,
+        "timeframe": 1746537803076,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 567.0,
+        "quality": 47,
+        "theta": 77.23388671875,
+        "timeframe": 1746537803076,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 566.0,
+        "quality": 47,
+        "theta": 77.87109375,
+        "timeframe": 1746537803076,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 565.0,
+        "quality": 47,
+        "theta": 78.5302734375,
+        "timeframe": 1746537803076,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 565.0,
+        "quality": 47,
+        "theta": 79.1839599609375,
+        "timeframe": 1746537803076,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 564.0,
+        "quality": 47,
+        "theta": 79.8431396484375,
+        "timeframe": 1746537803076,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 562.0,
+        "quality": 47,
+        "theta": 80.4803466796875,
+        "timeframe": 1746537803076,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 563.0,
+        "quality": 47,
+        "theta": 81.1395263671875,
+        "timeframe": 1746537803076,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 564.0,
+        "quality": 47,
+        "theta": 81.793212890625,
+        "timeframe": 1746537803076,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 563.0,
+        "quality": 47,
+        "theta": 82.452392578125,
+        "timeframe": 1746537803076,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 563.0,
+        "quality": 47,
+        "theta": 83.089599609375,
+        "timeframe": 1746537803076,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 563.0,
+        "quality": 47,
+        "theta": 83.748779296875,
+        "timeframe": 1746537803076,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 562.0,
+        "quality": 47,
+        "theta": 84.4024658203125,
+        "timeframe": 1746537803076,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 561.0,
+        "quality": 47,
+        "theta": 85.0616455078125,
+        "timeframe": 1746537803076,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 561.0,
+        "quality": 47,
+        "theta": 85.6988525390625,
+        "timeframe": 1746537803076,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 562.0,
+        "quality": 47,
+        "theta": 86.3580322265625,
+        "timeframe": 1746537803076,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 563.0,
+        "quality": 47,
+        "theta": 87.01171875,
+        "timeframe": 1746537803076,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 562.0,
+        "quality": 47,
+        "theta": 87.6708984375,
+        "timeframe": 1746537803076,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 563.0,
+        "quality": 47,
+        "theta": 88.30810546875,
+        "timeframe": 1746537803076,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 563.0,
+        "quality": 47,
+        "theta": 88.96728515625,
+        "timeframe": 1746537803076,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 562.0,
+        "quality": 47,
+        "theta": 89.6209716796875,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 563.0,
+        "quality": 47,
+        "theta": 90.2801513671875,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 564.0,
+        "quality": 47,
+        "theta": 90.9173583984375,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 564.0,
+        "quality": 47,
+        "theta": 91.5765380859375,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 564.0,
+        "quality": 47,
+        "theta": 92.230224609375,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 567.0,
+        "quality": 47,
+        "theta": 92.889404296875,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 565.0,
+        "quality": 47,
+        "theta": 93.5430908203125,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 569.0,
+        "quality": 47,
+        "theta": 94.2022705078125,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 569.0,
+        "quality": 47,
+        "theta": 94.85595703125,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 565.0,
+        "quality": 47,
+        "theta": 95.51513671875,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 567.0,
+        "quality": 47,
+        "theta": 96.1688232421875,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 570.0,
+        "quality": 47,
+        "theta": 96.8280029296875,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 572.0,
+        "quality": 47,
+        "theta": 97.481689453125,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 572.0,
+        "quality": 47,
+        "theta": 98.1353759765625,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 572.0,
+        "quality": 47,
+        "theta": 98.7945556640625,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 573.0,
+        "quality": 47,
+        "theta": 99.4482421875,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 574.0,
+        "quality": 47,
+        "theta": 100.1239013671875,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 578.0,
+        "quality": 47,
+        "theta": 100.777587890625,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 578.0,
+        "quality": 47,
+        "theta": 101.436767578125,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 578.0,
+        "quality": 47,
+        "theta": 102.0904541015625,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 577.0,
+        "quality": 47,
+        "theta": 102.7496337890625,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 580.0,
+        "quality": 47,
+        "theta": 103.4033203125,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 441.0,
+        "quality": 47,
+        "theta": 104.7161865234375,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 446.0,
+        "quality": 47,
+        "theta": 105.369873046875,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 449.0,
+        "quality": 47,
+        "theta": 106.029052734375,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 448.0,
+        "quality": 47,
+        "theta": 106.69921875,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 450.0,
+        "quality": 47,
+        "theta": 107.3583984375,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 457.0,
+        "quality": 47,
+        "theta": 108.0120849609375,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 459.0,
+        "quality": 47,
+        "theta": 108.6712646484375,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 459.0,
+        "quality": 47,
+        "theta": 109.324951171875,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 465.0,
+        "quality": 47,
+        "theta": 109.984130859375,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 615.0,
+        "quality": 47,
+        "theta": 111.95068359375,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:25"
+    },
+    {
+        "distance": 620.0,
+        "quality": 47,
+        "theta": 112.6043701171875,
+        "timeframe": 1746537803077,
+        "timestamp": "2025-05-06 23:23:26"
+    },
+    {
+        "distance": 624.0,
+        "quality": 47,
+        "theta": 113.280029296875,
+        "timeframe": 1746537803078,
+        "timestamp": "2025-05-06 23:23:26"
+    },
+    {
+        "distance": 627.0,
+        "quality": 47,
+        "theta": 113.9337158203125,
+        "timeframe": 1746537803078,
+        "timestamp": "2025-05-06 23:23:26"
+    },
+    {
+        "distance": 630.0,
+        "quality": 47,
+        "theta": 114.5928955078125,
+        "timeframe": 1746537803078,
+        "timestamp": "2025-05-06 23:23:26"
+    },
+    {
+        "distance": 634.0,
+        "quality": 47,
+        "theta": 115.24658203125,
+        "timeframe": 1746537803078,
+        "timestamp": "2025-05-06 23:23:26"
+    },
+    {
+        "distance": 637.0,
+        "quality": 47,
+        "theta": 115.90576171875,
+        "timeframe": 1746537803078,
+        "timestamp": "2025-05-06 23:23:26"
+    },
+    {
+        "distance": 640.0,
+        "quality": 47,
+        "theta": 116.5594482421875,
+        "timeframe": 1746537803078,
+        "timestamp": "2025-05-06 23:23:26"
+    },
+    {
+        "distance": 644.0,
+        "quality": 47,
+        "theta": 117.2186279296875,
+        "timeframe": 1746537803078,
+        "timestamp": "2025-05-06 23:23:26"
+    },
+    {
+        "distance": 639.0,
+        "quality": 47,
+        "theta": 117.872314453125,
+        "timeframe": 1746537803078,
+        "timestamp": "2025-05-06 23:23:26"
+    },
+    {
+        "distance": 531.0,
+        "quality": 47,
+        "theta": 119.8553466796875,
+        "timeframe": 1746537803078,
+        "timestamp": "2025-05-06 23:23:26"
+    },
+    {
+        "distance": 517.0,
+        "quality": 47,
+        "theta": 120.5145263671875,
+        "timeframe": 1746537803078,
+        "timestamp": "2025-05-06 23:23:26"
+    },
+    {
+        "distance": 504.0,
+        "quality": 47,
+        "theta": 121.1846923828125,
+        "timeframe": 1746537803079,
+        "timestamp": "2025-05-06 23:23:26"
+    },
+    {
+        "distance": 492.0,
+        "quality": 47,
+        "theta": 121.83837890625,
+        "timeframe": 1746537803079,
+        "timestamp": "2025-05-06 23:23:26"
+    },
+    {
+        "distance": 481.0,
+        "quality": 47,
+        "theta": 122.5140380859375,
+        "timeframe": 1746537803079,
+        "timestamp": "2025-05-06 23:23:26"
+    },
+    {
+        "distance": 473.0,
+        "quality": 47,
+        "theta": 123.167724609375,
+        "timeframe": 1746537803079,
+        "timestamp": "2025-05-06 23:23:26"
+    },
+    {
+        "distance": 465.0,
+        "quality": 47,
+        "theta": 123.826904296875,
+        "timeframe": 1746537803079,
+        "timestamp": "2025-05-06 23:23:26"
+    },
+    {
+        "distance": 456.0,
+        "quality": 47,
+        "theta": 124.4970703125,
+        "timeframe": 1746537803079,
+        "timestamp": "2025-05-06 23:23:26"
+    },
+    {
+        "distance": 451.0,
+        "quality": 47,
+        "theta": 125.15625,
+        "timeframe": 1746537803080,
+        "timestamp": "2025-05-06 23:23:26"
+    },
+    {
+        "distance": 446.0,
+        "quality": 47,
+        "theta": 125.826416015625,
+        "timeframe": 1746537803080,
+        "timestamp": "2025-05-06 23:23:26"
+    },
+    {
+        "distance": 441.0,
+        "quality": 47,
+        "theta": 126.4801025390625,
+        "timeframe": 1746537803080,
+        "timestamp": "2025-05-06 23:23:26"
+    },
+    {
+        "distance": 438.0,
+        "quality": 47,
+        "theta": 127.15576171875,
+        "timeframe": 1746537803080,
+        "timestamp": "2025-05-06 23:23:26"
+    },
+    {
+        "distance": 435.0,
+        "quality": 47,
+        "theta": 127.8094482421875,
+        "timeframe": 1746537803080,
+        "timestamp": "2025-05-06 23:23:26"
+    },
+    {
+        "distance": 431.0,
+        "quality": 47,
+        "theta": 128.4686279296875,
+        "timeframe": 1746537803080,
+        "timestamp": "2025-05-06 23:23:26"
+    },
+    {
+        "distance": 429.0,
+        "quality": 47,
+        "theta": 129.1387939453125,
+        "timeframe": 1746537803080,
+        "timestamp": "2025-05-06 23:23:26"
+    },
+    {
+        "distance": 429.0,
+        "quality": 47,
+        "theta": 129.79248046875,
+        "timeframe": 1746537803080,
+        "timestamp": "2025-05-06 23:23:26"
+    },
+    {
+        "distance": 431.0,
+        "quality": 47,
+        "theta": 130.4681396484375,
+        "timeframe": 1746537803081,
+        "timestamp": "2025-05-06 23:23:26"
+    },
+    {
+        "distance": 429.0,
+        "quality": 47,
+        "theta": 131.121826171875,
+        "timeframe": 1746537803081,
+        "timestamp": "2025-05-06 23:23:26"
+    }
+]
+        

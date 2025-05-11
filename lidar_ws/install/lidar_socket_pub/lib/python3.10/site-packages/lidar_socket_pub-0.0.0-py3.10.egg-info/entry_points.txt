@@ -1,0 +1,3 @@
+[console_scripts]
+lidar_socket_pub = lidar_socket_pub.lidar_socket_pub:main
+

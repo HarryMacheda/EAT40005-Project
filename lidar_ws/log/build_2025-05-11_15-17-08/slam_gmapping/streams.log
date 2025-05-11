@@ -1,0 +1,96 @@
+[0.006s] Invoking command in '/home/angelina/EAT40005-Project/lidar_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/angelina/EAT40005-Project/lidar_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/angelina/EAT40005-Project/lidar_ws/install/openslam_gmapping:/home/angelina/turtlebot3_ws/install/turtlebot3:/home/angelina/turtlebot3_ws/install/turtlebot3_simulations:/home/angelina/turtlebot3_ws/install/turtlebot3_bringup:/home/angelina/turtlebot3_ws/install/turtlebot3_node:/home/angelina/turtlebot3_ws/install/turtlebot3_navigation2:/home/angelina/turtlebot3_ws/install/turtlebot3_fake_node:/home/angelina/turtlebot3_ws/install/turtlebot3_msgs:/home/angelina/turtlebot3_ws/install/turtlebot3_gazebo:/home/angelina/turtlebot3_ws/install/turtlebot3_description:/home/angelina/turtlebot3_ws/install/turtlebot3_cartographer:/home/angelina/turtlebot3_ws/install/dynamixel_sdk_examples:/home/angelina/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/angelina/turtlebot3_ws/install/dynamixel_sdk:/home/angelina/turtlebot3_ws/install/turtlebot3_teleop:/home/angelina/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/angelina/EAT40005-Project/lidar_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/angelina/EAT40005-Project/lidar_ws/src/slam_gmapping/slam_gmapping -DCMAKE_INSTALL_PREFIX=/home/angelina/EAT40005-Project/lidar_ws/install/slam_gmapping
+[0.050s] -- The C compiler identification is GNU 11.4.0
+[0.087s] -- The CXX compiler identification is GNU 11.4.0
+[0.091s] -- Detecting C compiler ABI info
+[0.147s] -- Detecting C compiler ABI info - done
+[0.154s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.154s] -- Detecting C compile features
+[0.154s] -- Detecting C compile features - done
+[0.157s] -- Detecting CXX compiler ABI info
+[0.218s] -- Detecting CXX compiler ABI info - done
+[0.222s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.222s] -- Detecting CXX compile features
+[0.223s] -- Detecting CXX compile features - done
+[0.223s] [0m -fuse-ld=lld -Wl,--disable-new-dtags[0m
+[0.225s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.326s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.402s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.469s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.478s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.497s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.520s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.545s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.586s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.631s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[0.645s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.772s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.779s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.818s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.835s] -- Looking for pthread.h
+[0.890s] -- Looking for pthread.h - found
+[0.890s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.948s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.948s] -- Found Threads: TRUE  
+[1.109s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.128s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.130s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.130s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.134s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.160s] -- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.184s] -- Found openslam_gmapping: 0.1.2 (/home/angelina/EAT40005-Project/lidar_ws/install/openslam_gmapping/share/openslam_gmapping/cmake)
+[1.187s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.260s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.260s] -- Configured cppcheck include dirs: /home/angelina/EAT40005-Project/lidar_ws/src/slam_gmapping/slam_gmapping/include
+[1.260s] -- Configured cppcheck exclude dirs and/or files: 
+[1.261s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.262s] -- Added test 'lint_cmake' to check CMake code style
+[1.263s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.264s] -- Added test 'uncrustify' to check C / C++ code style
+[1.264s] -- Configured uncrustify additional arguments: 
+[1.265s] -- Added test 'xmllint' to check XML markup files
+[1.266s] -- Configuring done
+[1.273s] -- Generating done
+[1.275s] -- Build files have been written to: /home/angelina/EAT40005-Project/lidar_ws/build/slam_gmapping
+[1.281s] Invoked command in '/home/angelina/EAT40005-Project/lidar_ws/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/angelina/EAT40005-Project/lidar_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/angelina/EAT40005-Project/lidar_ws/install/openslam_gmapping:/home/angelina/turtlebot3_ws/install/turtlebot3:/home/angelina/turtlebot3_ws/install/turtlebot3_simulations:/home/angelina/turtlebot3_ws/install/turtlebot3_bringup:/home/angelina/turtlebot3_ws/install/turtlebot3_node:/home/angelina/turtlebot3_ws/install/turtlebot3_navigation2:/home/angelina/turtlebot3_ws/install/turtlebot3_fake_node:/home/angelina/turtlebot3_ws/install/turtlebot3_msgs:/home/angelina/turtlebot3_ws/install/turtlebot3_gazebo:/home/angelina/turtlebot3_ws/install/turtlebot3_description:/home/angelina/turtlebot3_ws/install/turtlebot3_cartographer:/home/angelina/turtlebot3_ws/install/dynamixel_sdk_examples:/home/angelina/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/angelina/turtlebot3_ws/install/dynamixel_sdk:/home/angelina/turtlebot3_ws/install/turtlebot3_teleop:/home/angelina/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/angelina/EAT40005-Project/lidar_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/angelina/EAT40005-Project/lidar_ws/src/slam_gmapping/slam_gmapping -DCMAKE_INSTALL_PREFIX=/home/angelina/EAT40005-Project/lidar_ws/install/slam_gmapping
+[1.282s] Invoking command in '/home/angelina/EAT40005-Project/lidar_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/angelina/EAT40005-Project/lidar_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/angelina/EAT40005-Project/lidar_ws/install/openslam_gmapping:/home/angelina/turtlebot3_ws/install/turtlebot3:/home/angelina/turtlebot3_ws/install/turtlebot3_simulations:/home/angelina/turtlebot3_ws/install/turtlebot3_bringup:/home/angelina/turtlebot3_ws/install/turtlebot3_node:/home/angelina/turtlebot3_ws/install/turtlebot3_navigation2:/home/angelina/turtlebot3_ws/install/turtlebot3_fake_node:/home/angelina/turtlebot3_ws/install/turtlebot3_msgs:/home/angelina/turtlebot3_ws/install/turtlebot3_gazebo:/home/angelina/turtlebot3_ws/install/turtlebot3_description:/home/angelina/turtlebot3_ws/install/turtlebot3_cartographer:/home/angelina/turtlebot3_ws/install/dynamixel_sdk_examples:/home/angelina/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/angelina/turtlebot3_ws/install/dynamixel_sdk:/home/angelina/turtlebot3_ws/install/turtlebot3_teleop:/home/angelina/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/angelina/EAT40005-Project/lidar_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/angelina/EAT40005-Project/lidar_ws/build/slam_gmapping -- -j20 -l20
+[1.321s] [ 50%] [32mBuilding CXX object CMakeFiles/slam_gmapping.dir/src/slam_gmapping.cpp.o[0m
+[1.999s] In file included from [01m[K/home/angelina/EAT40005-Project/lidar_ws/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:38[m[K,
+[1.999s]                  from [01m[K/home/angelina/EAT40005-Project/lidar_ws/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[1.999s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[1.999s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[1.999s]       |  [01;35m[K^~~~~~~[m[K
+[3.419s] In file included from [01m[K/home/angelina/EAT40005-Project/lidar_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:9[m[K,
+[3.419s]                  from [01m[K/home/angelina/EAT40005-Project/lidar_ws/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[3.420s]                  from [01m[K/home/angelina/EAT40005-Project/lidar_ws/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[3.420s] [01m[K/home/angelina/EAT40005-Project/lidar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:[m[K In function ‘[01m[Kvoid rle(OutputIterator&, const Iterator&, const Iterator&)[m[K’:
+[3.420s] [01m[K/home/angelina/EAT40005-Project/lidar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:140:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+[3.420s]   140 |         [01;35m[Kif[m[K (count>0)
+[3.420s]       |         [01;35m[K^~[m[K
+[3.420s] [01m[K/home/angelina/EAT40005-Project/lidar_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:142:17:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+[3.420s]   142 |                 [01;36m[Kout[m[K++;
+[3.420s]       |                 [01;36m[K^~~[m[K
+[9.116s] [100%] [32m[1mLinking CXX executable slam_gmapping[0m
+[9.489s] [100%] Built target slam_gmapping
+[9.504s] Invoked command in '/home/angelina/EAT40005-Project/lidar_ws/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/angelina/EAT40005-Project/lidar_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/angelina/EAT40005-Project/lidar_ws/install/openslam_gmapping:/home/angelina/turtlebot3_ws/install/turtlebot3:/home/angelina/turtlebot3_ws/install/turtlebot3_simulations:/home/angelina/turtlebot3_ws/install/turtlebot3_bringup:/home/angelina/turtlebot3_ws/install/turtlebot3_node:/home/angelina/turtlebot3_ws/install/turtlebot3_navigation2:/home/angelina/turtlebot3_ws/install/turtlebot3_fake_node:/home/angelina/turtlebot3_ws/install/turtlebot3_msgs:/home/angelina/turtlebot3_ws/install/turtlebot3_gazebo:/home/angelina/turtlebot3_ws/install/turtlebot3_description:/home/angelina/turtlebot3_ws/install/turtlebot3_cartographer:/home/angelina/turtlebot3_ws/install/dynamixel_sdk_examples:/home/angelina/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/angelina/turtlebot3_ws/install/dynamixel_sdk:/home/angelina/turtlebot3_ws/install/turtlebot3_teleop:/home/angelina/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/angelina/EAT40005-Project/lidar_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/angelina/EAT40005-Project/lidar_ws/build/slam_gmapping -- -j20 -l20
+[9.506s] Invoking command in '/home/angelina/EAT40005-Project/lidar_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/angelina/EAT40005-Project/lidar_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/angelina/EAT40005-Project/lidar_ws/install/openslam_gmapping:/home/angelina/turtlebot3_ws/install/turtlebot3:/home/angelina/turtlebot3_ws/install/turtlebot3_simulations:/home/angelina/turtlebot3_ws/install/turtlebot3_bringup:/home/angelina/turtlebot3_ws/install/turtlebot3_node:/home/angelina/turtlebot3_ws/install/turtlebot3_navigation2:/home/angelina/turtlebot3_ws/install/turtlebot3_fake_node:/home/angelina/turtlebot3_ws/install/turtlebot3_msgs:/home/angelina/turtlebot3_ws/install/turtlebot3_gazebo:/home/angelina/turtlebot3_ws/install/turtlebot3_description:/home/angelina/turtlebot3_ws/install/turtlebot3_cartographer:/home/angelina/turtlebot3_ws/install/dynamixel_sdk_examples:/home/angelina/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/angelina/turtlebot3_ws/install/dynamixel_sdk:/home/angelina/turtlebot3_ws/install/turtlebot3_teleop:/home/angelina/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/angelina/EAT40005-Project/lidar_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/angelina/EAT40005-Project/lidar_ws/build/slam_gmapping
+[9.513s] -- Install configuration: ""
+[9.513s] -- Installing: /home/angelina/EAT40005-Project/lidar_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping
+[9.516s] -- Set runtime path of "/home/angelina/EAT40005-Project/lidar_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping" to ""
+[9.516s] -- Installing: /home/angelina/EAT40005-Project/lidar_ws/install/slam_gmapping/share/slam_gmapping/launch
+[9.516s] -- Installing: /home/angelina/EAT40005-Project/lidar_ws/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py
+[9.516s] -- Installing: /home/angelina/EAT40005-Project/lidar_ws/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping
+[9.516s] -- Installing: /home/angelina/EAT40005-Project/lidar_ws/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping
+[9.516s] -- Installing: /home/angelina/EAT40005-Project/lidar_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh
+[9.516s] -- Installing: /home/angelina/EAT40005-Project/lidar_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv
+[9.516s] -- Installing: /home/angelina/EAT40005-Project/lidar_ws/install/slam_gmapping/share/slam_gmapping/environment/path.sh
+[9.517s] -- Installing: /home/angelina/EAT40005-Project/lidar_ws/install/slam_gmapping/share/slam_gmapping/environment/path.dsv
+[9.517s] -- Installing: /home/angelina/EAT40005-Project/lidar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.bash
+[9.517s] -- Installing: /home/angelina/EAT40005-Project/lidar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.sh
+[9.517s] -- Installing: /home/angelina/EAT40005-Project/lidar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.zsh
+[9.517s] -- Installing: /home/angelina/EAT40005-Project/lidar_ws/install/slam_gmapping/share/slam_gmapping/local_setup.dsv
+[9.517s] -- Installing: /home/angelina/EAT40005-Project/lidar_ws/install/slam_gmapping/share/slam_gmapping/package.dsv
+[9.517s] -- Installing: /home/angelina/EAT40005-Project/lidar_ws/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping
+[9.517s] -- Installing: /home/angelina/EAT40005-Project/lidar_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake
+[9.517s] -- Installing: /home/angelina/EAT40005-Project/lidar_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake
+[9.517s] -- Installing: /home/angelina/EAT40005-Project/lidar_ws/install/slam_gmapping/share/slam_gmapping/package.xml
+[9.519s] Invoked command in '/home/angelina/EAT40005-Project/lidar_ws/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/angelina/EAT40005-Project/lidar_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/angelina/EAT40005-Project/lidar_ws/install/openslam_gmapping:/home/angelina/turtlebot3_ws/install/turtlebot3:/home/angelina/turtlebot3_ws/install/turtlebot3_simulations:/home/angelina/turtlebot3_ws/install/turtlebot3_bringup:/home/angelina/turtlebot3_ws/install/turtlebot3_node:/home/angelina/turtlebot3_ws/install/turtlebot3_navigation2:/home/angelina/turtlebot3_ws/install/turtlebot3_fake_node:/home/angelina/turtlebot3_ws/install/turtlebot3_msgs:/home/angelina/turtlebot3_ws/install/turtlebot3_gazebo:/home/angelina/turtlebot3_ws/install/turtlebot3_description:/home/angelina/turtlebot3_ws/install/turtlebot3_cartographer:/home/angelina/turtlebot3_ws/install/dynamixel_sdk_examples:/home/angelina/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/angelina/turtlebot3_ws/install/dynamixel_sdk:/home/angelina/turtlebot3_ws/install/turtlebot3_teleop:/home/angelina/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/angelina/EAT40005-Project/lidar_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/angelina/EAT40005-Project/lidar_ws/build/slam_gmapping

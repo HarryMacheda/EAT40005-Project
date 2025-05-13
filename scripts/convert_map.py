@@ -7,9 +7,9 @@ import os
 REAL_WORLD_AREA = 2020.31
 
 # Input and output paths
-input_file = '/Users/aarush/Desktop/Year 4 - Sem 1/EAT 40005/FYP/maps/amdc_l1_map.png'
-output_dir = '/Users/aarush/Desktop/Year 4 - Sem 1/EAT 40005/FYP/maps'
-script_dir = '/Users/aarush/Desktop/Year 4 - Sem 1/EAT 40005/FYP/scripts'
+input_file = 'maps/amdc_l1_map.png'
+output_dir = 'maps'
+script_dir = 'scripts'
 map_name = 'amdc_l1_map'
 
 # Ensure directories exist

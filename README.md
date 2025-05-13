@@ -9,13 +9,6 @@ This repository contains the scripts and files to convert the AMDC L1 floor plan
   - `amdc_l1_map.pgm` (grayscale occupancy grid)
   - `amdc_l1_map.yaml` (map metadata for ROS)
 - **Script**: `convert_map.py` (Python script for conversion)
-- **Directory Structure**:
-  ├── maps/
-  | ├── amdc_l1_map.png
-  │ ├── amdc_l1_map.pgm
-  │ ├── amdc_l1_map.yaml
-  ├── scripts/
-  │ ├── convert_map.py
 
 ## Calculations and Assumptions
 

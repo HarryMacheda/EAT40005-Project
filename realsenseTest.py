@@ -1,4 +1,4 @@
-from adapters.JsonAdapter import JsonAdapter
+from adapters.PointStreamAdapter import PointStreamAdapter
 from AdaptedSocket import AdaptedSocket
 from sensors.realsense import Realsense
 import threading
@@ -10,16 +10,19 @@ import open3d as o3d
 host = 'localhost'
 port = 65432
 
-adapter = JsonAdapter()
+adapter = PointStreamAdapter()
 listner = AdaptedSocket(host, port, adapter)
 
+prevtime = time.time_ns() // 1_000_000
 def HandleMessage(object:object):
-    if(type(object) == int):
-        return
-    points = np.array([[pt["x"], pt["y"], pt["z"]] for pt in object], dtype=np.float64)
-    pcd = o3d.geometry.PointCloud()
-    pcd.points = o3d.utility.Vector3dVector(points)
-    o3d.visualization.draw_geometries([pcd], window_name="Point Cloud Viewer")
+    global prevtime
+    #pcd = o3d.geometry.PointCloud()
+    #pcd.points = o3d.utility.Vector3dVector(object)
+    #o3d.visualization.draw_geometries([pcd], window_name="Point Cloud Viewer")
+    now = time.time_ns() // 1_000_000
+    print("Sent " + str(len(object)) + " points in " + str(now - prevtime) + "ms")
+    prevtime = time.time_ns() // 1_000_000
+
 
 
 listner.AttachHandler(HandleMessage)
@@ -28,12 +31,9 @@ listener_thread.start()
 
 publisher = AdaptedSocket(host, port, adapter)
 camera = Realsense()
-publisher.SendMessage(len(camera.GetFramePoints()))
-time.sleep(2)
-publisher.SendMessage(camera.GetFramePoints())
-time.sleep(2)
-publisher.SendMessage(camera.GetFramePoints())
-time.sleep(2)
-publisher.SendMessage(camera.GetFramePoints())
-time.sleep(2)
+
+while True:
+    publisher.SendMessage(camera.GetFramePoints())
+
+
 

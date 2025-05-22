@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="greenPathsText" type="id" />
+    <item name="locationsText" type="id" />
+    <item name="virtualWallsText" type="id" />
+    <item name="mapInfoText" type="id" />
+    <item name="mapImageText" type="id" />
+    <item name="timestampText" type="id" />
+    <item name="mapIdText" type="id" />
+    <item name="mapInfoSection" type="id" />
+    <item name="mapFeaturesSection" type="id" />
+    <item name="locationsSection" type="id" />
+    <item name="mapImageSection" type="id" />
+    <item name="mapSectionTitle" type="id" />
+</resources>

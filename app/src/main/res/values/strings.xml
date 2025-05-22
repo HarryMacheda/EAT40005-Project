@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TEMIData</string>
+    <string name="lidar_visualization">LiDAR Visualization</string>
+</resources>

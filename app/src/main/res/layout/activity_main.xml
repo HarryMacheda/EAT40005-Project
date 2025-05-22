@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <!-- Status TextView -->
+    <TextView
+        android:id="@+id/status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Initializing Temi..."
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Odometry TextView -->
+    <TextView
+        android:id="@+id/odometry_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Odometry: Not available"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Start/Stop Logging Button -->
+    <Button
+        android:id="@+id/start_logging_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Logging"
+        android:enabled="false"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Start/Stop Following Button -->
+    <Button
+        android:id="@+id/toggle_follow_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Following"
+        android:enabled="false"/>
+
+</LinearLayout>

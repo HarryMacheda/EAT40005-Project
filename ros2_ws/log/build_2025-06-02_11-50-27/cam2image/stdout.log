@@ -1,0 +1,6 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/cam2image.dir/src/cam_stream.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cam_stream.dir/rclcpp_components/node_main_cam_stream.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable cam_stream[0m
+[ 75%] Built target cam_stream
+[100%] [32m[1mLinking CXX shared library libcam2image.so[0m
+[100%] Built target cam2image

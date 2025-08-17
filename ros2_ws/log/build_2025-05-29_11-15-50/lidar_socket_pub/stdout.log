@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/lidar_socket_pub/lidar_socket_pub.egg-info/PKG-INFO
+writing dependency_links to ../../build/lidar_socket_pub/lidar_socket_pub.egg-info/dependency_links.txt
+writing entry points to ../../build/lidar_socket_pub/lidar_socket_pub.egg-info/entry_points.txt
+writing requirements to ../../build/lidar_socket_pub/lidar_socket_pub.egg-info/requires.txt
+writing top-level names to ../../build/lidar_socket_pub/lidar_socket_pub.egg-info/top_level.txt
+reading manifest file '../../build/lidar_socket_pub/lidar_socket_pub.egg-info/SOURCES.txt'
+writing manifest file '../../build/lidar_socket_pub/lidar_socket_pub.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+copying /home/angelina/EAT40005-Project/ros2_ws/build/lidar_socket_pub/build/lib/lidar_socket_pub/lidar_socket_pub.py -> /home/angelina/EAT40005-Project/ros2_ws/install/lidar_socket_pub/lib/python3.10/site-packages/lidar_socket_pub
+byte-compiling /home/angelina/EAT40005-Project/ros2_ws/install/lidar_socket_pub/lib/python3.10/site-packages/lidar_socket_pub/lidar_socket_pub.py to lidar_socket_pub.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/angelina/EAT40005-Project/ros2_ws/install/lidar_socket_pub/lib/python3.10/site-packages/lidar_socket_pub-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/lidar_socket_pub/lidar_socket_pub.egg-info to /home/angelina/EAT40005-Project/ros2_ws/install/lidar_socket_pub/lib/python3.10/site-packages/lidar_socket_pub-0.0.0-py3.10.egg-info
+running install_scripts
+Installing lidar_socket_pub script to /home/angelina/EAT40005-Project/ros2_ws/install/lidar_socket_pub/lib/lidar_socket_pub
+writing list of installed files to '/home/angelina/EAT40005-Project/ros2_ws/build/lidar_socket_pub/install.log'

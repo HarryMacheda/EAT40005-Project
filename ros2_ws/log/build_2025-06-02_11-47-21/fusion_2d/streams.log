@@ -1,0 +1,51 @@
+[3.121s] Invoking command in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/fusion/fusion_2d': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/fusion_2d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/fusion_2d build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/fusion_2d/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/fusion_2d/install.log --single-version-externally-managed install_data
+[3.412s] running egg_info
+[3.413s] creating ../../../../build/fusion_2d/fusion_2d.egg-info
+[3.413s] writing ../../../../build/fusion_2d/fusion_2d.egg-info/PKG-INFO
+[3.414s] writing dependency_links to ../../../../build/fusion_2d/fusion_2d.egg-info/dependency_links.txt
+[3.414s] writing entry points to ../../../../build/fusion_2d/fusion_2d.egg-info/entry_points.txt
+[3.415s] writing requirements to ../../../../build/fusion_2d/fusion_2d.egg-info/requires.txt
+[3.415s] writing top-level names to ../../../../build/fusion_2d/fusion_2d.egg-info/top_level.txt
+[3.415s] writing manifest file '../../../../build/fusion_2d/fusion_2d.egg-info/SOURCES.txt'
+[3.418s] reading manifest file '../../../../build/fusion_2d/fusion_2d.egg-info/SOURCES.txt'
+[3.420s] writing manifest file '../../../../build/fusion_2d/fusion_2d.egg-info/SOURCES.txt'
+[3.420s] running build
+[3.420s] running build_py
+[3.420s] creating /home/angelina/EAT40005-Project/ros2_ws/build/fusion_2d/build
+[3.420s] creating /home/angelina/EAT40005-Project/ros2_ws/build/fusion_2d/build/lib
+[3.420s] creating /home/angelina/EAT40005-Project/ros2_ws/build/fusion_2d/build/lib/fusion_2d
+[3.420s] copying fusion_2d/__init__.py -> /home/angelina/EAT40005-Project/ros2_ws/build/fusion_2d/build/lib/fusion_2d
+[3.420s] copying fusion_2d/fusion_visualizer_node.py -> /home/angelina/EAT40005-Project/ros2_ws/build/fusion_2d/build/lib/fusion_2d
+[3.421s] copying fusion_2d/fusion_2d_node.py -> /home/angelina/EAT40005-Project/ros2_ws/build/fusion_2d/build/lib/fusion_2d
+[3.421s] copying fusion_2d/detection2csv_node.py -> /home/angelina/EAT40005-Project/ros2_ws/build/fusion_2d/build/lib/fusion_2d
+[3.421s] copying fusion_2d/sort.py -> /home/angelina/EAT40005-Project/ros2_ws/build/fusion_2d/build/lib/fusion_2d
+[3.422s] copying fusion_2d/utils.py -> /home/angelina/EAT40005-Project/ros2_ws/build/fusion_2d/build/lib/fusion_2d
+[3.422s] running install
+[3.423s] running install_lib
+[3.424s] creating /home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/lib/python3.10/site-packages/fusion_2d
+[3.425s] copying /home/angelina/EAT40005-Project/ros2_ws/build/fusion_2d/build/lib/fusion_2d/__init__.py -> /home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/lib/python3.10/site-packages/fusion_2d
+[3.425s] copying /home/angelina/EAT40005-Project/ros2_ws/build/fusion_2d/build/lib/fusion_2d/fusion_visualizer_node.py -> /home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/lib/python3.10/site-packages/fusion_2d
+[3.425s] copying /home/angelina/EAT40005-Project/ros2_ws/build/fusion_2d/build/lib/fusion_2d/fusion_2d_node.py -> /home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/lib/python3.10/site-packages/fusion_2d
+[3.425s] copying /home/angelina/EAT40005-Project/ros2_ws/build/fusion_2d/build/lib/fusion_2d/detection2csv_node.py -> /home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/lib/python3.10/site-packages/fusion_2d
+[3.426s] copying /home/angelina/EAT40005-Project/ros2_ws/build/fusion_2d/build/lib/fusion_2d/sort.py -> /home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/lib/python3.10/site-packages/fusion_2d
+[3.426s] copying /home/angelina/EAT40005-Project/ros2_ws/build/fusion_2d/build/lib/fusion_2d/utils.py -> /home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/lib/python3.10/site-packages/fusion_2d
+[3.427s] byte-compiling /home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/lib/python3.10/site-packages/fusion_2d/__init__.py to __init__.cpython-310.pyc
+[3.427s] byte-compiling /home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/lib/python3.10/site-packages/fusion_2d/fusion_visualizer_node.py to fusion_visualizer_node.cpython-310.pyc
+[3.429s] byte-compiling /home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/lib/python3.10/site-packages/fusion_2d/fusion_2d_node.py to fusion_2d_node.cpython-310.pyc
+[3.432s] byte-compiling /home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/lib/python3.10/site-packages/fusion_2d/detection2csv_node.py to detection2csv_node.cpython-310.pyc
+[3.433s] byte-compiling /home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/lib/python3.10/site-packages/fusion_2d/sort.py to sort.cpython-310.pyc
+[3.437s] byte-compiling /home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/lib/python3.10/site-packages/fusion_2d/utils.py to utils.cpython-310.pyc
+[3.438s] running install_data
+[3.438s] creating /home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/share/ament_index
+[3.438s] creating /home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/share/ament_index/resource_index
+[3.439s] creating /home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/share/ament_index/resource_index/packages
+[3.439s] copying resource/fusion_2d -> /home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/share/ament_index/resource_index/packages
+[3.439s] copying package.xml -> /home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/share/fusion_2d
+[3.439s] running install_egg_info
+[3.443s] Copying ../../../../build/fusion_2d/fusion_2d.egg-info to /home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/lib/python3.10/site-packages/fusion_2d-0.0.0-py3.10.egg-info
+[3.445s] running install_scripts
+[3.485s] Installing detection2csv_node script to /home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/lib/fusion_2d
+[3.485s] Installing fusion_node script to /home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/lib/fusion_2d
+[3.485s] Installing fusion_viz_node script to /home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/lib/fusion_2d
+[3.486s] writing list of installed files to '/home/angelina/EAT40005-Project/ros2_ws/build/fusion_2d/install.log'
+[3.575s] Invoked command in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/fusion/fusion_2d' returned '0': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/fusion_2d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/fusion_2d build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/fusion_2d/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/fusion_2d/install.log --single-version-externally-managed install_data

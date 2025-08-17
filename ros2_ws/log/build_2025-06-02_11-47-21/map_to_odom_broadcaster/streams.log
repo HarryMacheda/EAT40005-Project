@@ -1,0 +1,21 @@
+[3.136s] Invoking command in '/home/angelina/EAT40005-Project/ros2_ws/src/map_to_odom_broadcaster': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/map_to_odom_broadcaster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/map_to_odom_broadcaster build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/map_to_odom_broadcaster/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/map_to_odom_broadcaster/install.log --single-version-externally-managed install_data
+[3.589s] running egg_info
+[3.590s] writing ../../build/map_to_odom_broadcaster/map_to_odom_broadcaster.egg-info/PKG-INFO
+[3.590s] writing dependency_links to ../../build/map_to_odom_broadcaster/map_to_odom_broadcaster.egg-info/dependency_links.txt
+[3.591s] writing entry points to ../../build/map_to_odom_broadcaster/map_to_odom_broadcaster.egg-info/entry_points.txt
+[3.591s] writing requirements to ../../build/map_to_odom_broadcaster/map_to_odom_broadcaster.egg-info/requires.txt
+[3.591s] writing top-level names to ../../build/map_to_odom_broadcaster/map_to_odom_broadcaster.egg-info/top_level.txt
+[3.593s] reading manifest file '../../build/map_to_odom_broadcaster/map_to_odom_broadcaster.egg-info/SOURCES.txt'
+[3.595s] writing manifest file '../../build/map_to_odom_broadcaster/map_to_odom_broadcaster.egg-info/SOURCES.txt'
+[3.595s] running build
+[3.595s] running build_py
+[3.596s] running install
+[3.596s] running install_lib
+[3.597s] running install_data
+[3.597s] running install_egg_info
+[3.600s] removing '/home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/lib/python3.10/site-packages/map_to_odom_broadcaster-0.0.0-py3.10.egg-info' (and everything under it)
+[3.601s] Copying ../../build/map_to_odom_broadcaster/map_to_odom_broadcaster.egg-info to /home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/lib/python3.10/site-packages/map_to_odom_broadcaster-0.0.0-py3.10.egg-info
+[3.601s] running install_scripts
+[3.622s] Installing map_to_odom_broadcaster script to /home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/lib/map_to_odom_broadcaster
+[3.622s] writing list of installed files to '/home/angelina/EAT40005-Project/ros2_ws/build/map_to_odom_broadcaster/install.log'
+[3.647s] Invoked command in '/home/angelina/EAT40005-Project/ros2_ws/src/map_to_odom_broadcaster' returned '0': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/map_to_odom_broadcaster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/map_to_odom_broadcaster build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/map_to_odom_broadcaster/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/map_to_odom_broadcaster/install.log --single-version-externally-managed install_data

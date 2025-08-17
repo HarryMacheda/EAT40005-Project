@@ -1,0 +1,21 @@
+[1.000s] Invoking command in '/home/angelina/EAT40005-Project/ros2_ws/src/odom_to_base_link_tf': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/odom_to_base_link_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/odom_to_base_link_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/odom_to_base_link_tf build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/odom_to_base_link_tf/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/odom_to_base_link_tf/install.log --single-version-externally-managed install_data
+[1.139s] running egg_info
+[1.139s] writing ../../build/odom_to_base_link_tf/odom_to_base_link_tf.egg-info/PKG-INFO
+[1.145s] writing dependency_links to ../../build/odom_to_base_link_tf/odom_to_base_link_tf.egg-info/dependency_links.txt
+[1.145s] writing entry points to ../../build/odom_to_base_link_tf/odom_to_base_link_tf.egg-info/entry_points.txt
+[1.145s] writing requirements to ../../build/odom_to_base_link_tf/odom_to_base_link_tf.egg-info/requires.txt
+[1.147s] writing top-level names to ../../build/odom_to_base_link_tf/odom_to_base_link_tf.egg-info/top_level.txt
+[1.148s] reading manifest file '../../build/odom_to_base_link_tf/odom_to_base_link_tf.egg-info/SOURCES.txt'
+[1.150s] writing manifest file '../../build/odom_to_base_link_tf/odom_to_base_link_tf.egg-info/SOURCES.txt'
+[1.150s] running build
+[1.150s] running build_py
+[1.153s] running install
+[1.153s] running install_lib
+[1.155s] running install_data
+[1.155s] running install_egg_info
+[1.156s] removing '/home/angelina/EAT40005-Project/ros2_ws/install/odom_to_base_link_tf/lib/python3.10/site-packages/odom_to_base_link_tf-0.0.0-py3.10.egg-info' (and everything under it)
+[1.156s] Copying ../../build/odom_to_base_link_tf/odom_to_base_link_tf.egg-info to /home/angelina/EAT40005-Project/ros2_ws/install/odom_to_base_link_tf/lib/python3.10/site-packages/odom_to_base_link_tf-0.0.0-py3.10.egg-info
+[1.157s] running install_scripts
+[1.170s] Installing odom_to_base_link_tf_node script to /home/angelina/EAT40005-Project/ros2_ws/install/odom_to_base_link_tf/lib/odom_to_base_link_tf
+[1.171s] writing list of installed files to '/home/angelina/EAT40005-Project/ros2_ws/build/odom_to_base_link_tf/install.log'
+[1.207s] Invoked command in '/home/angelina/EAT40005-Project/ros2_ws/src/odom_to_base_link_tf' returned '0': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/odom_to_base_link_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/odom_to_base_link_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/odom_to_base_link_tf build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/odom_to_base_link_tf/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/odom_to_base_link_tf/install.log --single-version-externally-managed install_data

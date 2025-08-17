@@ -1,0 +1,6 @@
+source;share/odom_receiver/hook/pythonpath.ps1
+source;share/odom_receiver/hook/pythonpath.dsv
+source;share/odom_receiver/hook/pythonpath.sh
+source;share/odom_receiver/hook/ament_prefix_path.ps1
+source;share/odom_receiver/hook/ament_prefix_path.dsv
+source;share/odom_receiver/hook/ament_prefix_path.sh

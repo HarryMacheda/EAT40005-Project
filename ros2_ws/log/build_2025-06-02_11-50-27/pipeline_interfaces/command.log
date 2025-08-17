@@ -1,0 +1,1 @@
+Invoking command in '/home/angelina/EAT40005-Project/ros2_ws/build/pipeline_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/angelina/turtlebot3_ws/install/turtlebot3_teleop:/home/angelina/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/angelina/EAT40005-Project/ros2_ws/build/pipeline_interfaces -- -j20 -l20

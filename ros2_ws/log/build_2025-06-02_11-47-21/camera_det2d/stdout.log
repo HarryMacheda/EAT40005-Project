@@ -1,0 +1,40 @@
+running egg_info
+creating ../../../../build/camera_det2d/camera_det2d.egg-info
+writing ../../../../build/camera_det2d/camera_det2d.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/camera_det2d/camera_det2d.egg-info/dependency_links.txt
+writing entry points to ../../../../build/camera_det2d/camera_det2d.egg-info/entry_points.txt
+writing requirements to ../../../../build/camera_det2d/camera_det2d.egg-info/requires.txt
+writing top-level names to ../../../../build/camera_det2d/camera_det2d.egg-info/top_level.txt
+writing manifest file '../../../../build/camera_det2d/camera_det2d.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/camera_det2d/camera_det2d.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/camera_det2d/camera_det2d.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/angelina/EAT40005-Project/ros2_ws/build/camera_det2d/build
+creating /home/angelina/EAT40005-Project/ros2_ws/build/camera_det2d/build/lib
+creating /home/angelina/EAT40005-Project/ros2_ws/build/camera_det2d/build/lib/camera_det2d
+copying camera_det2d/__init__.py -> /home/angelina/EAT40005-Project/ros2_ws/build/camera_det2d/build/lib/camera_det2d
+copying camera_det2d/camera_processing_node.py -> /home/angelina/EAT40005-Project/ros2_ws/build/camera_det2d/build/lib/camera_det2d
+running install
+running install_lib
+creating /home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/lib/python3.10/site-packages/camera_det2d
+copying /home/angelina/EAT40005-Project/ros2_ws/build/camera_det2d/build/lib/camera_det2d/__init__.py -> /home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/lib/python3.10/site-packages/camera_det2d
+copying /home/angelina/EAT40005-Project/ros2_ws/build/camera_det2d/build/lib/camera_det2d/camera_processing_node.py -> /home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/lib/python3.10/site-packages/camera_det2d
+byte-compiling /home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/lib/python3.10/site-packages/camera_det2d/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/lib/python3.10/site-packages/camera_det2d/camera_processing_node.py to camera_processing_node.cpython-310.pyc
+running install_data
+creating /home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/share/ament_index
+creating /home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/share/ament_index/resource_index
+creating /home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/share/ament_index/resource_index/packages
+copying resource/camera_det2d -> /home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/share/ament_index/resource_index/packages
+copying package.xml -> /home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/share/camera_det2d
+copying launch/top_level_launch.py -> /home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/share/camera_det2d
+copying launch/cam_processor_launch.py -> /home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/share/camera_det2d
+copying config/1280x720_ost.yaml -> /home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/share/camera_det2d
+copying config/1920x1080_ost.yaml -> /home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/share/camera_det2d
+copying config/rviz/brio_ouster_config_rviz.rviz -> /home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/share/camera_det2d
+running install_egg_info
+Copying ../../../../build/camera_det2d/camera_det2d.egg-info to /home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/lib/python3.10/site-packages/camera_det2d-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera_processor script to /home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/lib/camera_det2d
+writing list of installed files to '/home/angelina/EAT40005-Project/ros2_ws/build/camera_det2d/install.log'

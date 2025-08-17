@@ -1,0 +1,37 @@
+[0.883s] Invoking command in '/home/angelina/EAT40005-Project/lidar_ws/src/csv_odom_pkg': PYTHONPATH=/home/angelina/EAT40005-Project/lidar_ws/build/csv_odom_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/lidar_ws/install/csv_odom_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/csv_odom_pkg build --build-base /home/angelina/EAT40005-Project/lidar_ws/build/csv_odom_pkg/build install --record /home/angelina/EAT40005-Project/lidar_ws/build/csv_odom_pkg/install.log --single-version-externally-managed install_data
+[1.009s] running egg_info
+[1.009s] creating ../../build/csv_odom_pkg/csv_odom_pkg.egg-info
+[1.010s] writing ../../build/csv_odom_pkg/csv_odom_pkg.egg-info/PKG-INFO
+[1.010s] writing dependency_links to ../../build/csv_odom_pkg/csv_odom_pkg.egg-info/dependency_links.txt
+[1.010s] writing entry points to ../../build/csv_odom_pkg/csv_odom_pkg.egg-info/entry_points.txt
+[1.010s] writing requirements to ../../build/csv_odom_pkg/csv_odom_pkg.egg-info/requires.txt
+[1.010s] writing top-level names to ../../build/csv_odom_pkg/csv_odom_pkg.egg-info/top_level.txt
+[1.010s] writing manifest file '../../build/csv_odom_pkg/csv_odom_pkg.egg-info/SOURCES.txt'
+[1.011s] reading manifest file '../../build/csv_odom_pkg/csv_odom_pkg.egg-info/SOURCES.txt'
+[1.011s] writing manifest file '../../build/csv_odom_pkg/csv_odom_pkg.egg-info/SOURCES.txt'
+[1.011s] running build
+[1.011s] running build_py
+[1.011s] creating /home/angelina/EAT40005-Project/lidar_ws/build/csv_odom_pkg/build
+[1.011s] creating /home/angelina/EAT40005-Project/lidar_ws/build/csv_odom_pkg/build/lib
+[1.011s] creating /home/angelina/EAT40005-Project/lidar_ws/build/csv_odom_pkg/build/lib/csv_odom_pkg
+[1.011s] copying csv_odom_pkg/__init__.py -> /home/angelina/EAT40005-Project/lidar_ws/build/csv_odom_pkg/build/lib/csv_odom_pkg
+[1.011s] copying csv_odom_pkg/csv_odom_publisher.py -> /home/angelina/EAT40005-Project/lidar_ws/build/csv_odom_pkg/build/lib/csv_odom_pkg
+[1.011s] running install
+[1.012s] running install_lib
+[1.012s] creating /home/angelina/EAT40005-Project/lidar_ws/install/csv_odom_pkg/lib/python3.10/site-packages/csv_odom_pkg
+[1.012s] copying /home/angelina/EAT40005-Project/lidar_ws/build/csv_odom_pkg/build/lib/csv_odom_pkg/__init__.py -> /home/angelina/EAT40005-Project/lidar_ws/install/csv_odom_pkg/lib/python3.10/site-packages/csv_odom_pkg
+[1.012s] copying /home/angelina/EAT40005-Project/lidar_ws/build/csv_odom_pkg/build/lib/csv_odom_pkg/csv_odom_publisher.py -> /home/angelina/EAT40005-Project/lidar_ws/install/csv_odom_pkg/lib/python3.10/site-packages/csv_odom_pkg
+[1.012s] byte-compiling /home/angelina/EAT40005-Project/lidar_ws/install/csv_odom_pkg/lib/python3.10/site-packages/csv_odom_pkg/__init__.py to __init__.cpython-310.pyc
+[1.012s] byte-compiling /home/angelina/EAT40005-Project/lidar_ws/install/csv_odom_pkg/lib/python3.10/site-packages/csv_odom_pkg/csv_odom_publisher.py to csv_odom_publisher.cpython-310.pyc
+[1.013s] running install_data
+[1.013s] creating /home/angelina/EAT40005-Project/lidar_ws/install/csv_odom_pkg/share/ament_index
+[1.013s] creating /home/angelina/EAT40005-Project/lidar_ws/install/csv_odom_pkg/share/ament_index/resource_index
+[1.013s] creating /home/angelina/EAT40005-Project/lidar_ws/install/csv_odom_pkg/share/ament_index/resource_index/packages
+[1.013s] copying resource/csv_odom_pkg -> /home/angelina/EAT40005-Project/lidar_ws/install/csv_odom_pkg/share/ament_index/resource_index/packages
+[1.013s] copying package.xml -> /home/angelina/EAT40005-Project/lidar_ws/install/csv_odom_pkg/share/csv_odom_pkg
+[1.013s] running install_egg_info
+[1.014s] Copying ../../build/csv_odom_pkg/csv_odom_pkg.egg-info to /home/angelina/EAT40005-Project/lidar_ws/install/csv_odom_pkg/lib/python3.10/site-packages/csv_odom_pkg-0.0.0-py3.10.egg-info
+[1.014s] running install_scripts
+[1.026s] Installing csv_odom_publisher script to /home/angelina/EAT40005-Project/lidar_ws/install/csv_odom_pkg/lib/csv_odom_pkg
+[1.026s] writing list of installed files to '/home/angelina/EAT40005-Project/lidar_ws/build/csv_odom_pkg/install.log'
+[1.040s] Invoked command in '/home/angelina/EAT40005-Project/lidar_ws/src/csv_odom_pkg' returned '0': PYTHONPATH=/home/angelina/EAT40005-Project/lidar_ws/build/csv_odom_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/lidar_ws/install/csv_odom_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/csv_odom_pkg build --build-base /home/angelina/EAT40005-Project/lidar_ws/build/csv_odom_pkg/build install --record /home/angelina/EAT40005-Project/lidar_ws/build/csv_odom_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,673 @@
+[0.056s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'data_tools', '--event-handlers', 'console_direct+']
+[0.056s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=['console_direct+'], ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['data_tools'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x76182995dba0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76182995d5d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76182995d5d0>>)
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.141s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/angelina/EAT40005-Project/ros2_ws'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools) by extension 'ros'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools) by extensions ['cmake', 'python']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools) by extension 'cmake'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools) by extension 'python'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools) by extensions ['python_setup_py']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools) by extension 'python_setup_py'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs) by extension 'ros'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs) by extensions ['cmake', 'python']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs) by extension 'cmake'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs) by extension 'python'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs) by extensions ['python_setup_py']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs) by extension 'python_setup_py'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/Archive) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/Archive) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/Archive) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/Archive) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/Archive) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/Archive) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/Archive) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/Archive) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/Archive) by extension 'ros'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/Archive) by extensions ['cmake', 'python']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/Archive) by extension 'cmake'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/Archive) by extension 'python'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/Archive) by extensions ['python_setup_py']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/Archive) by extension 'python_setup_py'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/readme_images) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/readme_images) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/readme_images) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/readme_images) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/readme_images) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/readme_images) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/readme_images) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/readme_images) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/readme_images) by extension 'ros'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/readme_images) by extensions ['cmake', 'python']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/readme_images) by extension 'cmake'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/readme_images) by extension 'python'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/readme_images) by extensions ['python_setup_py']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/readme_images) by extension 'python_setup_py'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics) by extension 'ros'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics) by extensions ['cmake', 'python']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics) by extension 'cmake'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics) by extension 'python'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics) by extensions ['python_setup_py']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics) by extension 'python_setup_py'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA) by extension 'ros'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA) by extensions ['cmake', 'python']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA) by extension 'cmake'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA) by extension 'python'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA) by extensions ['python_setup_py']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA) by extension 'python_setup_py'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota) by extension 'ros'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota) by extensions ['cmake', 'python']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota) by extension 'cmake'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota) by extension 'python'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota) by extensions ['python_setup_py']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota) by extension 'python_setup_py'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt) by extension 'ros'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt) by extensions ['cmake', 'python']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt) by extension 'cmake'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt) by extension 'python'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt) by extensions ['python_setup_py']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt) by extension 'python_setup_py'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge) by extension 'ros'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge) by extensions ['cmake', 'python']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge) by extension 'cmake'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge) by extension 'python'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge) by extensions ['python_setup_py']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge) by extension 'python_setup_py'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train) by extension 'ros'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train) by extensions ['cmake', 'python']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train) by extension 'cmake'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train) by extension 'python'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train) by extensions ['python_setup_py']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train) by extension 'python_setup_py'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01) by extension 'ros'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01) by extensions ['cmake', 'python']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01) by extension 'cmake'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01) by extension 'python'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01) by extensions ['python_setup_py']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01) by extension 'python_setup_py'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01/gt) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01/gt) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01/gt) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01/gt) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01/gt) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01/gt) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01/gt) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01/gt) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01/gt) by extension 'ros'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01/gt) by extensions ['cmake', 'python']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01/gt) by extension 'cmake'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01/gt) by extension 'python'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01/gt) by extensions ['python_setup_py']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01/gt) by extension 'python_setup_py'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/seqmaps) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/seqmaps) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/seqmaps) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/seqmaps) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/seqmaps) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/seqmaps) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/seqmaps) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/seqmaps) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/seqmaps) by extension 'ros'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/seqmaps) by extensions ['cmake', 'python']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/seqmaps) by extension 'cmake'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/seqmaps) by extension 'python'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/seqmaps) by extensions ['python_setup_py']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/seqmaps) by extension 'python_setup_py'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers) by extension 'ros'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers) by extensions ['cmake', 'python']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers) by extension 'cmake'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers) by extension 'python'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers) by extensions ['python_setup_py']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers) by extension 'python_setup_py'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge) by extension 'ros'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge) by extensions ['cmake', 'python']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge) by extension 'cmake'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge) by extension 'python'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge) by extensions ['python_setup_py']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge) by extension 'python_setup_py'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train) by extension 'ros'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train) by extensions ['cmake', 'python']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train) by extension 'cmake'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train) by extension 'python'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train) by extensions ['python_setup_py']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train) by extension 'python_setup_py'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar) by extension 'ros'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar) by extensions ['cmake', 'python']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar) by extension 'cmake'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar) by extension 'python'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar) by extensions ['python_setup_py']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar) by extension 'python_setup_py'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar/data) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar/data) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar/data) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar/data) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar/data) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar/data) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar/data) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar/data) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar/data) by extension 'ros'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar/data) by extensions ['cmake', 'python']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar/data) by extension 'cmake'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar/data) by extension 'python'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar/data) by extensions ['python_setup_py']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar/data) by extension 'python_setup_py'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar) by extension 'ros'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar) by extensions ['cmake', 'python']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar) by extension 'cmake'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar) by extension 'python'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar) by extensions ['python_setup_py']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar) by extension 'python_setup_py'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar/data) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar/data) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar/data) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar/data) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar/data) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar/data) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar/data) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar/data) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar/data) by extension 'ros'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar/data) by extensions ['cmake', 'python']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar/data) by extension 'cmake'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar/data) by extension 'python'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar/data) by extensions ['python_setup_py']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar/data) by extension 'python_setup_py'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_mAP) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_mAP) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_mAP) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_mAP) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_mAP) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_mAP) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_mAP) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_mAP) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_mAP) by extension 'ros'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_mAP) by extensions ['cmake', 'python']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_mAP) by extension 'cmake'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_mAP) by extension 'python'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_mAP) by extensions ['python_setup_py']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_mAP) by extension 'python_setup_py'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/3D_F1) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/3D_F1) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/3D_F1) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/3D_F1) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/3D_F1) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/3D_F1) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/3D_F1) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/3D_F1) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/3D_F1) by extension 'ros'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/3D_F1) by extensions ['cmake', 'python']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/3D_F1) by extension 'cmake'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/3D_F1) by extension 'python'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/3D_F1) by extensions ['python_setup_py']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/3D_F1) by extension 'python_setup_py'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/Archive) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/Archive) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/Archive) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/Archive) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/Archive) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/Archive) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/Archive) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/Archive) by extensions ['ros']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/Archive) by extension 'ros'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/Archive) by extensions ['cmake', 'python']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/Archive) by extension 'cmake'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/Archive) by extension 'python'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/Archive) by extensions ['python_setup_py']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/Archive) by extension 'python_setup_py'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/cam_lidar_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/cam_lidar_bringup) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/cam_lidar_bringup) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/cam_lidar_bringup) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/cam_lidar_bringup) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/cam_lidar_bringup) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/cam_lidar_bringup) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/cam_lidar_bringup) by extensions ['ros']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/cam_lidar_bringup) by extension 'ros'
+[0.159s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_lidar_tools/cam_lidar_bringup' with type 'ros.ament_cmake' and name 'cam_lidar_bringup'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera) by extension 'ros'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera) by extensions ['cmake', 'python']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera) by extension 'cmake'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera) by extension 'python'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera) by extensions ['python_setup_py']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera) by extension 'python_setup_py'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det2d) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det2d) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det2d) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det2d) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det2d) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det2d) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det2d) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det2d) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det2d) by extension 'ros'
+[0.160s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_lidar_tools/camera/camera_det2d' with type 'ros.ament_python' and name 'camera_det2d'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det3d) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det3d) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det3d) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det3d) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det3d) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det3d) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det3d) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det3d) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det3d) by extension 'ros'
+[0.161s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_lidar_tools/camera/camera_det3d' with type 'ros.ament_python' and name 'camera_det3d'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/data_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/data_tools) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/data_tools) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/data_tools) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/data_tools) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/data_tools) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/data_tools) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/data_tools) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/data_tools) by extension 'ros'
+[0.162s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_lidar_tools/data_tools' with type 'ros.ament_cmake' and name 'data_tools'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers) by extension 'ros'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers) by extensions ['cmake', 'python']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers) by extension 'cmake'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers) by extension 'python'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers) by extensions ['python_setup_py']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers) by extension 'python_setup_py'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers/cam2image) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers/cam2image) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers/cam2image) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers/cam2image) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers/cam2image) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers/cam2image) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers/cam2image) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers/cam2image) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers/cam2image) by extension 'ros'
+[0.163s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_lidar_tools/drivers/cam2image' with type 'ros.ament_cmake' and name 'cam2image'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion) by extension 'ros'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion) by extensions ['cmake', 'python']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion) by extension 'cmake'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion) by extension 'python'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion) by extensions ['python_setup_py']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion) by extension 'python_setup_py'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_2d) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_2d) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_2d) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_2d) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_2d) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_2d) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_2d) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_2d) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_2d) by extension 'ros'
+[0.164s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_lidar_tools/fusion/fusion_2d' with type 'ros.ament_python' and name 'fusion_2d'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_3d) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_3d) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_3d) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_3d) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_3d) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_3d) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_3d) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_3d) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_3d) by extension 'ros'
+[0.164s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_lidar_tools/fusion/fusion_3d' with type 'ros.ament_python' and name 'fusion_3d'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar) by extension 'ros'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar) by extensions ['cmake', 'python']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar) by extension 'cmake'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar) by extension 'python'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar) by extensions ['python_setup_py']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar) by extension 'python_setup_py'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/learned_lidar_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/learned_lidar_detector) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/learned_lidar_detector) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/learned_lidar_detector) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/learned_lidar_detector) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/learned_lidar_detector) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/learned_lidar_detector) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/learned_lidar_detector) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/learned_lidar_detector) by extension 'ros'
+[0.165s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_lidar_tools/lidar/learned_lidar_detector' with type 'ros.ament_python' and name 'learned_lidar_detector'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/lidar_obj_classifier) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/lidar_obj_classifier) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/lidar_obj_classifier) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/lidar_obj_classifier) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/lidar_obj_classifier) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/lidar_obj_classifier) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/lidar_obj_classifier) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/lidar_obj_classifier) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/lidar_obj_classifier) by extension 'ros'
+[0.166s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_lidar_tools/lidar/lidar_obj_classifier' with type 'ros.ament_python' and name 'lidar_obj_classifier'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/pipeline_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/pipeline_interfaces) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/pipeline_interfaces) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/pipeline_interfaces) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/pipeline_interfaces) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/pipeline_interfaces) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/pipeline_interfaces) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/pipeline_interfaces) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/pipeline_interfaces) by extension 'ros'
+[0.167s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_lidar_tools/lidar/pipeline_interfaces' with type 'ros.ament_cmake' and name 'pipeline_interfaces'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/trad_lidar_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/trad_lidar_detector) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/trad_lidar_detector) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/trad_lidar_detector) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/trad_lidar_detector) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/trad_lidar_detector) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/trad_lidar_detector) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/trad_lidar_detector) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/trad_lidar_detector) by extension 'ros'
+[0.167s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_lidar_tools/lidar/trad_lidar_detector' with type 'ros.ament_cmake' and name 'trad_lidar_detector'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/obj_tracker) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/obj_tracker) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/obj_tracker) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/obj_tracker) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/obj_tracker) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/obj_tracker) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/obj_tracker) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/obj_tracker) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/obj_tracker) by extension 'ros'
+[0.169s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_lidar_tools/obj_tracker' with type 'ros.ament_python' and name 'obj_tracker'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_socket_pub) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_socket_pub) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_socket_pub) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_socket_pub) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_socket_pub) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_socket_pub) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_socket_pub) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_socket_pub) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_socket_pub) by extension 'ros'
+[0.169s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_socket_pub' with type 'ros.ament_python' and name 'lidar_socket_pub'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_to_odom_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_to_odom_broadcaster) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_to_odom_broadcaster) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_to_odom_broadcaster) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_to_odom_broadcaster) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_to_odom_broadcaster) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_to_odom_broadcaster) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_to_odom_broadcaster) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_to_odom_broadcaster) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Package 'src/map_to_odom_broadcaster' with type 'ros.ament_python' and name 'map_to_odom_broadcaster'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_receiver) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_receiver) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_receiver) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_receiver) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_receiver) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_receiver) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_receiver) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_receiver) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_receiver) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odom_receiver' with type 'ros.ament_python' and name 'odom_receiver'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_to_base_link_tf) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_to_base_link_tf) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_to_base_link_tf) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_to_base_link_tf) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_to_base_link_tf) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_to_base_link_tf) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_to_base_link_tf) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_to_base_link_tf) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_to_base_link_tf) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odom_to_base_link_tf' with type 'ros.ament_python' and name 'odom_to_base_link_tf'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_odom) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_odom) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_odom) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_odom) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_odom) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_odom) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_odom) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_odom) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_odom) by extension 'ros'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_odom) by extensions ['cmake', 'python']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_odom) by extension 'cmake'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_odom) by extension 'python'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_odom) by extensions ['python_setup_py']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_odom) by extension 'python_setup_py'
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.188s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cam2image' in 'src/cam_lidar_tools/drivers/cam2image'
+[0.189s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cam_lidar_bringup' in 'src/cam_lidar_tools/cam_lidar_bringup'
+[0.189s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'camera_det2d' in 'src/cam_lidar_tools/camera/camera_det2d'
+[0.189s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'camera_det3d' in 'src/cam_lidar_tools/camera/camera_det3d'
+[0.189s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fusion_2d' in 'src/cam_lidar_tools/fusion/fusion_2d'
+[0.189s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'fusion_3d' in 'src/cam_lidar_tools/fusion/fusion_3d'
+[0.189s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'learned_lidar_detector' in 'src/cam_lidar_tools/lidar/learned_lidar_detector'
+[0.189s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'lidar_socket_pub' in 'src/lidar_socket_pub'
+[0.189s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'map_to_odom_broadcaster' in 'src/map_to_odom_broadcaster'
+[0.189s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'obj_tracker' in 'src/cam_lidar_tools/obj_tracker'
+[0.189s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'odom_receiver' in 'src/odom_receiver'
+[0.189s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'odom_to_base_link_tf' in 'src/odom_to_base_link_tf'
+[0.189s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'pipeline_interfaces' in 'src/cam_lidar_tools/lidar/pipeline_interfaces'
+[0.189s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'lidar_obj_classifier' in 'src/cam_lidar_tools/lidar/lidar_obj_classifier'
+[0.189s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'trad_lidar_detector' in 'src/cam_lidar_tools/lidar/trad_lidar_detector'
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.190s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/angelina/turtlebot3_ws/install
+[0.191s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 402 installed packages in /opt/ros/humble
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'data_tools' build argument 'cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'data_tools' build argument 'cmake_target' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'data_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'data_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'data_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'data_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'data_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'data_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.217s] Level 5:colcon.colcon_core.verb:set package 'data_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.217s] DEBUG:colcon.colcon_core.verb:Building package 'data_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/angelina/EAT40005-Project/ros2_ws/build/data_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/angelina/EAT40005-Project/ros2_ws/install/data_tools', 'merge_install': False, 'path': '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/data_tools', 'symlink_install': False, 'test_result_base': None}
+[0.217s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.218s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.218s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/data_tools' with build type 'ament_cmake'
+[0.218s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/data_tools'
+[0.219s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.219s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.219s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.225s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/angelina/EAT40005-Project/ros2_ws/build/data_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/angelina/turtlebot3_ws/install/turtlebot3_teleop:/home/angelina/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/data_tools -DCMAKE_INSTALL_PREFIX=/home/angelina/EAT40005-Project/ros2_ws/install/data_tools
+[0.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/angelina/EAT40005-Project/ros2_ws/build/data_tools' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/angelina/turtlebot3_ws/install/turtlebot3_teleop:/home/angelina/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/data_tools -DCMAKE_INSTALL_PREFIX=/home/angelina/EAT40005-Project/ros2_ws/install/data_tools
+[0.469s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(data_tools)
+[0.470s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/data_tools' for CMake module files
+[0.470s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/data_tools' for CMake config files
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/data_tools/bin'
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/data_tools/lib/pkgconfig/data_tools.pc'
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/data_tools/lib/python3.10/site-packages'
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/data_tools/bin'
+[0.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/data_tools/share/data_tools/package.ps1'
+[0.472s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/data_tools/share/data_tools/package.dsv'
+[0.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/data_tools/share/data_tools/package.sh'
+[0.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/data_tools/share/data_tools/package.bash'
+[0.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/data_tools/share/data_tools/package.zsh'
+[0.473s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/angelina/EAT40005-Project/ros2_ws/install/data_tools/share/colcon-core/packages/data_tools)
+[0.484s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.484s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.484s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[0.484s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.490s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.492s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.492s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.507s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.507s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/angelina/EAT40005-Project/ros2_ws/install/local_setup.ps1'
+[0.508s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/angelina/EAT40005-Project/ros2_ws/install/_local_setup_util_ps1.py'
+[0.509s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/angelina/EAT40005-Project/ros2_ws/install/setup.ps1'
+[0.510s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/angelina/EAT40005-Project/ros2_ws/install/local_setup.sh'
+[0.511s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/angelina/EAT40005-Project/ros2_ws/install/_local_setup_util_sh.py'
+[0.511s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/angelina/EAT40005-Project/ros2_ws/install/setup.sh'
+[0.515s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/angelina/EAT40005-Project/ros2_ws/install/local_setup.bash'
+[0.515s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/angelina/EAT40005-Project/ros2_ws/install/setup.bash'
+[0.517s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/angelina/EAT40005-Project/ros2_ws/install/local_setup.zsh'
+[0.517s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/angelina/EAT40005-Project/ros2_ws/install/setup.zsh'

@@ -1,0 +1,3 @@
+[console_scripts]
+odom_receiver = odom_receiver.odom_receiver:main
+

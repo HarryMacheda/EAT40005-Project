@@ -1,0 +1,51 @@
+running egg_info
+creating ../../../../build/learned_lidar_detector/learned_lidar_detector.egg-info
+writing ../../../../build/learned_lidar_detector/learned_lidar_detector.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/learned_lidar_detector/learned_lidar_detector.egg-info/dependency_links.txt
+writing entry points to ../../../../build/learned_lidar_detector/learned_lidar_detector.egg-info/entry_points.txt
+writing requirements to ../../../../build/learned_lidar_detector/learned_lidar_detector.egg-info/requires.txt
+writing top-level names to ../../../../build/learned_lidar_detector/learned_lidar_detector.egg-info/top_level.txt
+writing manifest file '../../../../build/learned_lidar_detector/learned_lidar_detector.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/learned_lidar_detector/learned_lidar_detector.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/learned_lidar_detector/learned_lidar_detector.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/angelina/EAT40005-Project/ros2_ws/build/learned_lidar_detector/build
+creating /home/angelina/EAT40005-Project/ros2_ws/build/learned_lidar_detector/build/lib
+creating /home/angelina/EAT40005-Project/ros2_ws/build/learned_lidar_detector/build/lib/learned_lidar_detector
+copying learned_lidar_detector/__init__.py -> /home/angelina/EAT40005-Project/ros2_ws/build/learned_lidar_detector/build/lib/learned_lidar_detector
+copying learned_lidar_detector/lidar_2_bev.py -> /home/angelina/EAT40005-Project/ros2_ws/build/learned_lidar_detector/build/lib/learned_lidar_detector
+copying learned_lidar_detector/detection_node.py -> /home/angelina/EAT40005-Project/ros2_ws/build/learned_lidar_detector/build/lib/learned_lidar_detector
+copying learned_lidar_detector/a9_dataset_creator.py -> /home/angelina/EAT40005-Project/ros2_ws/build/learned_lidar_detector/build/lib/learned_lidar_detector
+creating /home/angelina/EAT40005-Project/ros2_ws/build/learned_lidar_detector/build/lib/learned_lidar_detector/configs
+copying learned_lidar_detector/configs/__init__.py -> /home/angelina/EAT40005-Project/ros2_ws/build/learned_lidar_detector/build/lib/learned_lidar_detector/configs
+copying learned_lidar_detector/configs/a9_config.py -> /home/angelina/EAT40005-Project/ros2_ws/build/learned_lidar_detector/build/lib/learned_lidar_detector/configs
+running install
+running install_lib
+creating /home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/lib/python3.10/site-packages/learned_lidar_detector
+copying /home/angelina/EAT40005-Project/ros2_ws/build/learned_lidar_detector/build/lib/learned_lidar_detector/__init__.py -> /home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/lib/python3.10/site-packages/learned_lidar_detector
+copying /home/angelina/EAT40005-Project/ros2_ws/build/learned_lidar_detector/build/lib/learned_lidar_detector/lidar_2_bev.py -> /home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/lib/python3.10/site-packages/learned_lidar_detector
+copying /home/angelina/EAT40005-Project/ros2_ws/build/learned_lidar_detector/build/lib/learned_lidar_detector/detection_node.py -> /home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/lib/python3.10/site-packages/learned_lidar_detector
+creating /home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/lib/python3.10/site-packages/learned_lidar_detector/configs
+copying /home/angelina/EAT40005-Project/ros2_ws/build/learned_lidar_detector/build/lib/learned_lidar_detector/configs/__init__.py -> /home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/lib/python3.10/site-packages/learned_lidar_detector/configs
+copying /home/angelina/EAT40005-Project/ros2_ws/build/learned_lidar_detector/build/lib/learned_lidar_detector/configs/a9_config.py -> /home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/lib/python3.10/site-packages/learned_lidar_detector/configs
+copying /home/angelina/EAT40005-Project/ros2_ws/build/learned_lidar_detector/build/lib/learned_lidar_detector/a9_dataset_creator.py -> /home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/lib/python3.10/site-packages/learned_lidar_detector
+byte-compiling /home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/lib/python3.10/site-packages/learned_lidar_detector/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/lib/python3.10/site-packages/learned_lidar_detector/lidar_2_bev.py to lidar_2_bev.cpython-310.pyc
+byte-compiling /home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/lib/python3.10/site-packages/learned_lidar_detector/detection_node.py to detection_node.cpython-310.pyc
+byte-compiling /home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/lib/python3.10/site-packages/learned_lidar_detector/configs/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/lib/python3.10/site-packages/learned_lidar_detector/configs/a9_config.py to a9_config.cpython-310.pyc
+byte-compiling /home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/lib/python3.10/site-packages/learned_lidar_detector/a9_dataset_creator.py to a9_dataset_creator.cpython-310.pyc
+running install_data
+creating /home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/share/ament_index
+creating /home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/share/ament_index/resource_index
+creating /home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/share/ament_index/resource_index/packages
+copying resource/learned_lidar_detector -> /home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/share/ament_index/resource_index/packages
+copying package.xml -> /home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/share/learned_lidar_detector
+copying launch/learned_lidar_detector.launch.py -> /home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/share/learned_lidar_detector
+copying rviz.rviz -> /home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/share/learned_lidar_detector
+running install_egg_info
+Copying ../../../../build/learned_lidar_detector/learned_lidar_detector.egg-info to /home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/lib/python3.10/site-packages/learned_lidar_detector-0.0.0-py3.10.egg-info
+running install_scripts
+Installing learned_lidar_detector script to /home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/lib/learned_lidar_detector
+writing list of installed files to '/home/angelina/EAT40005-Project/ros2_ws/build/learned_lidar_detector/install.log'

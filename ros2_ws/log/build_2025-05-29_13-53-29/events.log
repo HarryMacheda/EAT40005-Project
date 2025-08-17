@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000254] (-) JobUnselected: {'identifier': 'lidar_socket_pub'}
+[0.000284] (-) JobUnselected: {'identifier': 'odom_receiver'}
+[0.000302] (-) JobUnselected: {'identifier': 'odom_to_base_link_tf'}
+[0.000390] (-) EventReactorShutdown: {}

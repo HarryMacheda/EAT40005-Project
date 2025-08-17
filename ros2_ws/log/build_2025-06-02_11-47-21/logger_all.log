@@ -1,0 +1,1164 @@
+[0.551s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.551s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x70cd2fd5d810>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70cd2fd5d240>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70cd2fd5d240>>)
+[0.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.771s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/angelina/EAT40005-Project/ros2_ws'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools) by extension 'ignore'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools) by extension 'ignore_ament_install'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools) by extensions ['colcon_pkg']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools) by extension 'colcon_pkg'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools) by extensions ['colcon_meta']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools) by extension 'colcon_meta'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools) by extensions ['ros']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools) by extension 'ros'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools) by extensions ['cmake', 'python']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools) by extension 'cmake'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools) by extension 'python'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools) by extensions ['python_setup_py']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools) by extension 'python_setup_py'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs) by extensions ['ignore', 'ignore_ament_install']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs) by extension 'ignore'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs) by extension 'ignore_ament_install'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs) by extensions ['colcon_pkg']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs) by extension 'colcon_pkg'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs) by extensions ['colcon_meta']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs) by extension 'colcon_meta'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs) by extensions ['ros']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs) by extension 'ros'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs) by extensions ['cmake', 'python']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs) by extension 'cmake'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs) by extension 'python'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs) by extensions ['python_setup_py']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs) by extension 'python_setup_py'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/Archive) by extensions ['ignore', 'ignore_ament_install']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/Archive) by extension 'ignore'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/Archive) by extension 'ignore_ament_install'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/Archive) by extensions ['colcon_pkg']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/Archive) by extension 'colcon_pkg'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/Archive) by extensions ['colcon_meta']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/Archive) by extension 'colcon_meta'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/Archive) by extensions ['ros']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/Archive) by extension 'ros'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/Archive) by extensions ['cmake', 'python']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/Archive) by extension 'cmake'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/Archive) by extension 'python'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/Archive) by extensions ['python_setup_py']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/Archive) by extension 'python_setup_py'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/readme_images) by extensions ['ignore', 'ignore_ament_install']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/readme_images) by extension 'ignore'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/readme_images) by extension 'ignore_ament_install'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/readme_images) by extensions ['colcon_pkg']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/readme_images) by extension 'colcon_pkg'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/readme_images) by extensions ['colcon_meta']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/readme_images) by extension 'colcon_meta'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/readme_images) by extensions ['ros']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/readme_images) by extension 'ros'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/readme_images) by extensions ['cmake', 'python']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/readme_images) by extension 'cmake'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/readme_images) by extension 'python'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/readme_images) by extensions ['python_setup_py']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Docs/readme_images) by extension 'python_setup_py'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics) by extensions ['ignore', 'ignore_ament_install']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics) by extension 'ignore'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics) by extension 'ignore_ament_install'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics) by extensions ['colcon_pkg']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics) by extension 'colcon_pkg'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics) by extensions ['colcon_meta']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics) by extension 'colcon_meta'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics) by extensions ['ros']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics) by extension 'ros'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics) by extensions ['cmake', 'python']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics) by extension 'cmake'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics) by extension 'python'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics) by extensions ['python_setup_py']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics) by extension 'python_setup_py'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA) by extensions ['ignore', 'ignore_ament_install']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA) by extension 'ignore'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA) by extension 'ignore_ament_install'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA) by extensions ['colcon_pkg']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA) by extension 'colcon_pkg'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA) by extensions ['colcon_meta']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA) by extension 'colcon_meta'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA) by extensions ['ros']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA) by extension 'ros'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA) by extensions ['cmake', 'python']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA) by extension 'cmake'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA) by extension 'python'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA) by extensions ['python_setup_py']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA) by extension 'python_setup_py'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota) by extensions ['ignore', 'ignore_ament_install']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota) by extension 'ignore'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota) by extension 'ignore_ament_install'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota) by extensions ['colcon_pkg']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota) by extension 'colcon_pkg'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota) by extensions ['colcon_meta']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota) by extension 'colcon_meta'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota) by extensions ['ros']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota) by extension 'ros'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota) by extensions ['cmake', 'python']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota) by extension 'cmake'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota) by extension 'python'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota) by extensions ['python_setup_py']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota) by extension 'python_setup_py'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt) by extensions ['ignore', 'ignore_ament_install']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt) by extension 'ignore'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt) by extension 'ignore_ament_install'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt) by extensions ['colcon_pkg']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt) by extension 'colcon_pkg'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt) by extensions ['colcon_meta']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt) by extension 'colcon_meta'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt) by extensions ['ros']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt) by extension 'ros'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt) by extensions ['cmake', 'python']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt) by extension 'cmake'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt) by extension 'python'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt) by extensions ['python_setup_py']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt) by extension 'python_setup_py'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge) by extensions ['ignore', 'ignore_ament_install']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge) by extension 'ignore'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge) by extension 'ignore_ament_install'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge) by extensions ['colcon_pkg']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge) by extension 'colcon_pkg'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge) by extensions ['colcon_meta']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge) by extension 'colcon_meta'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge) by extensions ['ros']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge) by extension 'ros'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge) by extensions ['cmake', 'python']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge) by extension 'cmake'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge) by extension 'python'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge) by extensions ['python_setup_py']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge) by extension 'python_setup_py'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train) by extensions ['ignore', 'ignore_ament_install']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train) by extension 'ignore'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train) by extension 'ignore_ament_install'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train) by extensions ['colcon_pkg']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train) by extension 'colcon_pkg'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train) by extensions ['colcon_meta']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train) by extension 'colcon_meta'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train) by extensions ['ros']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train) by extension 'ros'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train) by extensions ['cmake', 'python']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train) by extension 'cmake'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train) by extension 'python'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train) by extensions ['python_setup_py']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train) by extension 'python_setup_py'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01) by extensions ['ignore', 'ignore_ament_install']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01) by extension 'ignore'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01) by extension 'ignore_ament_install'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01) by extensions ['colcon_pkg']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01) by extension 'colcon_pkg'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01) by extensions ['colcon_meta']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01) by extension 'colcon_meta'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01) by extensions ['ros']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01) by extension 'ros'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01) by extensions ['cmake', 'python']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01) by extension 'cmake'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01) by extension 'python'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01) by extensions ['python_setup_py']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01) by extension 'python_setup_py'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01/gt) by extensions ['ignore', 'ignore_ament_install']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01/gt) by extension 'ignore'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01/gt) by extension 'ignore_ament_install'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01/gt) by extensions ['colcon_pkg']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01/gt) by extension 'colcon_pkg'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01/gt) by extensions ['colcon_meta']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01/gt) by extension 'colcon_meta'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01/gt) by extensions ['ros']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01/gt) by extension 'ros'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01/gt) by extensions ['cmake', 'python']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01/gt) by extension 'cmake'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01/gt) by extension 'python'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01/gt) by extensions ['python_setup_py']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/MOT20-train/MOT20-01/gt) by extension 'python_setup_py'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/seqmaps) by extensions ['ignore', 'ignore_ament_install']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/seqmaps) by extension 'ignore'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/seqmaps) by extension 'ignore_ament_install'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/seqmaps) by extensions ['colcon_pkg']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/seqmaps) by extension 'colcon_pkg'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/seqmaps) by extensions ['colcon_meta']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/seqmaps) by extension 'colcon_meta'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/seqmaps) by extensions ['ros']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/seqmaps) by extension 'ros'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/seqmaps) by extensions ['cmake', 'python']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/seqmaps) by extension 'cmake'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/seqmaps) by extension 'python'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/seqmaps) by extensions ['python_setup_py']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/gt/mot_challenge/seqmaps) by extension 'python_setup_py'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers) by extensions ['ignore', 'ignore_ament_install']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers) by extension 'ignore'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers) by extension 'ignore_ament_install'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers) by extensions ['colcon_pkg']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers) by extension 'colcon_pkg'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers) by extensions ['colcon_meta']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers) by extension 'colcon_meta'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers) by extensions ['ros']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers) by extension 'ros'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers) by extensions ['cmake', 'python']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers) by extension 'cmake'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers) by extension 'python'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers) by extensions ['python_setup_py']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers) by extension 'python_setup_py'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge) by extensions ['ignore', 'ignore_ament_install']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge) by extension 'ignore'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge) by extension 'ignore_ament_install'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge) by extensions ['colcon_pkg']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge) by extension 'colcon_pkg'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge) by extensions ['colcon_meta']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge) by extension 'colcon_meta'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge) by extensions ['ros']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge) by extension 'ros'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge) by extensions ['cmake', 'python']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge) by extension 'cmake'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge) by extension 'python'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge) by extensions ['python_setup_py']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge) by extension 'python_setup_py'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train) by extensions ['ignore', 'ignore_ament_install']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train) by extension 'ignore'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train) by extension 'ignore_ament_install'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train) by extensions ['colcon_pkg']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train) by extension 'colcon_pkg'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train) by extensions ['colcon_meta']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train) by extension 'colcon_meta'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train) by extensions ['ros']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train) by extension 'ros'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train) by extensions ['cmake', 'python']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train) by extension 'cmake'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train) by extension 'python'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train) by extensions ['python_setup_py']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train) by extension 'python_setup_py'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar) by extensions ['ignore', 'ignore_ament_install']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar) by extension 'ignore'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar) by extension 'ignore_ament_install'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar) by extensions ['colcon_pkg']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar) by extension 'colcon_pkg'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar) by extensions ['colcon_meta']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar) by extension 'colcon_meta'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar) by extensions ['ros']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar) by extension 'ros'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar) by extensions ['cmake', 'python']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar) by extension 'cmake'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar) by extension 'python'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar) by extensions ['python_setup_py']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar) by extension 'python_setup_py'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar/data) by extensions ['ignore', 'ignore_ament_install']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar/data) by extension 'ignore'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar/data) by extension 'ignore_ament_install'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar/data) by extensions ['colcon_pkg']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar/data) by extension 'colcon_pkg'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar/data) by extensions ['colcon_meta']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar/data) by extension 'colcon_meta'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar/data) by extensions ['ros']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar/data) by extension 'ros'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar/data) by extensions ['cmake', 'python']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar/data) by extension 'cmake'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar/data) by extension 'python'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar/data) by extensions ['python_setup_py']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5m_ocsort_lidar/data) by extension 'python_setup_py'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar) by extensions ['ignore', 'ignore_ament_install']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar) by extension 'ignore'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar) by extension 'ignore_ament_install'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar) by extensions ['colcon_pkg']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar) by extension 'colcon_pkg'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar) by extensions ['colcon_meta']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar) by extension 'colcon_meta'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar) by extensions ['ros']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar) by extension 'ros'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar) by extensions ['cmake', 'python']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar) by extension 'cmake'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar) by extension 'python'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar) by extensions ['python_setup_py']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar) by extension 'python_setup_py'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar/data) by extensions ['ignore', 'ignore_ament_install']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar/data) by extension 'ignore'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar/data) by extension 'ignore_ament_install'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar/data) by extensions ['colcon_pkg']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar/data) by extension 'colcon_pkg'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar/data) by extensions ['colcon_meta']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar/data) by extension 'colcon_meta'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar/data) by extensions ['ros']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar/data) by extension 'ros'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar/data) by extensions ['cmake', 'python']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar/data) by extension 'cmake'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar/data) by extension 'python'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar/data) by extensions ['python_setup_py']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_HOTA/hota/trackers/mot_challenge/MOT20-train/fusion2d_yolov5n_ocsort_lidar/data) by extension 'python_setup_py'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_mAP) by extensions ['ignore', 'ignore_ament_install']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_mAP) by extension 'ignore'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_mAP) by extension 'ignore_ament_install'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_mAP) by extensions ['colcon_pkg']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_mAP) by extension 'colcon_pkg'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_mAP) by extensions ['colcon_meta']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_mAP) by extension 'colcon_meta'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_mAP) by extensions ['ros']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_mAP) by extension 'ros'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_mAP) by extensions ['cmake', 'python']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_mAP) by extension 'cmake'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_mAP) by extension 'python'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_mAP) by extensions ['python_setup_py']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/2D_mAP) by extension 'python_setup_py'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/3D_F1) by extensions ['ignore', 'ignore_ament_install']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/3D_F1) by extension 'ignore'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/3D_F1) by extension 'ignore_ament_install'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/3D_F1) by extensions ['colcon_pkg']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/3D_F1) by extension 'colcon_pkg'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/3D_F1) by extensions ['colcon_meta']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/3D_F1) by extension 'colcon_meta'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/3D_F1) by extensions ['ros']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/3D_F1) by extension 'ros'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/3D_F1) by extensions ['cmake', 'python']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/3D_F1) by extension 'cmake'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/3D_F1) by extension 'python'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/3D_F1) by extensions ['python_setup_py']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/3D_F1) by extension 'python_setup_py'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/Archive) by extensions ['ignore', 'ignore_ament_install']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/Archive) by extension 'ignore'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/Archive) by extension 'ignore_ament_install'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/Archive) by extensions ['colcon_pkg']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/Archive) by extension 'colcon_pkg'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/Archive) by extensions ['colcon_meta']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/Archive) by extension 'colcon_meta'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/Archive) by extensions ['ros']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/Archive) by extension 'ros'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/Archive) by extensions ['cmake', 'python']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/Archive) by extension 'cmake'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/Archive) by extension 'python'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/Archive) by extensions ['python_setup_py']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/Metrics/Archive) by extension 'python_setup_py'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/cam_lidar_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/cam_lidar_bringup) by extension 'ignore'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/cam_lidar_bringup) by extension 'ignore_ament_install'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/cam_lidar_bringup) by extensions ['colcon_pkg']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/cam_lidar_bringup) by extension 'colcon_pkg'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/cam_lidar_bringup) by extensions ['colcon_meta']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/cam_lidar_bringup) by extension 'colcon_meta'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/cam_lidar_bringup) by extensions ['ros']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/cam_lidar_bringup) by extension 'ros'
+[0.788s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_lidar_tools/cam_lidar_bringup' with type 'ros.ament_cmake' and name 'cam_lidar_bringup'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera) by extensions ['ignore', 'ignore_ament_install']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera) by extension 'ignore'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera) by extension 'ignore_ament_install'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera) by extensions ['colcon_pkg']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera) by extension 'colcon_pkg'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera) by extensions ['colcon_meta']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera) by extension 'colcon_meta'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera) by extensions ['ros']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera) by extension 'ros'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera) by extensions ['cmake', 'python']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera) by extension 'cmake'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera) by extension 'python'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera) by extensions ['python_setup_py']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera) by extension 'python_setup_py'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det2d) by extensions ['ignore', 'ignore_ament_install']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det2d) by extension 'ignore'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det2d) by extension 'ignore_ament_install'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det2d) by extensions ['colcon_pkg']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det2d) by extension 'colcon_pkg'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det2d) by extensions ['colcon_meta']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det2d) by extension 'colcon_meta'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det2d) by extensions ['ros']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det2d) by extension 'ros'
+[0.789s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_lidar_tools/camera/camera_det2d' with type 'ros.ament_python' and name 'camera_det2d'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det3d) by extensions ['ignore', 'ignore_ament_install']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det3d) by extension 'ignore'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det3d) by extension 'ignore_ament_install'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det3d) by extensions ['colcon_pkg']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det3d) by extension 'colcon_pkg'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det3d) by extensions ['colcon_meta']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det3d) by extension 'colcon_meta'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det3d) by extensions ['ros']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/camera/camera_det3d) by extension 'ros'
+[0.790s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_lidar_tools/camera/camera_det3d' with type 'ros.ament_python' and name 'camera_det3d'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/data_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/data_tools) by extension 'ignore'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/data_tools) by extension 'ignore_ament_install'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/data_tools) by extensions ['colcon_pkg']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/data_tools) by extension 'colcon_pkg'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/data_tools) by extensions ['colcon_meta']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/data_tools) by extension 'colcon_meta'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/data_tools) by extensions ['ros']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/data_tools) by extension 'ros'
+[0.790s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_lidar_tools/data_tools' with type 'ros.ament_cmake' and name 'data_tools'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers) by extension 'ignore'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers) by extension 'ignore_ament_install'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers) by extensions ['colcon_pkg']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers) by extension 'colcon_pkg'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers) by extensions ['colcon_meta']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers) by extension 'colcon_meta'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers) by extensions ['ros']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers) by extension 'ros'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers) by extensions ['cmake', 'python']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers) by extension 'cmake'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers) by extension 'python'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers) by extensions ['python_setup_py']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers) by extension 'python_setup_py'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers/cam2image) by extensions ['ignore', 'ignore_ament_install']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers/cam2image) by extension 'ignore'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers/cam2image) by extension 'ignore_ament_install'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers/cam2image) by extensions ['colcon_pkg']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers/cam2image) by extension 'colcon_pkg'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers/cam2image) by extensions ['colcon_meta']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers/cam2image) by extension 'colcon_meta'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers/cam2image) by extensions ['ros']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/drivers/cam2image) by extension 'ros'
+[0.791s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_lidar_tools/drivers/cam2image' with type 'ros.ament_cmake' and name 'cam2image'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion) by extensions ['ignore', 'ignore_ament_install']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion) by extension 'ignore'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion) by extension 'ignore_ament_install'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion) by extensions ['colcon_pkg']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion) by extension 'colcon_pkg'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion) by extensions ['colcon_meta']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion) by extension 'colcon_meta'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion) by extensions ['ros']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion) by extension 'ros'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion) by extensions ['cmake', 'python']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion) by extension 'cmake'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion) by extension 'python'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion) by extensions ['python_setup_py']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion) by extension 'python_setup_py'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_2d) by extensions ['ignore', 'ignore_ament_install']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_2d) by extension 'ignore'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_2d) by extension 'ignore_ament_install'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_2d) by extensions ['colcon_pkg']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_2d) by extension 'colcon_pkg'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_2d) by extensions ['colcon_meta']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_2d) by extension 'colcon_meta'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_2d) by extensions ['ros']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_2d) by extension 'ros'
+[0.792s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_lidar_tools/fusion/fusion_2d' with type 'ros.ament_python' and name 'fusion_2d'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_3d) by extensions ['ignore', 'ignore_ament_install']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_3d) by extension 'ignore'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_3d) by extension 'ignore_ament_install'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_3d) by extensions ['colcon_pkg']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_3d) by extension 'colcon_pkg'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_3d) by extensions ['colcon_meta']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_3d) by extension 'colcon_meta'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_3d) by extensions ['ros']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/fusion/fusion_3d) by extension 'ros'
+[0.793s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_lidar_tools/fusion/fusion_3d' with type 'ros.ament_python' and name 'fusion_3d'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar) by extensions ['ignore', 'ignore_ament_install']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar) by extension 'ignore'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar) by extension 'ignore_ament_install'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar) by extensions ['colcon_pkg']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar) by extension 'colcon_pkg'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar) by extensions ['colcon_meta']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar) by extension 'colcon_meta'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar) by extensions ['ros']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar) by extension 'ros'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar) by extensions ['cmake', 'python']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar) by extension 'cmake'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar) by extension 'python'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar) by extensions ['python_setup_py']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar) by extension 'python_setup_py'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/learned_lidar_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/learned_lidar_detector) by extension 'ignore'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/learned_lidar_detector) by extension 'ignore_ament_install'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/learned_lidar_detector) by extensions ['colcon_pkg']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/learned_lidar_detector) by extension 'colcon_pkg'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/learned_lidar_detector) by extensions ['colcon_meta']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/learned_lidar_detector) by extension 'colcon_meta'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/learned_lidar_detector) by extensions ['ros']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/learned_lidar_detector) by extension 'ros'
+[0.794s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_lidar_tools/lidar/learned_lidar_detector' with type 'ros.ament_python' and name 'learned_lidar_detector'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/lidar_obj_classifier) by extensions ['ignore', 'ignore_ament_install']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/lidar_obj_classifier) by extension 'ignore'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/lidar_obj_classifier) by extension 'ignore_ament_install'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/lidar_obj_classifier) by extensions ['colcon_pkg']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/lidar_obj_classifier) by extension 'colcon_pkg'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/lidar_obj_classifier) by extensions ['colcon_meta']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/lidar_obj_classifier) by extension 'colcon_meta'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/lidar_obj_classifier) by extensions ['ros']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/lidar_obj_classifier) by extension 'ros'
+[0.794s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_lidar_tools/lidar/lidar_obj_classifier' with type 'ros.ament_python' and name 'lidar_obj_classifier'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/pipeline_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/pipeline_interfaces) by extension 'ignore'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/pipeline_interfaces) by extension 'ignore_ament_install'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/pipeline_interfaces) by extensions ['colcon_pkg']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/pipeline_interfaces) by extension 'colcon_pkg'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/pipeline_interfaces) by extensions ['colcon_meta']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/pipeline_interfaces) by extension 'colcon_meta'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/pipeline_interfaces) by extensions ['ros']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/pipeline_interfaces) by extension 'ros'
+[0.795s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_lidar_tools/lidar/pipeline_interfaces' with type 'ros.ament_cmake' and name 'pipeline_interfaces'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/trad_lidar_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/trad_lidar_detector) by extension 'ignore'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/trad_lidar_detector) by extension 'ignore_ament_install'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/trad_lidar_detector) by extensions ['colcon_pkg']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/trad_lidar_detector) by extension 'colcon_pkg'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/trad_lidar_detector) by extensions ['colcon_meta']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/trad_lidar_detector) by extension 'colcon_meta'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/trad_lidar_detector) by extensions ['ros']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/lidar/trad_lidar_detector) by extension 'ros'
+[0.796s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_lidar_tools/lidar/trad_lidar_detector' with type 'ros.ament_cmake' and name 'trad_lidar_detector'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/obj_tracker) by extensions ['ignore', 'ignore_ament_install']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/obj_tracker) by extension 'ignore'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/obj_tracker) by extension 'ignore_ament_install'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/obj_tracker) by extensions ['colcon_pkg']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/obj_tracker) by extension 'colcon_pkg'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/obj_tracker) by extensions ['colcon_meta']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/obj_tracker) by extension 'colcon_meta'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/obj_tracker) by extensions ['ros']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_lidar_tools/obj_tracker) by extension 'ros'
+[0.796s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_lidar_tools/obj_tracker' with type 'ros.ament_python' and name 'obj_tracker'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_socket_pub) by extensions ['ignore', 'ignore_ament_install']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_socket_pub) by extension 'ignore'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_socket_pub) by extension 'ignore_ament_install'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_socket_pub) by extensions ['colcon_pkg']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_socket_pub) by extension 'colcon_pkg'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_socket_pub) by extensions ['colcon_meta']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_socket_pub) by extension 'colcon_meta'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_socket_pub) by extensions ['ros']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_socket_pub) by extension 'ros'
+[0.797s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_socket_pub' with type 'ros.ament_python' and name 'lidar_socket_pub'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_to_odom_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_to_odom_broadcaster) by extension 'ignore'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_to_odom_broadcaster) by extension 'ignore_ament_install'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_to_odom_broadcaster) by extensions ['colcon_pkg']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_to_odom_broadcaster) by extension 'colcon_pkg'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_to_odom_broadcaster) by extensions ['colcon_meta']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_to_odom_broadcaster) by extension 'colcon_meta'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_to_odom_broadcaster) by extensions ['ros']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/map_to_odom_broadcaster) by extension 'ros'
+[0.798s] DEBUG:colcon.colcon_core.package_identification:Package 'src/map_to_odom_broadcaster' with type 'ros.ament_python' and name 'map_to_odom_broadcaster'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_receiver) by extensions ['ignore', 'ignore_ament_install']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_receiver) by extension 'ignore'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_receiver) by extension 'ignore_ament_install'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_receiver) by extensions ['colcon_pkg']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_receiver) by extension 'colcon_pkg'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_receiver) by extensions ['colcon_meta']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_receiver) by extension 'colcon_meta'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_receiver) by extensions ['ros']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_receiver) by extension 'ros'
+[0.798s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odom_receiver' with type 'ros.ament_python' and name 'odom_receiver'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_to_base_link_tf) by extensions ['ignore', 'ignore_ament_install']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_to_base_link_tf) by extension 'ignore'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_to_base_link_tf) by extension 'ignore_ament_install'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_to_base_link_tf) by extensions ['colcon_pkg']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_to_base_link_tf) by extension 'colcon_pkg'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_to_base_link_tf) by extensions ['colcon_meta']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_to_base_link_tf) by extension 'colcon_meta'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_to_base_link_tf) by extensions ['ros']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/odom_to_base_link_tf) by extension 'ros'
+[0.799s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odom_to_base_link_tf' with type 'ros.ament_python' and name 'odom_to_base_link_tf'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_odom) by extensions ['ignore', 'ignore_ament_install']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_odom) by extension 'ignore'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_odom) by extension 'ignore_ament_install'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_odom) by extensions ['colcon_pkg']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_odom) by extension 'colcon_pkg'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_odom) by extensions ['colcon_meta']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_odom) by extension 'colcon_meta'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_odom) by extensions ['ros']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_odom) by extension 'ros'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_odom) by extensions ['cmake', 'python']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_odom) by extension 'cmake'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_odom) by extension 'python'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_odom) by extensions ['python_setup_py']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_odom) by extension 'python_setup_py'
+[0.799s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.799s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.799s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.799s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.799s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.883s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.883s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.896s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/angelina/turtlebot3_ws/install
+[0.897s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 402 installed packages in /opt/ros/humble
+[0.898s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'cam2image' build argument 'cmake_args' from command line to 'None'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'cam2image' build argument 'cmake_target' from command line to 'None'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'cam2image' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'cam2image' build argument 'cmake_clean_cache' from command line to 'False'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'cam2image' build argument 'cmake_clean_first' from command line to 'False'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'cam2image' build argument 'cmake_force_configure' from command line to 'False'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'cam2image' build argument 'ament_cmake_args' from command line to 'None'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'cam2image' build argument 'catkin_cmake_args' from command line to 'None'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'cam2image' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.968s] DEBUG:colcon.colcon_core.verb:Building package 'cam2image' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/angelina/EAT40005-Project/ros2_ws/build/cam2image', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/angelina/EAT40005-Project/ros2_ws/install/cam2image', 'merge_install': False, 'path': '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/drivers/cam2image', 'symlink_install': False, 'test_result_base': None}
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'cam_lidar_bringup' build argument 'cmake_args' from command line to 'None'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'cam_lidar_bringup' build argument 'cmake_target' from command line to 'None'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'cam_lidar_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'cam_lidar_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'cam_lidar_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'cam_lidar_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'cam_lidar_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'cam_lidar_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'cam_lidar_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.968s] DEBUG:colcon.colcon_core.verb:Building package 'cam_lidar_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/angelina/EAT40005-Project/ros2_ws/build/cam_lidar_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup', 'merge_install': False, 'path': '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/cam_lidar_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'camera_det2d' build argument 'cmake_args' from command line to 'None'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'camera_det2d' build argument 'cmake_target' from command line to 'None'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'camera_det2d' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'camera_det2d' build argument 'cmake_clean_cache' from command line to 'False'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'camera_det2d' build argument 'cmake_clean_first' from command line to 'False'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'camera_det2d' build argument 'cmake_force_configure' from command line to 'False'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'camera_det2d' build argument 'ament_cmake_args' from command line to 'None'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'camera_det2d' build argument 'catkin_cmake_args' from command line to 'None'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'camera_det2d' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.968s] DEBUG:colcon.colcon_core.verb:Building package 'camera_det2d' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/angelina/EAT40005-Project/ros2_ws/build/camera_det2d', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d', 'merge_install': False, 'path': '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/camera/camera_det2d', 'symlink_install': False, 'test_result_base': None}
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'camera_det3d' build argument 'cmake_args' from command line to 'None'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'camera_det3d' build argument 'cmake_target' from command line to 'None'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'camera_det3d' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'camera_det3d' build argument 'cmake_clean_cache' from command line to 'False'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'camera_det3d' build argument 'cmake_clean_first' from command line to 'False'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'camera_det3d' build argument 'cmake_force_configure' from command line to 'False'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'camera_det3d' build argument 'ament_cmake_args' from command line to 'None'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'camera_det3d' build argument 'catkin_cmake_args' from command line to 'None'
+[0.968s] Level 5:colcon.colcon_core.verb:set package 'camera_det3d' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.968s] DEBUG:colcon.colcon_core.verb:Building package 'camera_det3d' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/angelina/EAT40005-Project/ros2_ws/build/camera_det3d', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det3d', 'merge_install': False, 'path': '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/camera/camera_det3d', 'symlink_install': False, 'test_result_base': None}
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'data_tools' build argument 'cmake_args' from command line to 'None'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'data_tools' build argument 'cmake_target' from command line to 'None'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'data_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'data_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'data_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'data_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'data_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'data_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'data_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.969s] DEBUG:colcon.colcon_core.verb:Building package 'data_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/angelina/EAT40005-Project/ros2_ws/build/data_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/angelina/EAT40005-Project/ros2_ws/install/data_tools', 'merge_install': False, 'path': '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/data_tools', 'symlink_install': False, 'test_result_base': None}
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'fusion_2d' build argument 'cmake_args' from command line to 'None'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'fusion_2d' build argument 'cmake_target' from command line to 'None'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'fusion_2d' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'fusion_2d' build argument 'cmake_clean_cache' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'fusion_2d' build argument 'cmake_clean_first' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'fusion_2d' build argument 'cmake_force_configure' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'fusion_2d' build argument 'ament_cmake_args' from command line to 'None'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'fusion_2d' build argument 'catkin_cmake_args' from command line to 'None'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'fusion_2d' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.969s] DEBUG:colcon.colcon_core.verb:Building package 'fusion_2d' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/angelina/EAT40005-Project/ros2_ws/build/fusion_2d', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d', 'merge_install': False, 'path': '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/fusion/fusion_2d', 'symlink_install': False, 'test_result_base': None}
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'fusion_3d' build argument 'cmake_args' from command line to 'None'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'fusion_3d' build argument 'cmake_target' from command line to 'None'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'fusion_3d' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'fusion_3d' build argument 'cmake_clean_cache' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'fusion_3d' build argument 'cmake_clean_first' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'fusion_3d' build argument 'cmake_force_configure' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'fusion_3d' build argument 'ament_cmake_args' from command line to 'None'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'fusion_3d' build argument 'catkin_cmake_args' from command line to 'None'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'fusion_3d' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.969s] DEBUG:colcon.colcon_core.verb:Building package 'fusion_3d' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/angelina/EAT40005-Project/ros2_ws/build/fusion_3d', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_3d', 'merge_install': False, 'path': '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/fusion/fusion_3d', 'symlink_install': False, 'test_result_base': None}
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'learned_lidar_detector' build argument 'cmake_args' from command line to 'None'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'learned_lidar_detector' build argument 'cmake_target' from command line to 'None'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'learned_lidar_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'learned_lidar_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'learned_lidar_detector' build argument 'cmake_clean_first' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'learned_lidar_detector' build argument 'cmake_force_configure' from command line to 'False'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'learned_lidar_detector' build argument 'ament_cmake_args' from command line to 'None'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'learned_lidar_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.969s] Level 5:colcon.colcon_core.verb:set package 'learned_lidar_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.969s] DEBUG:colcon.colcon_core.verb:Building package 'learned_lidar_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/angelina/EAT40005-Project/ros2_ws/build/learned_lidar_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector', 'merge_install': False, 'path': '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/lidar/learned_lidar_detector', 'symlink_install': False, 'test_result_base': None}
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'lidar_socket_pub' build argument 'cmake_args' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'lidar_socket_pub' build argument 'cmake_target' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'lidar_socket_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'lidar_socket_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'lidar_socket_pub' build argument 'cmake_clean_first' from command line to 'False'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'lidar_socket_pub' build argument 'cmake_force_configure' from command line to 'False'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'lidar_socket_pub' build argument 'ament_cmake_args' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'lidar_socket_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'lidar_socket_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.970s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_socket_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/angelina/EAT40005-Project/ros2_ws/build/lidar_socket_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/angelina/EAT40005-Project/ros2_ws/install/lidar_socket_pub', 'merge_install': False, 'path': '/home/angelina/EAT40005-Project/ros2_ws/src/lidar_socket_pub', 'symlink_install': False, 'test_result_base': None}
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'map_to_odom_broadcaster' build argument 'cmake_args' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'map_to_odom_broadcaster' build argument 'cmake_target' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'map_to_odom_broadcaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'map_to_odom_broadcaster' build argument 'cmake_clean_cache' from command line to 'False'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'map_to_odom_broadcaster' build argument 'cmake_clean_first' from command line to 'False'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'map_to_odom_broadcaster' build argument 'cmake_force_configure' from command line to 'False'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'map_to_odom_broadcaster' build argument 'ament_cmake_args' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'map_to_odom_broadcaster' build argument 'catkin_cmake_args' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'map_to_odom_broadcaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.970s] DEBUG:colcon.colcon_core.verb:Building package 'map_to_odom_broadcaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/angelina/EAT40005-Project/ros2_ws/build/map_to_odom_broadcaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster', 'merge_install': False, 'path': '/home/angelina/EAT40005-Project/ros2_ws/src/map_to_odom_broadcaster', 'symlink_install': False, 'test_result_base': None}
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'obj_tracker' build argument 'cmake_args' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'obj_tracker' build argument 'cmake_target' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'obj_tracker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'obj_tracker' build argument 'cmake_clean_cache' from command line to 'False'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'obj_tracker' build argument 'cmake_clean_first' from command line to 'False'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'obj_tracker' build argument 'cmake_force_configure' from command line to 'False'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'obj_tracker' build argument 'ament_cmake_args' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'obj_tracker' build argument 'catkin_cmake_args' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'obj_tracker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.970s] DEBUG:colcon.colcon_core.verb:Building package 'obj_tracker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/angelina/EAT40005-Project/ros2_ws/build/obj_tracker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker', 'merge_install': False, 'path': '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/obj_tracker', 'symlink_install': False, 'test_result_base': None}
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'odom_receiver' build argument 'cmake_args' from command line to 'None'
+[0.970s] Level 5:colcon.colcon_core.verb:set package 'odom_receiver' build argument 'cmake_target' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'odom_receiver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'odom_receiver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'odom_receiver' build argument 'cmake_clean_first' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'odom_receiver' build argument 'cmake_force_configure' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'odom_receiver' build argument 'ament_cmake_args' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'odom_receiver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'odom_receiver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.971s] DEBUG:colcon.colcon_core.verb:Building package 'odom_receiver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/angelina/EAT40005-Project/ros2_ws/build/odom_receiver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver', 'merge_install': False, 'path': '/home/angelina/EAT40005-Project/ros2_ws/src/odom_receiver', 'symlink_install': False, 'test_result_base': None}
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'odom_to_base_link_tf' build argument 'cmake_args' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'odom_to_base_link_tf' build argument 'cmake_target' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'odom_to_base_link_tf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'odom_to_base_link_tf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'odom_to_base_link_tf' build argument 'cmake_clean_first' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'odom_to_base_link_tf' build argument 'cmake_force_configure' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'odom_to_base_link_tf' build argument 'ament_cmake_args' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'odom_to_base_link_tf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'odom_to_base_link_tf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.971s] DEBUG:colcon.colcon_core.verb:Building package 'odom_to_base_link_tf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/angelina/EAT40005-Project/ros2_ws/build/odom_to_base_link_tf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/angelina/EAT40005-Project/ros2_ws/install/odom_to_base_link_tf', 'merge_install': False, 'path': '/home/angelina/EAT40005-Project/ros2_ws/src/odom_to_base_link_tf', 'symlink_install': False, 'test_result_base': None}
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'pipeline_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'pipeline_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'pipeline_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'pipeline_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'pipeline_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'pipeline_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'pipeline_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'pipeline_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'pipeline_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.971s] DEBUG:colcon.colcon_core.verb:Building package 'pipeline_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/angelina/EAT40005-Project/ros2_ws/build/pipeline_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/angelina/EAT40005-Project/ros2_ws/install/pipeline_interfaces', 'merge_install': False, 'path': '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/lidar/pipeline_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'lidar_obj_classifier' build argument 'cmake_args' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'lidar_obj_classifier' build argument 'cmake_target' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'lidar_obj_classifier' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'lidar_obj_classifier' build argument 'cmake_clean_cache' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'lidar_obj_classifier' build argument 'cmake_clean_first' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'lidar_obj_classifier' build argument 'cmake_force_configure' from command line to 'False'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'lidar_obj_classifier' build argument 'ament_cmake_args' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'lidar_obj_classifier' build argument 'catkin_cmake_args' from command line to 'None'
+[0.971s] Level 5:colcon.colcon_core.verb:set package 'lidar_obj_classifier' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.971s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_obj_classifier' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/angelina/EAT40005-Project/ros2_ws/build/lidar_obj_classifier', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/angelina/EAT40005-Project/ros2_ws/install/lidar_obj_classifier', 'merge_install': False, 'path': '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/lidar/lidar_obj_classifier', 'symlink_install': False, 'test_result_base': None}
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'trad_lidar_detector' build argument 'cmake_args' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'trad_lidar_detector' build argument 'cmake_target' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'trad_lidar_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'trad_lidar_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'trad_lidar_detector' build argument 'cmake_clean_first' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'trad_lidar_detector' build argument 'cmake_force_configure' from command line to 'False'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'trad_lidar_detector' build argument 'ament_cmake_args' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'trad_lidar_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.972s] Level 5:colcon.colcon_core.verb:set package 'trad_lidar_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.972s] DEBUG:colcon.colcon_core.verb:Building package 'trad_lidar_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/angelina/EAT40005-Project/ros2_ws/build/trad_lidar_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/angelina/EAT40005-Project/ros2_ws/install/trad_lidar_detector', 'merge_install': False, 'path': '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/lidar/trad_lidar_detector', 'symlink_install': False, 'test_result_base': None}
+[0.972s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.972s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.973s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/lidar/pipeline_interfaces' with build type 'ament_cmake'
+[0.973s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/lidar/pipeline_interfaces'
+[0.987s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.988s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.988s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.991s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/drivers/cam2image' with build type 'ament_cmake'
+[0.991s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/drivers/cam2image'
+[0.992s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.992s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.995s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/cam_lidar_bringup' with build type 'ament_cmake'
+[0.995s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/cam_lidar_bringup'
+[0.996s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.996s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.999s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/camera/camera_det2d' with build type 'ament_python'
+[0.999s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_det2d', 'ament_prefix_path')
+[0.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/share/camera_det2d/hook/ament_prefix_path.ps1'
+[1.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/share/camera_det2d/hook/ament_prefix_path.dsv'
+[1.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/share/camera_det2d/hook/ament_prefix_path.sh'
+[1.003s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.003s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.007s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/camera/camera_det3d' with build type 'ament_python'
+[1.007s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_det3d', 'ament_prefix_path')
+[1.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det3d/share/camera_det3d/hook/ament_prefix_path.ps1'
+[1.008s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det3d/share/camera_det3d/hook/ament_prefix_path.dsv'
+[1.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det3d/share/camera_det3d/hook/ament_prefix_path.sh'
+[1.008s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.009s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.011s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/data_tools' with build type 'ament_cmake'
+[1.012s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/data_tools'
+[1.012s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.012s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.014s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/fusion/fusion_2d' with build type 'ament_python'
+[1.014s] Level 1:colcon.colcon_core.shell:create_environment_hook('fusion_2d', 'ament_prefix_path')
+[1.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/share/fusion_2d/hook/ament_prefix_path.ps1'
+[1.015s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/share/fusion_2d/hook/ament_prefix_path.dsv'
+[1.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/share/fusion_2d/hook/ament_prefix_path.sh'
+[1.015s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.015s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.018s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/fusion/fusion_3d' with build type 'ament_python'
+[1.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('fusion_3d', 'ament_prefix_path')
+[1.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_3d/share/fusion_3d/hook/ament_prefix_path.ps1'
+[1.018s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_3d/share/fusion_3d/hook/ament_prefix_path.dsv'
+[1.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_3d/share/fusion_3d/hook/ament_prefix_path.sh'
+[1.019s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.019s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.021s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/lidar/learned_lidar_detector' with build type 'ament_python'
+[1.021s] Level 1:colcon.colcon_core.shell:create_environment_hook('learned_lidar_detector', 'ament_prefix_path')
+[1.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/share/learned_lidar_detector/hook/ament_prefix_path.ps1'
+[1.022s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/share/learned_lidar_detector/hook/ament_prefix_path.dsv'
+[1.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/share/learned_lidar_detector/hook/ament_prefix_path.sh'
+[1.023s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.023s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.025s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/angelina/EAT40005-Project/ros2_ws/src/lidar_socket_pub' with build type 'ament_python'
+[1.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_socket_pub', 'ament_prefix_path')
+[1.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/lidar_socket_pub/share/lidar_socket_pub/hook/ament_prefix_path.ps1'
+[1.027s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/lidar_socket_pub/share/lidar_socket_pub/hook/ament_prefix_path.dsv'
+[1.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/lidar_socket_pub/share/lidar_socket_pub/hook/ament_prefix_path.sh'
+[1.027s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.028s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.030s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/angelina/EAT40005-Project/ros2_ws/src/map_to_odom_broadcaster' with build type 'ament_python'
+[1.030s] Level 1:colcon.colcon_core.shell:create_environment_hook('map_to_odom_broadcaster', 'ament_prefix_path')
+[1.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/share/map_to_odom_broadcaster/hook/ament_prefix_path.ps1'
+[1.031s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/share/map_to_odom_broadcaster/hook/ament_prefix_path.dsv'
+[1.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/share/map_to_odom_broadcaster/hook/ament_prefix_path.sh'
+[1.032s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.032s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.035s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/obj_tracker' with build type 'ament_python'
+[1.035s] Level 1:colcon.colcon_core.shell:create_environment_hook('obj_tracker', 'ament_prefix_path')
+[1.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/share/obj_tracker/hook/ament_prefix_path.ps1'
+[1.036s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/share/obj_tracker/hook/ament_prefix_path.dsv'
+[1.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/share/obj_tracker/hook/ament_prefix_path.sh'
+[1.037s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.037s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.039s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/angelina/EAT40005-Project/ros2_ws/src/odom_receiver' with build type 'ament_python'
+[1.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('odom_receiver', 'ament_prefix_path')
+[1.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/share/odom_receiver/hook/ament_prefix_path.ps1'
+[1.040s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/share/odom_receiver/hook/ament_prefix_path.dsv'
+[1.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/share/odom_receiver/hook/ament_prefix_path.sh'
+[1.041s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.041s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.044s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/angelina/EAT40005-Project/ros2_ws/src/odom_to_base_link_tf' with build type 'ament_python'
+[1.044s] Level 1:colcon.colcon_core.shell:create_environment_hook('odom_to_base_link_tf', 'ament_prefix_path')
+[1.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/odom_to_base_link_tf/share/odom_to_base_link_tf/hook/ament_prefix_path.ps1'
+[1.045s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/odom_to_base_link_tf/share/odom_to_base_link_tf/hook/ament_prefix_path.dsv'
+[1.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/odom_to_base_link_tf/share/odom_to_base_link_tf/hook/ament_prefix_path.sh'
+[1.046s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.046s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/angelina/EAT40005-Project/ros2_ws/build/pipeline_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/angelina/turtlebot3_ws/install/turtlebot3_teleop:/home/angelina/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/lidar/pipeline_interfaces -DCMAKE_INSTALL_PREFIX=/home/angelina/EAT40005-Project/ros2_ws/install/pipeline_interfaces
+[1.060s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/angelina/EAT40005-Project/ros2_ws/build/cam2image': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/angelina/turtlebot3_ws/install/turtlebot3_teleop:/home/angelina/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/drivers/cam2image -DCMAKE_INSTALL_PREFIX=/home/angelina/EAT40005-Project/ros2_ws/install/cam2image
+[1.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/angelina/EAT40005-Project/ros2_ws/build/cam_lidar_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/angelina/turtlebot3_ws/install/turtlebot3_teleop:/home/angelina/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/cam_lidar_bringup -DCMAKE_INSTALL_PREFIX=/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup
+[1.267s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/camera/camera_det2d'
+[1.268s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.268s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.431s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/camera/camera_det3d'
+[1.431s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.431s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/angelina/EAT40005-Project/ros2_ws/build/data_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/angelina/turtlebot3_ws/install/turtlebot3_teleop:/home/angelina/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/data_tools -DCMAKE_INSTALL_PREFIX=/home/angelina/EAT40005-Project/ros2_ws/install/data_tools
+[1.578s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/fusion/fusion_2d'
+[1.578s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.578s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.726s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/fusion/fusion_3d'
+[1.726s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.726s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.872s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/lidar/learned_lidar_detector'
+[1.872s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.872s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.029s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/angelina/EAT40005-Project/ros2_ws/src/lidar_socket_pub'
+[2.030s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.030s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.200s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/angelina/EAT40005-Project/ros2_ws/src/map_to_odom_broadcaster'
+[2.201s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.201s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.361s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/obj_tracker'
+[2.362s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.362s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.898s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'odom_receiver' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[2.898s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'odom_receiver' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[2.898s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/angelina/EAT40005-Project/ros2_ws/src/odom_receiver'
+[2.899s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.899s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.140s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/angelina/EAT40005-Project/ros2_ws/src/odom_to_base_link_tf'
+[3.141s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.141s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.894s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/angelina/EAT40005-Project/ros2_ws/build/cam_lidar_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/angelina/turtlebot3_ws/install/turtlebot3_teleop:/home/angelina/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/cam_lidar_bringup -DCMAKE_INSTALL_PREFIX=/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup
+[3.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/angelina/EAT40005-Project/ros2_ws/build/cam_lidar_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/angelina/turtlebot3_ws/install/turtlebot3_teleop:/home/angelina/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/angelina/EAT40005-Project/ros2_ws/build/cam_lidar_bringup -- -j20 -l20
+[3.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/angelina/EAT40005-Project/ros2_ws/build/cam_lidar_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/angelina/turtlebot3_ws/install/turtlebot3_teleop:/home/angelina/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/angelina/EAT40005-Project/ros2_ws/build/cam_lidar_bringup -- -j20 -l20
+[3.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/angelina/EAT40005-Project/ros2_ws/build/cam_lidar_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/angelina/turtlebot3_ws/install/turtlebot3_teleop:/home/angelina/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/angelina/EAT40005-Project/ros2_ws/build/cam_lidar_bringup
+[3.972s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cam_lidar_bringup)
+[3.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/angelina/EAT40005-Project/ros2_ws/build/cam_lidar_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/angelina/turtlebot3_ws/install/turtlebot3_teleop:/home/angelina/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/angelina/EAT40005-Project/ros2_ws/build/cam_lidar_bringup
+[4.002s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup' for CMake module files
+[4.004s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup' for CMake config files
+[4.004s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam_lidar_bringup', 'cmake_prefix_path')
+[4.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup/share/cam_lidar_bringup/hook/cmake_prefix_path.ps1'
+[4.005s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup/share/cam_lidar_bringup/hook/cmake_prefix_path.dsv'
+[4.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup/share/cam_lidar_bringup/hook/cmake_prefix_path.sh'
+[4.006s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup/bin'
+[4.006s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup/lib/pkgconfig/cam_lidar_bringup.pc'
+[4.006s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup/lib/python3.10/site-packages'
+[4.007s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup/bin'
+[4.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup/share/cam_lidar_bringup/package.ps1'
+[4.009s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup/share/cam_lidar_bringup/package.dsv'
+[4.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup/share/cam_lidar_bringup/package.sh'
+[4.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup/share/cam_lidar_bringup/package.bash'
+[4.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup/share/cam_lidar_bringup/package.zsh'
+[4.020s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup/share/colcon-core/packages/cam_lidar_bringup)
+[4.021s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cam_lidar_bringup)
+[4.021s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup' for CMake module files
+[4.022s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup' for CMake config files
+[4.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam_lidar_bringup', 'cmake_prefix_path')
+[4.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup/share/cam_lidar_bringup/hook/cmake_prefix_path.ps1'
+[4.023s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup/share/cam_lidar_bringup/hook/cmake_prefix_path.dsv'
+[4.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup/share/cam_lidar_bringup/hook/cmake_prefix_path.sh'
+[4.024s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup/bin'
+[4.024s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup/lib/pkgconfig/cam_lidar_bringup.pc'
+[4.025s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup/lib/python3.10/site-packages'
+[4.025s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup/bin'
+[4.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup/share/cam_lidar_bringup/package.ps1'
+[4.026s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup/share/cam_lidar_bringup/package.dsv'
+[4.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup/share/cam_lidar_bringup/package.sh'
+[4.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup/share/cam_lidar_bringup/package.bash'
+[4.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup/share/cam_lidar_bringup/package.zsh'
+[4.029s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/angelina/EAT40005-Project/ros2_ws/install/cam_lidar_bringup/share/colcon-core/packages/cam_lidar_bringup)
+[4.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/fusion/fusion_3d': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/fusion_3d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/fusion_3d/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/fusion_3d build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/fusion_3d/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/fusion_3d/install.log --single-version-externally-managed install_data
+[4.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/fusion/fusion_2d': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/fusion_2d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/fusion_2d build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/fusion_2d/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/fusion_2d/install.log --single-version-externally-managed install_data
+[4.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/angelina/EAT40005-Project/ros2_ws/src/odom_receiver': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/odom_receiver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/odom_receiver build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/odom_receiver/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/odom_receiver/install.log --single-version-externally-managed
+[4.146s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/camera/camera_det2d': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/camera_det2d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/camera_det2d build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/camera_det2d/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/camera_det2d/install.log --single-version-externally-managed install_data
+[4.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/angelina/EAT40005-Project/ros2_ws/src/odom_to_base_link_tf': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/odom_to_base_link_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/odom_to_base_link_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/odom_to_base_link_tf build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/odom_to_base_link_tf/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/odom_to_base_link_tf/install.log --single-version-externally-managed install_data
+[4.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/camera/camera_det3d': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/camera_det3d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/camera_det3d/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/camera_det3d build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/camera_det3d/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/camera_det3d/install.log --single-version-externally-managed install_data
+[4.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/obj_tracker': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/obj_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/obj_tracker build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/obj_tracker/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/obj_tracker/install.log --single-version-externally-managed install_data
+[4.167s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/angelina/EAT40005-Project/ros2_ws/src/map_to_odom_broadcaster': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/map_to_odom_broadcaster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/map_to_odom_broadcaster build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/map_to_odom_broadcaster/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/map_to_odom_broadcaster/install.log --single-version-externally-managed install_data
+[4.170s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/angelina/EAT40005-Project/ros2_ws/src/lidar_socket_pub': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/lidar_socket_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/lidar_socket_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_socket_pub build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/lidar_socket_pub/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/lidar_socket_pub/install.log --single-version-externally-managed install_data
+[4.170s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/lidar/learned_lidar_detector': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/learned_lidar_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/learned_lidar_detector build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/learned_lidar_detector/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/learned_lidar_detector/install.log --single-version-externally-managed install_data
+[4.530s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver' for CMake module files
+[4.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/angelina/EAT40005-Project/ros2_ws/src/odom_receiver' returned '0': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/odom_receiver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/odom_receiver build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/odom_receiver/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/odom_receiver/install.log --single-version-externally-managed
+[4.541s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver' for CMake config files
+[4.543s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/lib'
+[4.543s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/bin'
+[4.543s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/lib/pkgconfig/odom_receiver.pc'
+[4.544s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/lib/python3.10/site-packages'
+[4.544s] Level 1:colcon.colcon_core.shell:create_environment_hook('odom_receiver', 'pythonpath')
+[4.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/share/odom_receiver/hook/pythonpath.ps1'
+[4.546s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/share/odom_receiver/hook/pythonpath.dsv'
+[4.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/share/odom_receiver/hook/pythonpath.sh'
+[4.547s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/bin'
+[4.548s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odom_receiver)
+[4.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/share/odom_receiver/package.ps1'
+[4.549s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/share/odom_receiver/package.dsv'
+[4.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/share/odom_receiver/package.sh'
+[4.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/share/odom_receiver/package.bash'
+[4.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/share/odom_receiver/package.zsh'
+[4.551s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/share/colcon-core/packages/odom_receiver)
+[4.554s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector' for CMake module files
+[4.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/lidar/learned_lidar_detector' returned '0': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/learned_lidar_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/learned_lidar_detector build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/learned_lidar_detector/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/learned_lidar_detector/install.log --single-version-externally-managed install_data
+[4.555s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector' for CMake config files
+[4.556s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/lib'
+[4.556s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/bin'
+[4.556s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/lib/pkgconfig/learned_lidar_detector.pc'
+[4.556s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/lib/python3.10/site-packages'
+[4.556s] Level 1:colcon.colcon_core.shell:create_environment_hook('learned_lidar_detector', 'pythonpath')
+[4.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/share/learned_lidar_detector/hook/pythonpath.ps1'
+[4.557s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/share/learned_lidar_detector/hook/pythonpath.dsv'
+[4.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/share/learned_lidar_detector/hook/pythonpath.sh'
+[4.558s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/bin'
+[4.558s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learned_lidar_detector)
+[4.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/share/learned_lidar_detector/package.ps1'
+[4.559s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/share/learned_lidar_detector/package.dsv'
+[4.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/share/learned_lidar_detector/package.sh'
+[4.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/share/learned_lidar_detector/package.bash'
+[4.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/share/learned_lidar_detector/package.zsh'
+[4.562s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/angelina/EAT40005-Project/ros2_ws/install/learned_lidar_detector/share/colcon-core/packages/learned_lidar_detector)
+[4.563s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d' for CMake module files
+[4.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/camera/camera_det2d' returned '0': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/camera_det2d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/camera_det2d build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/camera_det2d/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/camera_det2d/install.log --single-version-externally-managed install_data
+[4.566s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d' for CMake config files
+[4.567s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/lib'
+[4.567s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/bin'
+[4.567s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/lib/pkgconfig/camera_det2d.pc'
+[4.567s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/lib/python3.10/site-packages'
+[4.567s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_det2d', 'pythonpath')
+[4.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/share/camera_det2d/hook/pythonpath.ps1'
+[4.568s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/share/camera_det2d/hook/pythonpath.dsv'
+[4.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/share/camera_det2d/hook/pythonpath.sh'
+[4.569s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/bin'
+[4.569s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_det2d)
+[4.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/share/camera_det2d/package.ps1'
+[4.570s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/share/camera_det2d/package.dsv'
+[4.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/share/camera_det2d/package.sh'
+[4.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/share/camera_det2d/package.bash'
+[4.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/share/camera_det2d/package.zsh'
+[4.574s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/angelina/EAT40005-Project/ros2_ws/install/camera_det2d/share/colcon-core/packages/camera_det2d)
+[4.576s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_3d' for CMake module files
+[4.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/fusion/fusion_3d' returned '0': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/fusion_3d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/fusion_3d/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/fusion_3d build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/fusion_3d/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/fusion_3d/install.log --single-version-externally-managed install_data
+[4.579s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_3d' for CMake config files
+[4.579s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_3d/lib'
+[4.580s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_3d/bin'
+[4.580s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_3d/lib/pkgconfig/fusion_3d.pc'
+[4.580s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_3d/lib/python3.10/site-packages'
+[4.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('fusion_3d', 'pythonpath')
+[4.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_3d/share/fusion_3d/hook/pythonpath.ps1'
+[4.581s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_3d/share/fusion_3d/hook/pythonpath.dsv'
+[4.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_3d/share/fusion_3d/hook/pythonpath.sh'
+[4.583s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_3d/bin'
+[4.583s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fusion_3d)
+[4.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_3d/share/fusion_3d/package.ps1'
+[4.584s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_3d/share/fusion_3d/package.dsv'
+[4.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_3d/share/fusion_3d/package.sh'
+[4.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_3d/share/fusion_3d/package.bash'
+[4.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_3d/share/fusion_3d/package.zsh'
+[4.587s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/angelina/EAT40005-Project/ros2_ws/install/fusion_3d/share/colcon-core/packages/fusion_3d)
+[4.589s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d' for CMake module files
+[4.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/fusion/fusion_2d' returned '0': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/fusion_2d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/fusion_2d build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/fusion_2d/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/fusion_2d/install.log --single-version-externally-managed install_data
+[4.590s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d' for CMake config files
+[4.592s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/lib'
+[4.592s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/bin'
+[4.592s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/lib/pkgconfig/fusion_2d.pc'
+[4.592s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/lib/python3.10/site-packages'
+[4.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('fusion_2d', 'pythonpath')
+[4.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/share/fusion_2d/hook/pythonpath.ps1'
+[4.593s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/share/fusion_2d/hook/pythonpath.dsv'
+[4.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/share/fusion_2d/hook/pythonpath.sh'
+[4.594s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/bin'
+[4.595s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fusion_2d)
+[4.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/share/fusion_2d/package.ps1'
+[4.595s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/share/fusion_2d/package.dsv'
+[4.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/share/fusion_2d/package.sh'
+[4.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/share/fusion_2d/package.bash'
+[4.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/share/fusion_2d/package.zsh'
+[4.597s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/angelina/EAT40005-Project/ros2_ws/install/fusion_2d/share/colcon-core/packages/fusion_2d)
+[4.598s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det3d' for CMake module files
+[4.599s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det3d' for CMake config files
+[4.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/camera/camera_det3d' returned '0': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/camera_det3d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/camera_det3d/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/camera_det3d build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/camera_det3d/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/camera_det3d/install.log --single-version-externally-managed install_data
+[4.600s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det3d/lib'
+[4.600s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det3d/bin'
+[4.600s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det3d/lib/pkgconfig/camera_det3d.pc'
+[4.601s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det3d/lib/python3.10/site-packages'
+[4.601s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_det3d', 'pythonpath')
+[4.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det3d/share/camera_det3d/hook/pythonpath.ps1'
+[4.602s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det3d/share/camera_det3d/hook/pythonpath.dsv'
+[4.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det3d/share/camera_det3d/hook/pythonpath.sh'
+[4.604s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det3d/bin'
+[4.604s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_det3d)
+[4.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det3d/share/camera_det3d/package.ps1'
+[4.606s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det3d/share/camera_det3d/package.dsv'
+[4.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det3d/share/camera_det3d/package.sh'
+[4.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det3d/share/camera_det3d/package.bash'
+[4.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/camera_det3d/share/camera_det3d/package.zsh'
+[4.608s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/angelina/EAT40005-Project/ros2_ws/install/camera_det3d/share/colcon-core/packages/camera_det3d)
+[4.632s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker' for CMake module files
+[4.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/obj_tracker' returned '0': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/obj_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/obj_tracker build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/obj_tracker/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/obj_tracker/install.log --single-version-externally-managed install_data
+[4.634s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker' for CMake config files
+[4.635s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/lib'
+[4.635s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/bin'
+[4.635s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/lib/pkgconfig/obj_tracker.pc'
+[4.635s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/lib/python3.10/site-packages'
+[4.635s] Level 1:colcon.colcon_core.shell:create_environment_hook('obj_tracker', 'pythonpath')
+[4.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/share/obj_tracker/hook/pythonpath.ps1'
+[4.636s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/share/obj_tracker/hook/pythonpath.dsv'
+[4.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/share/obj_tracker/hook/pythonpath.sh'
+[4.637s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/bin'
+[4.637s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(obj_tracker)
+[4.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/share/obj_tracker/package.ps1'
+[4.637s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/share/obj_tracker/package.dsv'
+[4.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/share/obj_tracker/package.sh'
+[4.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/share/obj_tracker/package.bash'
+[4.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/share/obj_tracker/package.zsh'
+[4.639s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/share/colcon-core/packages/obj_tracker)
+[4.677s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster' for CMake module files
+[4.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/angelina/EAT40005-Project/ros2_ws/src/map_to_odom_broadcaster' returned '0': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/map_to_odom_broadcaster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/map_to_odom_broadcaster build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/map_to_odom_broadcaster/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/map_to_odom_broadcaster/install.log --single-version-externally-managed install_data
+[4.678s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster' for CMake config files
+[4.679s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/lib'
+[4.679s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/bin'
+[4.679s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/lib/pkgconfig/map_to_odom_broadcaster.pc'
+[4.679s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/lib/python3.10/site-packages'
+[4.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('map_to_odom_broadcaster', 'pythonpath')
+[4.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/share/map_to_odom_broadcaster/hook/pythonpath.ps1'
+[4.680s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/share/map_to_odom_broadcaster/hook/pythonpath.dsv'
+[4.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/share/map_to_odom_broadcaster/hook/pythonpath.sh'
+[4.681s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/bin'
+[4.681s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(map_to_odom_broadcaster)
+[4.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/share/map_to_odom_broadcaster/package.ps1'
+[4.681s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/share/map_to_odom_broadcaster/package.dsv'
+[4.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/share/map_to_odom_broadcaster/package.sh'
+[4.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/share/map_to_odom_broadcaster/package.bash'
+[4.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/share/map_to_odom_broadcaster/package.zsh'
+[4.683s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/share/colcon-core/packages/map_to_odom_broadcaster)
+[4.685s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/odom_to_base_link_tf' for CMake module files
+[4.686s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/odom_to_base_link_tf' for CMake config files
+[4.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/angelina/EAT40005-Project/ros2_ws/src/odom_to_base_link_tf' returned '0': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/odom_to_base_link_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/odom_to_base_link_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/odom_to_base_link_tf build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/odom_to_base_link_tf/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/odom_to_base_link_tf/install.log --single-version-externally-managed install_data
+[4.687s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/odom_to_base_link_tf/lib'
+[4.687s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/odom_to_base_link_tf/bin'
+[4.687s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/odom_to_base_link_tf/lib/pkgconfig/odom_to_base_link_tf.pc'
+[4.687s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/odom_to_base_link_tf/lib/python3.10/site-packages'
+[4.687s] Level 1:colcon.colcon_core.shell:create_environment_hook('odom_to_base_link_tf', 'pythonpath')
+[4.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/odom_to_base_link_tf/share/odom_to_base_link_tf/hook/pythonpath.ps1'
+[4.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/odom_to_base_link_tf/share/odom_to_base_link_tf/hook/pythonpath.dsv'
+[4.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/odom_to_base_link_tf/share/odom_to_base_link_tf/hook/pythonpath.sh'
+[4.689s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/odom_to_base_link_tf/bin'
+[4.689s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odom_to_base_link_tf)
+[4.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/odom_to_base_link_tf/share/odom_to_base_link_tf/package.ps1'
+[4.689s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/odom_to_base_link_tf/share/odom_to_base_link_tf/package.dsv'
+[4.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/odom_to_base_link_tf/share/odom_to_base_link_tf/package.sh'
+[4.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/odom_to_base_link_tf/share/odom_to_base_link_tf/package.bash'
+[4.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/odom_to_base_link_tf/share/odom_to_base_link_tf/package.zsh'
+[4.691s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/angelina/EAT40005-Project/ros2_ws/install/odom_to_base_link_tf/share/colcon-core/packages/odom_to_base_link_tf)
+[4.705s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/lidar_socket_pub' for CMake module files
+[4.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/angelina/EAT40005-Project/ros2_ws/src/lidar_socket_pub' returned '0': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/lidar_socket_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/lidar_socket_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_socket_pub build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/lidar_socket_pub/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/lidar_socket_pub/install.log --single-version-externally-managed install_data
+[4.706s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/lidar_socket_pub' for CMake config files
+[4.706s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/lidar_socket_pub/lib'
+[4.706s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/lidar_socket_pub/bin'
+[4.706s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/lidar_socket_pub/lib/pkgconfig/lidar_socket_pub.pc'
+[4.707s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/lidar_socket_pub/lib/python3.10/site-packages'
+[4.707s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_socket_pub', 'pythonpath')
+[4.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/lidar_socket_pub/share/lidar_socket_pub/hook/pythonpath.ps1'
+[4.708s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/lidar_socket_pub/share/lidar_socket_pub/hook/pythonpath.dsv'
+[4.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/angelina/EAT40005-Project/ros2_ws/install/lidar_socket_pub/share/lidar_socket_pub/hook/pythonpath.sh'
+[4.709s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/lidar_socket_pub/bin'
+[4.709s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_socket_pub)
+[4.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/lidar_socket_pub/share/lidar_socket_pub/package.ps1'
+[4.710s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/lidar_socket_pub/share/lidar_socket_pub/package.dsv'
+[4.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/lidar_socket_pub/share/lidar_socket_pub/package.sh'
+[4.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/lidar_socket_pub/share/lidar_socket_pub/package.bash'
+[4.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/lidar_socket_pub/share/lidar_socket_pub/package.zsh'
+[4.711s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/angelina/EAT40005-Project/ros2_ws/install/lidar_socket_pub/share/colcon-core/packages/lidar_socket_pub)
+[4.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/angelina/EAT40005-Project/ros2_ws/build/data_tools' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/angelina/turtlebot3_ws/install/turtlebot3_teleop:/home/angelina/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/data_tools -DCMAKE_INSTALL_PREFIX=/home/angelina/EAT40005-Project/ros2_ws/install/data_tools
+[4.803s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(data_tools)
+[4.803s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/data_tools' for CMake module files
+[4.804s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/data_tools' for CMake config files
+[4.804s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/data_tools/bin'
+[4.804s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/data_tools/lib/pkgconfig/data_tools.pc'
+[4.804s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/data_tools/lib/python3.10/site-packages'
+[4.805s] Level 1:colcon.colcon_core.environment:checking '/home/angelina/EAT40005-Project/ros2_ws/install/data_tools/bin'
+[4.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/data_tools/share/data_tools/package.ps1'
+[4.806s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/angelina/EAT40005-Project/ros2_ws/install/data_tools/share/data_tools/package.dsv'
+[4.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/data_tools/share/data_tools/package.sh'
+[4.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/data_tools/share/data_tools/package.bash'
+[4.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/angelina/EAT40005-Project/ros2_ws/install/data_tools/share/data_tools/package.zsh'
+[4.807s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/angelina/EAT40005-Project/ros2_ws/install/data_tools/share/colcon-core/packages/data_tools)
+[5.491s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.492s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.492s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[5.492s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.501s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.501s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.501s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.514s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.514s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/angelina/EAT40005-Project/ros2_ws/install/local_setup.ps1'
+[5.517s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/angelina/EAT40005-Project/ros2_ws/install/_local_setup_util_ps1.py'
+[5.519s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/angelina/EAT40005-Project/ros2_ws/install/setup.ps1'
+[5.521s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/angelina/EAT40005-Project/ros2_ws/install/local_setup.sh'
+[5.522s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/angelina/EAT40005-Project/ros2_ws/install/_local_setup_util_sh.py'
+[5.523s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/angelina/EAT40005-Project/ros2_ws/install/setup.sh'
+[5.524s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/angelina/EAT40005-Project/ros2_ws/install/local_setup.bash'
+[5.525s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/angelina/EAT40005-Project/ros2_ws/install/setup.bash'
+[5.528s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/angelina/EAT40005-Project/ros2_ws/install/local_setup.zsh'
+[5.529s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/angelina/EAT40005-Project/ros2_ws/install/setup.zsh'

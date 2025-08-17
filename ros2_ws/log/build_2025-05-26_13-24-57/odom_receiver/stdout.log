@@ -1,0 +1,34 @@
+running egg_info
+creating ../../build/odom_receiver/odom_receiver.egg-info
+writing ../../build/odom_receiver/odom_receiver.egg-info/PKG-INFO
+writing dependency_links to ../../build/odom_receiver/odom_receiver.egg-info/dependency_links.txt
+writing entry points to ../../build/odom_receiver/odom_receiver.egg-info/entry_points.txt
+writing requirements to ../../build/odom_receiver/odom_receiver.egg-info/requires.txt
+writing top-level names to ../../build/odom_receiver/odom_receiver.egg-info/top_level.txt
+writing manifest file '../../build/odom_receiver/odom_receiver.egg-info/SOURCES.txt'
+reading manifest file '../../build/odom_receiver/odom_receiver.egg-info/SOURCES.txt'
+writing manifest file '../../build/odom_receiver/odom_receiver.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/angelina/EAT40005-Project/ros2_ws/build/odom_receiver/build
+creating /home/angelina/EAT40005-Project/ros2_ws/build/odom_receiver/build/lib
+creating /home/angelina/EAT40005-Project/ros2_ws/build/odom_receiver/build/lib/odom_receiver
+copying odom_receiver/__init__.py -> /home/angelina/EAT40005-Project/ros2_ws/build/odom_receiver/build/lib/odom_receiver
+copying odom_receiver/odom_receiver.py -> /home/angelina/EAT40005-Project/ros2_ws/build/odom_receiver/build/lib/odom_receiver
+running install
+running install_lib
+creating /home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/lib/python3.10/site-packages/odom_receiver
+copying /home/angelina/EAT40005-Project/ros2_ws/build/odom_receiver/build/lib/odom_receiver/__init__.py -> /home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/lib/python3.10/site-packages/odom_receiver
+copying /home/angelina/EAT40005-Project/ros2_ws/build/odom_receiver/build/lib/odom_receiver/odom_receiver.py -> /home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/lib/python3.10/site-packages/odom_receiver
+byte-compiling /home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/lib/python3.10/site-packages/odom_receiver/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/lib/python3.10/site-packages/odom_receiver/odom_receiver.py to odom_receiver.cpython-310.pyc
+running install_data
+creating /home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/share/ament_index
+creating /home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/share/ament_index/resource_index
+creating /home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/share/ament_index/resource_index/packages
+copying resource/odom_receiver -> /home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/share/ament_index/resource_index/packages
+copying package.xml -> /home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/share/odom_receiver
+running install_egg_info
+Copying ../../build/odom_receiver/odom_receiver.egg-info to /home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/lib/python3.10/site-packages/odom_receiver-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/angelina/EAT40005-Project/ros2_ws/build/odom_receiver/install.log'

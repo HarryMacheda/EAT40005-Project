@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/csv_odom_pkg/csv_odom_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/csv_odom_pkg/csv_odom_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/csv_odom_pkg/csv_odom_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/csv_odom_pkg/csv_odom_pkg.egg-info/requires.txt
+writing top-level names to ../../build/csv_odom_pkg/csv_odom_pkg.egg-info/top_level.txt
+reading manifest file '../../build/csv_odom_pkg/csv_odom_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/csv_odom_pkg/csv_odom_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying csv_odom_pkg/csv_odom_publisher.py -> /home/angelina/EAT40005-Project/lidar_ws/build/csv_odom_pkg/build/lib/csv_odom_pkg
+running install
+running install_lib
+copying /home/angelina/EAT40005-Project/lidar_ws/build/csv_odom_pkg/build/lib/csv_odom_pkg/csv_odom_publisher.py -> /home/angelina/EAT40005-Project/lidar_ws/install/csv_odom_pkg/lib/python3.10/site-packages/csv_odom_pkg
+byte-compiling /home/angelina/EAT40005-Project/lidar_ws/install/csv_odom_pkg/lib/python3.10/site-packages/csv_odom_pkg/csv_odom_publisher.py to csv_odom_publisher.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/angelina/EAT40005-Project/lidar_ws/install/csv_odom_pkg/lib/python3.10/site-packages/csv_odom_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/csv_odom_pkg/csv_odom_pkg.egg-info to /home/angelina/EAT40005-Project/lidar_ws/install/csv_odom_pkg/lib/python3.10/site-packages/csv_odom_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing csv_odom_publisher script to /home/angelina/EAT40005-Project/lidar_ws/install/csv_odom_pkg/lib/csv_odom_pkg
+writing list of installed files to '/home/angelina/EAT40005-Project/lidar_ws/build/csv_odom_pkg/install.log'

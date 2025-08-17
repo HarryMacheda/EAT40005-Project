@@ -1,0 +1,64 @@
+[0.069s] Invoking command in '/home/angelina/EAT40005-Project/ros2_ws/build/pipeline_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/angelina/turtlebot3_ws/install/turtlebot3_teleop:/home/angelina/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/angelina/EAT40005-Project/ros2_ws/build/pipeline_interfaces -- -j20 -l20
+[2.698s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.698s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.698s] [  5%] Built target ament_cmake_python_copy_pipeline_interfaces
+[2.698s] running egg_info
+[2.698s] creating pipeline_interfaces.egg-info
+[2.698s] writing pipeline_interfaces.egg-info/PKG-INFO
+[2.698s] writing dependency_links to pipeline_interfaces.egg-info/dependency_links.txt
+[2.698s] writing top-level names to pipeline_interfaces.egg-info/top_level.txt
+[2.698s] writing manifest file 'pipeline_interfaces.egg-info/SOURCES.txt'
+[2.698s] reading manifest file 'pipeline_interfaces.egg-info/SOURCES.txt'
+[2.698s] writing manifest file 'pipeline_interfaces.egg-info/SOURCES.txt'
+[2.698s] [  5%] Built target ament_cmake_python_build_pipeline_interfaces_egg
+[2.698s] [  7%] [32mBuilding C object CMakeFiles/pipeline_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pipeline_interfaces/srv/detail/classifier__functions.c.o[0m
+[2.698s] [ 10%] [32mBuilding C object CMakeFiles/pipeline_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pipeline_interfaces/msg/detail/point_cloud2_array__functions.c.o[0m
+[2.698s] [ 10%] Built target pipeline_interfaces__cpp
+[2.699s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.699s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.699s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.699s] [ 20%] [32m[1mLinking C shared library libpipeline_interfaces__rosidl_generator_c.so[0m
+[2.699s] [ 20%] Built target pipeline_interfaces__rosidl_generator_c
+[2.699s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.699s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.699s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.699s] [ 30%] [32mBuilding CXX object CMakeFiles/pipeline_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pipeline_interfaces/srv/classifier__type_support.cpp.o[0m
+[2.699s] [ 33%] [32mBuilding CXX object CMakeFiles/pipeline_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pipeline_interfaces/msg/point_cloud2_array__type_support.cpp.o[0m
+[2.699s] [ 35%] [32mBuilding CXX object CMakeFiles/pipeline_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pipeline_interfaces/msg/detail/dds_fastrtps/point_cloud2_array__type_support.cpp.o[0m
+[2.699s] [ 38%] [32mBuilding CXX object CMakeFiles/pipeline_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pipeline_interfaces/srv/detail/dds_fastrtps/classifier__type_support.cpp.o[0m
+[2.699s] [ 41%] [32mBuilding CXX object CMakeFiles/pipeline_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pipeline_interfaces/msg/detail/point_cloud2_array__type_support.cpp.o[0m
+[2.699s] [ 43%] [32mBuilding CXX object CMakeFiles/pipeline_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pipeline_interfaces/srv/detail/classifier__type_support.cpp.o[0m
+[2.700s] [ 46%] [32mBuilding CXX object CMakeFiles/pipeline_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pipeline_interfaces/srv/classifier__type_support.cpp.o[0m
+[2.700s] [ 48%] [32mBuilding CXX object CMakeFiles/pipeline_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pipeline_interfaces/msg/point_cloud2_array__type_support.cpp.o[0m
+[2.700s] [ 51%] [32m[1mLinking CXX shared library libpipeline_interfaces__rosidl_typesupport_c.so[0m
+[2.700s] [ 53%] [32mBuilding CXX object CMakeFiles/pipeline_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pipeline_interfaces/srv/detail/classifier__type_support_c.cpp.o[0m
+[2.700s] [ 56%] [32mBuilding CXX object CMakeFiles/pipeline_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pipeline_interfaces/msg/detail/point_cloud2_array__type_support_c.cpp.o[0m
+[2.700s] [ 56%] Built target pipeline_interfaces__rosidl_typesupport_c
+[2.700s] [ 58%] [32m[1mLinking CXX shared library libpipeline_interfaces__rosidl_typesupport_cpp.so[0m
+[2.700s] [ 61%] [32mBuilding C object CMakeFiles/pipeline_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pipeline_interfaces/msg/detail/point_cloud2_array__type_support.c.o[0m
+[2.700s] [ 64%] [32mBuilding C object CMakeFiles/pipeline_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pipeline_interfaces/srv/detail/classifier__type_support.c.o[0m
+[2.700s] [ 64%] Built target pipeline_interfaces__rosidl_typesupport_cpp
+[2.701s] [ 66%] [32m[1mLinking C shared library libpipeline_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.701s] [ 66%] Built target pipeline_interfaces__rosidl_typesupport_introspection_c
+[2.701s] [ 69%] [32m[1mLinking CXX shared library libpipeline_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.702s] [ 71%] [32m[1mLinking CXX shared library libpipeline_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.702s] [ 74%] [32m[1mLinking CXX shared library libpipeline_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.702s] [ 74%] Built target pipeline_interfaces__rosidl_typesupport_fastrtps_c
+[2.702s] [ 74%] Built target pipeline_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.702s] [ 74%] Built target pipeline_interfaces__rosidl_typesupport_introspection_cpp
+[2.702s] [ 74%] Built target pipeline_interfaces
+[2.702s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.702s] [ 76%] Built target pipeline_interfaces__py
+[2.703s] [ 79%] [32mBuilding C object CMakeFiles/pipeline_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pipeline_interfaces/msg/_point_cloud2_array_s.c.o[0m
+[2.703s] [ 82%] [32mBuilding C object CMakeFiles/pipeline_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pipeline_interfaces/srv/_classifier_s.c.o[0m
+[2.799s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/pipeline_interfaces/libpipeline_interfaces__rosidl_generator_py.so[0m
+[2.865s] [ 84%] Built target pipeline_interfaces__rosidl_generator_py
+[2.892s] [ 92%] [32mBuilding C object CMakeFiles/pipeline_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pipeline_interfaces/_pipeline_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.892s] [ 92%] [32mBuilding C object CMakeFiles/pipeline_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pipeline_interfaces/_pipeline_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.892s] [ 92%] [32mBuilding C object CMakeFiles/pipeline_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pipeline_interfaces/_pipeline_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.008s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/pipeline_interfaces/pipeline_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.012s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/pipeline_interfaces/pipeline_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.021s] [100%] [32m[1mLinking C shared library rosidl_generator_py/pipeline_interfaces/pipeline_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.071s] [100%] Built target pipeline_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.093s] [100%] Built target pipeline_interfaces__rosidl_typesupport_c__pyext
+[3.099s] [100%] Built target pipeline_interfaces__rosidl_typesupport_fastrtps_c__pyext

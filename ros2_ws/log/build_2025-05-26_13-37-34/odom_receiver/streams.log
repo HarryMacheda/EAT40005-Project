@@ -1,0 +1,20 @@
+[0.456s] Invoking command in '/home/angelina/EAT40005-Project/ros2_ws/src/odom_receiver': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/odom_receiver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/odom_receiver build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/odom_receiver/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/odom_receiver/install.log --single-version-externally-managed install_data
+[0.575s] running egg_info
+[0.576s] writing ../../build/odom_receiver/odom_receiver.egg-info/PKG-INFO
+[0.576s] writing dependency_links to ../../build/odom_receiver/odom_receiver.egg-info/dependency_links.txt
+[0.576s] writing entry points to ../../build/odom_receiver/odom_receiver.egg-info/entry_points.txt
+[0.576s] writing requirements to ../../build/odom_receiver/odom_receiver.egg-info/requires.txt
+[0.576s] writing top-level names to ../../build/odom_receiver/odom_receiver.egg-info/top_level.txt
+[0.577s] reading manifest file '../../build/odom_receiver/odom_receiver.egg-info/SOURCES.txt'
+[0.577s] writing manifest file '../../build/odom_receiver/odom_receiver.egg-info/SOURCES.txt'
+[0.577s] running build
+[0.577s] running build_py
+[0.577s] running install
+[0.577s] running install_lib
+[0.578s] running install_data
+[0.578s] running install_egg_info
+[0.579s] removing '/home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/lib/python3.10/site-packages/odom_receiver-0.0.0-py3.10.egg-info' (and everything under it)
+[0.579s] Copying ../../build/odom_receiver/odom_receiver.egg-info to /home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/lib/python3.10/site-packages/odom_receiver-0.0.0-py3.10.egg-info
+[0.580s] running install_scripts
+[0.590s] writing list of installed files to '/home/angelina/EAT40005-Project/ros2_ws/build/odom_receiver/install.log'
+[0.603s] Invoked command in '/home/angelina/EAT40005-Project/ros2_ws/src/odom_receiver' returned '0': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/odom_receiver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/odom_receiver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/odom_receiver build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/odom_receiver/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/odom_receiver/install.log --single-version-externally-managed install_data

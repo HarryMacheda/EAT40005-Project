@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/map_to_odom_broadcaster/map_to_odom_broadcaster.egg-info
+writing ../../build/map_to_odom_broadcaster/map_to_odom_broadcaster.egg-info/PKG-INFO
+writing dependency_links to ../../build/map_to_odom_broadcaster/map_to_odom_broadcaster.egg-info/dependency_links.txt
+writing entry points to ../../build/map_to_odom_broadcaster/map_to_odom_broadcaster.egg-info/entry_points.txt
+writing requirements to ../../build/map_to_odom_broadcaster/map_to_odom_broadcaster.egg-info/requires.txt
+writing top-level names to ../../build/map_to_odom_broadcaster/map_to_odom_broadcaster.egg-info/top_level.txt
+writing manifest file '../../build/map_to_odom_broadcaster/map_to_odom_broadcaster.egg-info/SOURCES.txt'
+reading manifest file '../../build/map_to_odom_broadcaster/map_to_odom_broadcaster.egg-info/SOURCES.txt'
+writing manifest file '../../build/map_to_odom_broadcaster/map_to_odom_broadcaster.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/angelina/EAT40005-Project/ros2_ws/build/map_to_odom_broadcaster/build
+creating /home/angelina/EAT40005-Project/ros2_ws/build/map_to_odom_broadcaster/build/lib
+creating /home/angelina/EAT40005-Project/ros2_ws/build/map_to_odom_broadcaster/build/lib/map_to_odom_broadcaster
+copying map_to_odom_broadcaster/__init__.py -> /home/angelina/EAT40005-Project/ros2_ws/build/map_to_odom_broadcaster/build/lib/map_to_odom_broadcaster
+copying map_to_odom_broadcaster/map_to_odom_broadcaster.py -> /home/angelina/EAT40005-Project/ros2_ws/build/map_to_odom_broadcaster/build/lib/map_to_odom_broadcaster
+running install
+running install_lib
+creating /home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/lib/python3.10/site-packages/map_to_odom_broadcaster
+copying /home/angelina/EAT40005-Project/ros2_ws/build/map_to_odom_broadcaster/build/lib/map_to_odom_broadcaster/__init__.py -> /home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/lib/python3.10/site-packages/map_to_odom_broadcaster
+copying /home/angelina/EAT40005-Project/ros2_ws/build/map_to_odom_broadcaster/build/lib/map_to_odom_broadcaster/map_to_odom_broadcaster.py -> /home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/lib/python3.10/site-packages/map_to_odom_broadcaster
+byte-compiling /home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/lib/python3.10/site-packages/map_to_odom_broadcaster/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/lib/python3.10/site-packages/map_to_odom_broadcaster/map_to_odom_broadcaster.py to map_to_odom_broadcaster.cpython-310.pyc
+running install_data
+creating /home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/share/ament_index
+creating /home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/share/ament_index/resource_index
+creating /home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/share/ament_index/resource_index/packages
+copying resource/map_to_odom_broadcaster -> /home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/share/ament_index/resource_index/packages
+copying package.xml -> /home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/share/map_to_odom_broadcaster
+running install_egg_info
+Copying ../../build/map_to_odom_broadcaster/map_to_odom_broadcaster.egg-info to /home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/lib/python3.10/site-packages/map_to_odom_broadcaster-0.0.0-py3.10.egg-info
+running install_scripts
+Installing map_to_odom_broadcaster script to /home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/lib/map_to_odom_broadcaster
+writing list of installed files to '/home/angelina/EAT40005-Project/ros2_ws/build/map_to_odom_broadcaster/install.log'

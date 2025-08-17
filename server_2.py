@@ -3,7 +3,7 @@ import json
 from datetime import datetime
 
 # Server setup
-SERVER_IP = "192.168.1.104"
+SERVER_IP = "192.168.68.101"
 SERVER_PORT = 50051
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>odom_receiver</name>
+  <version>0.0.0</version>
+  <description>Odom receiver ROS2 node receiving odom data from socket</description>
+
+  <maintainer email="angelina.benhardi@gmail.com">angelina</maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>nav_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>builtin_interfaces</depend>
+
+  <test_depend>pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
+

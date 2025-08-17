@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/map_to_odom_broadcaster/map_to_odom_broadcaster.egg-info/PKG-INFO
+writing dependency_links to ../../build/map_to_odom_broadcaster/map_to_odom_broadcaster.egg-info/dependency_links.txt
+writing entry points to ../../build/map_to_odom_broadcaster/map_to_odom_broadcaster.egg-info/entry_points.txt
+writing requirements to ../../build/map_to_odom_broadcaster/map_to_odom_broadcaster.egg-info/requires.txt
+writing top-level names to ../../build/map_to_odom_broadcaster/map_to_odom_broadcaster.egg-info/top_level.txt
+reading manifest file '../../build/map_to_odom_broadcaster/map_to_odom_broadcaster.egg-info/SOURCES.txt'
+writing manifest file '../../build/map_to_odom_broadcaster/map_to_odom_broadcaster.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/lib/python3.10/site-packages/map_to_odom_broadcaster-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/map_to_odom_broadcaster/map_to_odom_broadcaster.egg-info to /home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/lib/python3.10/site-packages/map_to_odom_broadcaster-0.0.0-py3.10.egg-info
+running install_scripts
+Installing map_to_odom_broadcaster script to /home/angelina/EAT40005-Project/ros2_ws/install/map_to_odom_broadcaster/lib/map_to_odom_broadcaster
+writing list of installed files to '/home/angelina/EAT40005-Project/ros2_ws/build/map_to_odom_broadcaster/install.log'

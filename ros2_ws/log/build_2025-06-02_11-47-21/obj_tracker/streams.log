@@ -1,0 +1,50 @@
+[3.125s] Invoking command in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/obj_tracker': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/obj_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/obj_tracker build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/obj_tracker/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/obj_tracker/install.log --single-version-externally-managed install_data
+[3.524s] running egg_info
+[3.525s] creating ../../../build/obj_tracker/obj_tracker.egg-info
+[3.525s] writing ../../../build/obj_tracker/obj_tracker.egg-info/PKG-INFO
+[3.525s] writing dependency_links to ../../../build/obj_tracker/obj_tracker.egg-info/dependency_links.txt
+[3.525s] writing entry points to ../../../build/obj_tracker/obj_tracker.egg-info/entry_points.txt
+[3.525s] writing requirements to ../../../build/obj_tracker/obj_tracker.egg-info/requires.txt
+[3.526s] writing top-level names to ../../../build/obj_tracker/obj_tracker.egg-info/top_level.txt
+[3.526s] writing manifest file '../../../build/obj_tracker/obj_tracker.egg-info/SOURCES.txt'
+[3.527s] reading manifest file '../../../build/obj_tracker/obj_tracker.egg-info/SOURCES.txt'
+[3.529s] writing manifest file '../../../build/obj_tracker/obj_tracker.egg-info/SOURCES.txt'
+[3.529s] running build
+[3.529s] running build_py
+[3.529s] creating /home/angelina/EAT40005-Project/ros2_ws/build/obj_tracker/build
+[3.529s] creating /home/angelina/EAT40005-Project/ros2_ws/build/obj_tracker/build/lib
+[3.529s] creating /home/angelina/EAT40005-Project/ros2_ws/build/obj_tracker/build/lib/obj_tracker
+[3.529s] copying obj_tracker/__init__.py -> /home/angelina/EAT40005-Project/ros2_ws/build/obj_tracker/build/lib/obj_tracker
+[3.529s] copying obj_tracker/sort_rotated_bbox.py -> /home/angelina/EAT40005-Project/ros2_ws/build/obj_tracker/build/lib/obj_tracker
+[3.529s] copying obj_tracker/obj_tracker.py -> /home/angelina/EAT40005-Project/ros2_ws/build/obj_tracker/build/lib/obj_tracker
+[3.529s] copying obj_tracker/tracker_viz_node.py -> /home/angelina/EAT40005-Project/ros2_ws/build/obj_tracker/build/lib/obj_tracker
+[3.529s] copying obj_tracker/tracks2csv.py -> /home/angelina/EAT40005-Project/ros2_ws/build/obj_tracker/build/lib/obj_tracker
+[3.529s] copying obj_tracker/obj_tracker_utils.py -> /home/angelina/EAT40005-Project/ros2_ws/build/obj_tracker/build/lib/obj_tracker
+[3.530s] running install
+[3.530s] running install_lib
+[3.530s] creating /home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/lib/python3.10/site-packages/obj_tracker
+[3.530s] copying /home/angelina/EAT40005-Project/ros2_ws/build/obj_tracker/build/lib/obj_tracker/__init__.py -> /home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/lib/python3.10/site-packages/obj_tracker
+[3.530s] copying /home/angelina/EAT40005-Project/ros2_ws/build/obj_tracker/build/lib/obj_tracker/sort_rotated_bbox.py -> /home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/lib/python3.10/site-packages/obj_tracker
+[3.530s] copying /home/angelina/EAT40005-Project/ros2_ws/build/obj_tracker/build/lib/obj_tracker/obj_tracker.py -> /home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/lib/python3.10/site-packages/obj_tracker
+[3.530s] copying /home/angelina/EAT40005-Project/ros2_ws/build/obj_tracker/build/lib/obj_tracker/tracker_viz_node.py -> /home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/lib/python3.10/site-packages/obj_tracker
+[3.530s] copying /home/angelina/EAT40005-Project/ros2_ws/build/obj_tracker/build/lib/obj_tracker/tracks2csv.py -> /home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/lib/python3.10/site-packages/obj_tracker
+[3.530s] copying /home/angelina/EAT40005-Project/ros2_ws/build/obj_tracker/build/lib/obj_tracker/obj_tracker_utils.py -> /home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/lib/python3.10/site-packages/obj_tracker
+[3.531s] byte-compiling /home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/lib/python3.10/site-packages/obj_tracker/__init__.py to __init__.cpython-310.pyc
+[3.531s] byte-compiling /home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/lib/python3.10/site-packages/obj_tracker/sort_rotated_bbox.py to sort_rotated_bbox.cpython-310.pyc
+[3.534s] byte-compiling /home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/lib/python3.10/site-packages/obj_tracker/obj_tracker.py to obj_tracker.cpython-310.pyc
+[3.535s] byte-compiling /home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/lib/python3.10/site-packages/obj_tracker/tracker_viz_node.py to tracker_viz_node.cpython-310.pyc
+[3.536s] byte-compiling /home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/lib/python3.10/site-packages/obj_tracker/tracks2csv.py to tracks2csv.cpython-310.pyc
+[3.537s] byte-compiling /home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/lib/python3.10/site-packages/obj_tracker/obj_tracker_utils.py to obj_tracker_utils.cpython-310.pyc
+[3.538s] running install_data
+[3.538s] creating /home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/share/ament_index
+[3.539s] creating /home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/share/ament_index/resource_index
+[3.539s] creating /home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/share/ament_index/resource_index/packages
+[3.539s] copying resource/obj_tracker -> /home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/share/ament_index/resource_index/packages
+[3.540s] copying package.xml -> /home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/share/obj_tracker
+[3.540s] running install_egg_info
+[3.542s] Copying ../../../build/obj_tracker/obj_tracker.egg-info to /home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/lib/python3.10/site-packages/obj_tracker-0.0.0-py3.10.egg-info
+[3.543s] running install_scripts
+[3.567s] Installing object_tracker script to /home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/lib/obj_tracker
+[3.568s] Installing tracker_bbox_viz script to /home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/lib/obj_tracker
+[3.568s] writing list of installed files to '/home/angelina/EAT40005-Project/ros2_ws/build/obj_tracker/install.log'
+[3.597s] Invoked command in '/home/angelina/EAT40005-Project/ros2_ws/src/cam_lidar_tools/obj_tracker' returned '0': PYTHONPATH=/home/angelina/EAT40005-Project/ros2_ws/build/obj_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angelina/EAT40005-Project/ros2_ws/install/obj_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/obj_tracker build --build-base /home/angelina/EAT40005-Project/ros2_ws/build/obj_tracker/build install --record /home/angelina/EAT40005-Project/ros2_ws/build/obj_tracker/install.log --single-version-externally-managed install_data
